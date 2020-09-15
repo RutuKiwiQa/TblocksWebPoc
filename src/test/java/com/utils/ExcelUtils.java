@@ -1,5 +1,6 @@
 package com.utils;
 
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -12,6 +13,7 @@ public class ExcelUtils {
 
     static  XSSFWorkbook workbook;
     static XSSFSheet sheet;
+
 
     /**A constructor.*/
     public ExcelUtils(String excelPath, String sheetName) throws IOException {
@@ -81,5 +83,15 @@ public class ExcelUtils {
         }
     }
 
+
+
+    /**
+     * To get the current project directory path
+     *
+     * @return Project Directory path
+     */
+    static String getProjectDir() {
+        return System.getProperty("user.dir");
+    }
 
 }

@@ -43,8 +43,10 @@ public class ZainIndexPage extends AbstractPage {
     @FindBy(xpath = "//p[contains(text(),'Available Now')]")
     private WebElement firstProduct;
 
-//    @FindBy(xpath = "//div[@class='col-xs-12 col-sm-6 col-md-4 mrgb30 items-listing  '][1]//div[@class='price'][1]")
-//    private WebElement lbl
+    @FindBy(xpath = "//div[@id='zain_catalogue_widgets_DevicesViewContainer_0']//div[1]//article[1]//section[4]//div[2]//div[2]//a[1]")
+    private WebElement firstThumbnail;
+
+
 
     //----------------------Method Definition--------------------------------------
 
@@ -103,8 +105,11 @@ public class ZainIndexPage extends AbstractPage {
     }
 
     public ZainVerification getfirstProductThumbnail(){
-        testStepsLog(_logStep++,"Observe ratings and price of the first thumbnail.");
-       // clickOnJS(driver,f);
+        testStepsLog(_logStep++,"Observe and click on the first thumbnail.");
+        clickOnJS(driver,firstThumbnail);
+        pause(3);
         return new ZainVerification(driver);
     }
+
+
 }

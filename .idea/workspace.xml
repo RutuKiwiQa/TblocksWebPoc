@@ -2,53 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56f5b89-aba1-40c3-9b54-f6ff77772d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excel/Data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600174837467.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600174966430.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915034351.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915040709.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915041253.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915053347.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915053618.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915053908.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915055303.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915060026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Zain/ZainIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Zain/ZainIndexPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Zain/ZainVerification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/common/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/common/Generics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/configurations/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/AbstractPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/BrowserCaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/ExtentInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/SeleniumInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/logger/TestLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/utility/CustomReporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/utility/CustomReporterListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/utility/RetryCounterManagerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/utility/RetryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/framework/utility/RetryTestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/utils/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/utils/ExcelUtilsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/utils/ZainProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915154352171testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915160709427testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915161254355testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915173347953testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915173619273testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915173910461testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/091517530419testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915180026898testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600183695468.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600184756560.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600184951420.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600185258987.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600185412245.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600185899326.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915091057.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915091813.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915092132.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915092628.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915092857.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zain.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915211057577testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915211813525testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915212133267testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915212537768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915212628955testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915212856884.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915212857894testCaseScenario_01.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excel/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/Data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Zain/ZainIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zain/ZainIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Zain/ZainIndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zain/ZainIndexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Zain/ZainVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zain/ZainVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/ZainProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/ZainProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +59,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AimFoundation/AimFoundation" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="TestNG.ZainIndex.testCaseScenario_01">
@@ -173,32 +155,58 @@
       <option name="presentableId" value="Default" />
       <updated>1600148459542</updated>
     </task>
+    <task id="LOCAL-00001" summary="September 15th 2020">
+      <created>1600177034514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600177034514</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="September 15th 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="September 15th 2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600176953714">
+    <state x="530" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1600182960680">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600176953714" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600176953714">
+    <state x="530" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600182960680" />
+    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600177027075">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600176953714" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600176953714">
+    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600177027075" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1600182007136">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600176953714" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600176953714">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600182007136" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600187465925">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600176953714" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600187465925" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600187465924">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600187465924" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600187465923">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600187465923" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600187465925">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600187465925" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1600174714967">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600174714967" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600177037763">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600177037763" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1600169983959">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

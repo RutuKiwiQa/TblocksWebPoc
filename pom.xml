@@ -108,7 +108,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
                         <suiteXmlFile>
-                            ${project.basedir}/TestScripts/Independent/RequesterSuite.xml
+                          Zain.xml
                         </suiteXmlFile>
                     </suiteXmlFiles>
                     <reportsDirectory>test-output</reportsDirectory>

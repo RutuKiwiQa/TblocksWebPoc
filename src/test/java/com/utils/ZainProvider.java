@@ -2,13 +2,29 @@ package com.utils;
 
 import com.framework.configurations.Configuration;
 import com.framework.init.SeleniumInit;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.io.IOException;
+
+
 
 public class ZainProvider extends SeleniumInit implements Configuration {
 //public class ZainProvider implements Configuration {
+
+    public static String excelPath = "./Excel/Data.xlsx"; //relative path of excel
+    public static String sheetName = "Price";
+
+    ExcelUtils excel = new ExcelUtils(excelPath,sheetName);
+
+    public static  String WORKBOOK = PROJECT_DIR + File.separator + "Excel" + File.separator + "Data.xlsx";
+
+    public ZainProvider() throws IOException {
+    }
 
     @Test(dataProvider = "Zain")
     public void test2(String username, String password){
@@ -44,4 +60,12 @@ public class ZainProvider extends SeleniumInit implements Configuration {
         return data;
     }
 
+    public static String getCellData(int rowNum, int colNum) throws IOException {
+        XSSFWorkbook workbook = new XSSFWorkbook(excelPath);
+        XSSFSheet sheet = workbook.getSheet(sheetName);
+        DataFormatter formatter = new DataFormatter();
+        Object value = formatter.formatCellValue(sheet.getRow(rowNum).getCell(colNum));
+        System.out.println("Cell Data : " + value);
+        return String.valueOf(value);
+    }
 }

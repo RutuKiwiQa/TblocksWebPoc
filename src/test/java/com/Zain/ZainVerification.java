@@ -1,11 +1,14 @@
 package com.Zain;
 
 import com.framework.init.AbstractPage;
+import com.utils.ExcelUtils;
+import com.utils.ZainProvider;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 
+import java.io.IOException;
 import java.util.List;
 
 public class ZainVerification extends AbstractPage {
@@ -17,6 +20,19 @@ public class ZainVerification extends AbstractPage {
     public ZainVerification(WebDriver driver) {
         super(driver);
     }
+
+    //-------------------------------VariableDeclaration--------------------------------------------------------
+    public static String _blackColor;
+    public static String _whiteColor;
+    public static String _redColor;
+
+    public static String _model64GB;
+    public static String _model128GB;
+    public static String _model256GB;
+
+    public static String _blackModelPrice;
+    public static String _whiteModelPrice;
+    public static String _redModelPrice;
 
     //--------------------------------Locators Definition---------------------------------------------------------
 
@@ -107,12 +123,18 @@ public class ZainVerification extends AbstractPage {
 
     @FindBy(xpath = "//a[contains(text(),'Operating System')]")
     private WebElement operatingSystem;
-//
-//    @FindBy(xpath = "")
-//    private WebElement ;
-//
-//    @FindBy(xpath = "")
-//    private WebElement ;
+
+    @FindBy(xpath = "//div[@class='slick-initialized slick-slider']")
+    private WebElement thumbnailPage;
+
+    @FindBy(xpath = "//input[@value='Black'][1]")
+    private WebElement drpBlack;
+
+    @FindBy(xpath = "//input[@value='64 GB'][1]")
+    private WebElement drp64GB;
+
+    @FindBy(xpath = "//section[@class='col-xs-12 col-md-4']//span//span[1]")
+    private WebElement lblPriceBlack;
     //--------------------------------Methods Definition----------------------------------------------------------
 
     public boolean verifyZainHomeScreen(){
@@ -148,5 +170,25 @@ public class ZainVerification extends AbstractPage {
         return isElementDisplay(price) && isElementDisplay(supportedNetworks) &&
                 isElementDisplay(preOrder) && isElementDisplay(simType) &&
                 isElementDisplay(color) && isElementDisplay(operatingSystem);
+    }
+
+    public boolean verifyThumnailInformationPage(){
+        return isElementDisplay(thumbnailPage);
+    }
+
+    public boolean verifyBlackModel() throws IOException {
+        String black = ZainProvider.getCellData(1,1);
+        String model = ZainProvider.getCellData(1,2);
+        String price = ZainProvider.getCellData(1,3);
+        _blackColor = getInnerValue(drpBlack);
+        _model64GB = getInnerValue(drp64GB);
+        _blackModelPrice = getText(lblPriceBlack);
+
+        System.out.println("Price Of Iphone SE Black Color :  " +  _blackColor);
+        System.out.println("Price Of Iphone SE model 64 GB : "+ _model64GB);
+        System.out.println("Price Of Iphone SE Price of Black color model 64  : "+ _blackModelPrice);
+
+        return _blackColor.equalsIgnoreCase(black) && _model64GB.contains(model) &&
+                _blackModelPrice.contains(price);
     }
 }

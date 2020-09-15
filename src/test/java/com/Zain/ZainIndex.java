@@ -4,10 +4,15 @@ import com.utils.ZainProvider;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class ZainIndex extends ZainProvider {
 
+    public ZainIndex() throws IOException {
+    }
+
     @Test(dataProvider = "Zain")
-    public void testCaseScenario_01(String username, String password){
+    public void testCaseScenario_01(String username, String password) throws IOException {
 
         int numOfFailedSteps = 0;
         _logStep = 1;
@@ -90,13 +95,23 @@ public class ZainIndex extends ZainProvider {
 
         zainVerification = zainIndexPage.getfirstProductThumbnail();
 
-//        testVerifyLog("Verify price/ratings of thumbnail and information page should be same.");
-//        if (zainVerification.verifyThumnail()){
-//            stepPassed();
-//        }else {
-//            stepFailure(driver);
-//            numOfFailedSteps++;
-//        }
+        testVerifyLog("Verify user can see information page of the thumbnail.");
+        if (zainVerification.verifyThumnailInformationPage()){
+            stepPassed();
+        }else {
+            stepFailure(driver);
+            numOfFailedSteps++;
+        }
+
+        testVerifyLog("Verify select Iphone SE with black color and model number");
+        if (zainVerification.verifyBlackModel()){
+            stepPassed();
+        }else {
+            stepFailure(driver);
+            numOfFailedSteps++;
+        }
+
+
 //
 //        zainVerification = zainIndexPage.clickOnLogoutButton();
 

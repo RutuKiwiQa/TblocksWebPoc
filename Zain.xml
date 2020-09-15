@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TBlocks_POC_Zain_WebApplication" verbose="10" parallel="false" thread-count="1">
+    <test name="TAG_RSC_001 :: To verify requestor can perform invalid login.">
+        <classes>
+            <class name="com.Zain.ZainIndex">
+                <methods>
+                    <include name="testCaseScenario_01"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
