@@ -3,6 +3,7 @@
 <suite name="TBlocks_POC_Zain_WebApplication" verbose="10" parallel="false" thread-count="1">
 
     <listeners>
+        <listener class-name="com.framework.utility.CustomDetailReporter" />
         <listener class-name="com.framework.utility.CustomReporterEmailBuildSummary"/>
         <listener class-name="com.framework.utility.CustomReporterforEmail"/>
         <listener class-name="com.framework.utility.CustomReporterListener"/>
@@ -22,7 +23,7 @@
         <classes>
             <class name="com.Zain.BrokenLinks">
                 <methods>
-                    <include name="testBrokenLinkTestCaseCaseScenario_01"/>
+                    <include name="BrokenLinkTestCase"/>
                 </methods>
             </class>
         </classes>

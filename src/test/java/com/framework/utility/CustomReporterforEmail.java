@@ -1,4 +1,4 @@
-package com.utilities;
+package com.framework.utility;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -20,6 +20,8 @@ import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.Set;
 
+import com.framework.init.BrowserCaps;
+import com.framework.init.SeleniumInit;
 import org.testng.IInvokedMethod;
 import org.testng.IResultMap;
 import org.testng.ISuite;
@@ -34,12 +36,9 @@ import org.testng.internal.Utils;
 import org.testng.log4testng.Logger;
 import org.testng.xml.XmlSuite;
 
-import com.init.SeleniumInit;
-import com.init.TestData;
-
 public class CustomReporterforEmail extends CustomReporterListener {
 	
-	public TestData td = new TestData();
+	public com.init.TestData td = new com.init.TestData();
 
 	private static final Logger L = Logger
 			.getLogger(CustomReporterListener.class);
@@ -482,8 +481,8 @@ public class CustomReporterforEmail extends CustomReporterListener {
 		//m_out.println("<tr><td colspan='4'>To view Full Report : <a href=\"http://localhost:8080/job/Videogram/HTML_Report/\">http://localhost:8080/job/Videogram_Chrome/HTML_Report</a></td></tr>");
 		m_out.println("<tr><td colspan='4'>Overall test suite completion : <b>"
 				+ Time + " minutes</b><br/> Date and Time of Run: <b>"
-				+ sdf.format(date) + "</b><br/> Browser : <b>"+SeleniumInit.browsernm+"<t></t>"
-				+ SeleniumInit.browserVersion +  "</b><br/>OS: <b>"
+				+ sdf.format(date) + "</b><br/> Browser : <b>"+ BrowserCaps.browserName+"<t></t>"
+				+ BrowserCaps.browserVersion +  "</b><br/>OS: <b>"
 				+ System.getProperty("os.name") + "</b></td></tr>");
 		m_out.println("<tr bgcolor='SkyBlue'><th>Test Cases</th>"
 				+ "<th>Failure Reason</th><th>Failure Error</th><th>Total Time<br/>(sec.)</th>");
@@ -537,7 +536,7 @@ public class CustomReporterforEmail extends CustomReporterListener {
 			boolean hasThrowable = exception != null;
 			if (hasThrowable) {
 
-				String str = Utils.stackTrace(exception, true)[0];
+				String str = Utils.shortStackTrace(exception, true);
 				scanner = new Scanner(str);
 				String firstLine = scanner.nextLine();
 
@@ -560,8 +559,8 @@ public class CustomReporterforEmail extends CustomReporterListener {
 						String OS = System.getProperty("os.name").toLowerCase();
 						if(OS.indexOf("linux") >= 0) {
 							
-							String path = "http://104.248.6.102:8080/job/"+td.getProperties("emailreport.properties","jobpath")+"/ws/";	
-						
+							String path = "http://104.248.6.102:8080/job/"+td.getProperties("emailreport.properties","jobpath")+"/ws/";
+
 							m_out.print("   ------------- <br/>");	
 							m_out.print("<b>Please refer Failed Step Screenshot:</b> "+alink.replaceAll("../ws/", path) + "<br/>");
 							System.out.println("--------@@@@@@@@-------"+alink);
@@ -680,7 +679,7 @@ public class CustomReporterforEmail extends CustomReporterListener {
 	protected void generateExceptionReport(Throwable exception,
 			ITestNGMethod method) {
 		m_out.print("<div class=\"stacktrace\">");
-		m_out.print(Utils.stackTrace(exception, true)[0]);
+		m_out.print(Utils.shortStackTrace(exception, true));
 		m_out.println("</div>");
 	}
 

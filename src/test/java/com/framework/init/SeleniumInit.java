@@ -39,6 +39,7 @@ public class SeleniumInit extends Generics implements Configuration {
     public WebDriver driver;
     public static String _methodName;
     protected static WebDriverWait wait;
+    public static String testUrl;
 
     protected ZainIndexPage zainIndexPage;
     protected ZainVerification zainVerification;
@@ -120,7 +121,8 @@ public class SeleniumInit extends Generics implements Configuration {
         zainIndexPage = new ZainIndexPage(driver);
         zainVerification = new ZainVerification(driver);
 
-            openURL(driver, URL);
+             testUrl = URL;
+            openURL(driver, testUrl);
 
     }
 

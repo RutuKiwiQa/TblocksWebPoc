@@ -1,4 +1,4 @@
-package com.utilities;
+package com.framework.utility;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -37,7 +37,7 @@ import org.testng.xml.XmlSuite;
 public class CustomReporterEmailBuildSummary extends CustomReporterListener {
 
 	private static final Logger L = Logger
-			.getLogger(CustomReporterListener.class);
+			.getLogger(com.framework.utility.CustomReporterListener.class);
 
 	// ~ Instance fields ------------------------------------------------------
 
@@ -529,7 +529,7 @@ public class CustomReporterEmailBuildSummary extends CustomReporterListener {
 			boolean hasThrowable = exception != null;
 			if (hasThrowable) {
 
-				String str = Utils.stackTrace(exception, true)[0];
+				String str = Utils.shortStackTrace(exception, true);
 				scanner = new Scanner(str);
 				String firstLine = scanner.nextLine();
 

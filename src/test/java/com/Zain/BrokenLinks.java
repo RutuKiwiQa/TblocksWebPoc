@@ -1,5 +1,6 @@
 package com.Zain;
 
+import com.framework.common.Common;
 import com.utils.BrokenLinksProvider;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -27,8 +28,9 @@ public class BrokenLinks extends BrokenLinksProvider {
 
         int numOfFailedSteps = 0;
         _logStep = 1;
+        boolean flag = false;
 
-        System.out.println("BrokenLinks :: To verify broken links of the web page.");
+        Common.log("BrokenLinks :: To verify broken links of the web page.");
 
         System.setProperty("webdriver.chrome.driver", "E:\\TBLOCKS_WEB_POC\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -79,10 +81,17 @@ public class BrokenLinks extends BrokenLinksProvider {
                 int resCode = httpConn.getResponseCode(); //return response if res code is above 400 : broken link
 
                 if (resCode >= 400) {
-                    System.out.println(url + " - " + "is a broken link.");
+                    Common.log(url + " - " + "is a broken link.");
+                    flag = false;
+                    numOfFailedSteps++;
+
                 } else {
-                    System.out.println(url + " - " + "is a valid link.");
+                    Common.log(url + " - " + "is a valid link.");
+                    flag = true;
+
                 }
+
+
 
             }
 

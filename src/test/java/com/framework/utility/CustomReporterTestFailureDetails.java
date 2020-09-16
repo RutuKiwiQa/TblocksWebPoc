@@ -1,4 +1,4 @@
-package com.utilities;
+package com.framework.utility;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -20,6 +20,7 @@ import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.Set;
 
+import com.framework.init.BrowserCaps;
 import org.testng.IInvokedMethod;
 import org.testng.IResultMap;
 import org.testng.ISuite;
@@ -34,7 +35,7 @@ import org.testng.internal.Utils;
 import org.testng.log4testng.Logger;
 import org.testng.xml.XmlSuite;
 
-import com.init.SeleniumInit;
+
 import com.init.TestData;
 
 
@@ -46,7 +47,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 	// ~ Instance fields ------------------------------------------------------
 
 	public TestData td = new TestData();
-	
+
 	private PrintWriter m_out;
 
 	private int m_row;
@@ -59,7 +60,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 	public static int g=0;
 
 	private Scanner scanner;
-	
+
 	int passCount=0;
 
 	private static HashMap<String, String> map = new HashMap<String, String>();
@@ -72,10 +73,10 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 	int total_a = 0;
 	int qty_pass= 0;
 	// ~ Methods --------------------------------------------------------------
- 
+
 	/*
 	 * public static void maperrors() {
-	 * 
+	 *
 	 * System.out.println(
 	 * "In Error mapping..............*************************3465768487488............"
 	 * ); map.put(
@@ -149,7 +150,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 		generateMethodSummaryReport(suites); //5
 
 		// generateMethodDetailReport(suites);
-		
+
 		//endHtml(m_out); //previous
 		m_out.flush();
 		m_out.close();
@@ -217,7 +218,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 				resultSummary(suite, testContext.getFailedTests(), testName,
 						"failed", "");
 				System.out.println("Skipped---");
-			
+
 				resultSummary_skipped(suite, testContext.getSkippedTests(), testName,
 						"skipped", "");
 
@@ -232,7 +233,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 				testIndex++;
 
 			}
-			
+
 		}
 		endHtml(m_out);
 		testCaseNo();
@@ -264,10 +265,10 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 
 //		m_out.println("<td bgcolor='DeepSkyBlue' colspan='4' align='left' height='30px'><h3 style='margin-top:0px;margin-bottom:0px;'> Total Test Cases  : "
 //				+ (qty_tests) + "<br/> Failed Test Cases  : "
-//				+ (failedcount/2) + "<br/> Passed Test cases : " 
-//				+ passed + "<br/> Skipped Test cases : " 
+//				+ (failedcount/2) + "<br/> Passed Test cases : "
+//				+ passed + "<br/> Skipped Test cases : "
 //				+ skipped + "<br/></h3></td>");
-		
+
 		m_out.println(
 				"<table width='350px' height='30px' border='1' align='left'><tbody><tr colspan='2'><td bgcolor='#0088cc' colspan='2'><h3><center><font color='white'>Build Summary</font></center></h3></td></tr><tr><td><b>"
 				+ "Passed Test cases</b>   </td> <td> <center><b>"
@@ -280,7 +281,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 	/*private void resultSummary_passed(ISuite suite, IResultMap tests) { //5.3.1
 		System.out.println("passed count : " + passed);
 		//passCount= passed;
-		        
+
 		for (ITestNGMethod method : getMethodSet(tests, suite)) {
 			passed++;
 		}
@@ -293,7 +294,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 
 		}
 	}
-	
+
 //	private void resultSummary_passed(ISuite suite, IResultMap tests, String testname,
 //			String style, String details) { //5.4.1
 //
@@ -308,7 +309,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 //			}
 //			}
 //	}
-	
+
 	private void resultSummary_skipped(ISuite suite, IResultMap tests, String testname,
 			String style, String details) { //5.4.1
 
@@ -326,18 +327,18 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 		if (tests.getAllResults().size() > 0) {
 
 			for (ITestNGMethod method : getMethodSet(tests, suite)) {
-				
-				
+
+
 				if(!checkpassedTestCases(testname))
 				{System.out.println("Name and Count:"+testname+"=="+passed);
 					PassedTestCases.add(testname);
 					++passed;
 				}
-				
+
 			}
 			}
 	}
-	
+
 	ArrayList<String> PassedTestName = new ArrayList<String>();
 	public boolean checkpassedTestCases(String testName)
 	{
@@ -359,7 +360,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 			int mq = 0;
 			int cq = 0;
 			for (ITestNGMethod method : getMethodSet(tests, suite)) {
-				
+
 				//failedcount++;
 			if(!checkTestCases(testname) && !isPassed(testname))
 			{
@@ -376,17 +377,17 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 					// id);
 					//
 					num=m_testIndex;
-					
-					
+
+
 					m_out.print("<tr");
 					if (id != null) {
 						//m_out.print(" id=\"" + id + "\"");
 						id1=id;
 					}
 					m_out.println("><td width='25%' style=\"font-size:14px; font-family:Times New Roman;\">" + testname + "</td>");
-					
+
 					m_row = 0;
-					
+
 					//
 					m_testIndex = null;
 					namecount++;
@@ -399,7 +400,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 				 * ? "even" : "odd") + "\">" + "<td"); if (mq > 1) {
 				 * m_out.print(" rowspan=\"" + mq + "\""); } m_out.println(">" +
 				 * lastClassName + "</td>" + buff);
-				 * 
+				 *
 				 * } mq = 0; buff.setLength(0); lastClassName = className; }
 				 */
 				Set<ITestResult> resultSet = tests.getResults(method);
@@ -430,7 +431,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 					 */
 
 					getShortException(tests,num,id1);
-					
+
 
 				}
 
@@ -445,7 +446,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 						/ 1000 + "</center></td>" + "");
 
 			}//to check test name
-			
+
 			}
 			/*
 			 * if (mq > 0) { cq += 1; m_out.print("<tr class=\"" + style + (cq %
@@ -459,10 +460,10 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 		System.out.println("Test Cases No. : " + namecount);
 
 	}
-	
+
 	public boolean checkTestCases(String testName)
 	{
-		
+
 		return testArray.contains(testName);
 	}
 
@@ -470,7 +471,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 	{
 		return PassedTestCases.contains(testName);
 	}
-	
+
 	/** Starts and defines columns result summary table */
 	private void startResultSummaryTable(String style) {  //5.2.1
 		tableStart(style, "summary");
@@ -487,8 +488,8 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 		//m_out.println("<tr><td colspan='4'>To view Full Report : <a href=\"http://localhost:8080/job/Videogram/HTML_Report/\">http://localhost:8080/job/Videogram_Chrome/HTML_Report</a></td></tr>");
 		m_out.println("<tr><td colspan='4'>Overall test suite completion : <b>"
 				+ Time + " minutes</b><br/> Date and Time of Run: <b>"
-				+ sdf.format(date) + "</b><br/> Browser : <b>"+SeleniumInit.browserName+"<t></t>"
-				+ SeleniumInit.browserVersion +  "</b><br/>OS: <b>"
+				+ sdf.format(date) + "</b><br/> Browser : <b>"+ BrowserCaps.browserName+"<t></t>"
+				+ BrowserCaps.browserVersion +  "</b><br/>OS: <b>"
 				+ System.getProperty("os.name") + "</b></td></tr>");
 		m_out.println("<tr bgcolor='SkyBlue'><th>Test Cases</th><th>Steps</th>"
 				+ "<th>Failure Reason</th><th>Total Time<br/>(sec.)</th>");
@@ -529,45 +530,45 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 
 	/**
 	 * Write the first line of the stack trace
-	 * 
+	 *
 	 * @param tests
 	 */
 	private void getShortException(IResultMap tests, int num, String id) {
 
-		
-	
+
+
 		for (ITestResult result : tests.getAllResults()) {
 			m_methodIndex++;
-			
+
 			Throwable exception = result.getThrowable();
 			List<String> msgs = Reporter.getOutput(result);
 			boolean hasReporterOutput = msgs.size() > 0;
-			
-			String str = Utils.stackTrace(exception, true)[0];
+
+			String str = Utils.shortStackTrace(exception, true);
 			scanner = new Scanner(str);
 			String firstLine = scanner.nextLine();
-			
+
 			m_out.println("<td width='50%'");
-			
+
 			for (String line : msgs) {
 				if(g==0)
 				{
 					m_out.println(" style=\"background-color:#fae7e6\"><b id=\""+id+"\" class=\"collapsible\" >  ");
 					m_out.println("<a href=\"#hide"+num+"\"  title=\"Click here to see list of steps\" class=\"hide\" id=\"hide"+num+"\">+</a>");
 					m_out.println("<a href=\"#show"+num+"\" class=\"show\" id=\"show"+num+"\">-</a>&nbsp;&nbsp;Click here to see list of steps</br></br></b>");
-									
+
 					m_out.println("<table id=\"t"+num+"\" class=\"content\"><tr><td>");
 				}
 				else
-				{	
+				{
 					if(line.contains("<a href")) {
-						
+
 						String OS = System.getProperty("os.name").toLowerCase();
 						if(OS.indexOf("linux") >= 0) {
-							
-							String path = "http://104.248.6.102:8080/job/"+td.getProperties("emailreport.properties","jobpath")+"/ws/";	
-						
-							m_out.print("   ------------- <br/>");	
+
+							String path = "http://104.248.6.102:8080/job/"+td.getProperties("emailreport.properties","jobpath")+"/ws/";
+
+							m_out.print("   ------------- <br/>");
 							m_out.print(""+line.replaceAll("../ws/", path) + "<br/>");
 							System.out.println("--------@@@@@@@@-------"+line);
 							System.out.println("|| --$$$$$$$$$$$$$$$------"+path);
@@ -578,18 +579,18 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 						}
 						m_out.println(line+"");
 					}
-					
+
 				}
 					g++;
 					if(msgs.size()==g)
 					m_out.println("</td></tr></table></td>");
 			}
-			
+
 			if(g==0||g==1){
 			m_out.println("style=\"background-color:#fcf77a\"><b><font color='Blue'>Skipped</font></b></br>");
 		    //m_out.println(firstLine);
 			}
-				
+
 			m_out.println("</td>");
 			g=0;
 			boolean hasThrowable = exception != null;
@@ -634,7 +635,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 
 	/**
 	 * Write all parameters
-	 * 
+	 *
 	 * @param tests
 	 */
 	private void getParameters(IResultMap tests) {
@@ -709,7 +710,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 			}
 		}
 		if (hasParameters) {
-			
+
 			//m_out.println("</table>");
 		}
 	}
@@ -717,7 +718,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 	protected void generateExceptionReport(Throwable exception,
 			ITestNGMethod method) {
 		m_out.print("<div class=\"stacktrace\">");
-		m_out.print(Utils.stackTrace(exception, true)[0]);
+		m_out.print(Utils.shortStackTrace(exception, true));
 		m_out.println("</div>");
 	}
 
@@ -768,7 +769,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 
 		m_out.println("</tr>");*/
 		NumberFormat formatter = new DecimalFormat("#,##0.0");
-	
+
 		int qty_pass_m = 0;
 		int qty_pass_s = 0;
 		int qty_skip = 0;
@@ -784,16 +785,16 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 			for (ISuiteResult r : tests.values()) {
 				qty_tests += 1;
 				ITestContext overview = r.getTestContext();
-				
+
 				//startSummaryRow(overview.getName());
 				int q = getMethodSet(overview.getPassedTests(), suite).size();
 				qty_pass_m += q;
-				
+
 				System.err.println("aa----->"+qty_tests);
 			}
 			}
 		}
-		
+
 
 	private void summaryCell(String[] val) {
 		StringBuffer b = new StringBuffer();
@@ -870,11 +871,11 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 		out.println(".stacktrace {white-space:pre;}");
 		out.println(".totop {font-size:85%;text-align:center;border-bottom:2px solid #000}");
 		out.println("html * {");
-		
+
 		out.println(" font-family: \"Open Sans\",sans-serif; font-size:14px;}");
 		out.println("h1  { font-size:25px;  }");
 		out.println("th {font-size:14px; }");
-		
+
 		/***Collapse expands****/
 
 		out.println(".list { display:none;");
@@ -883,13 +884,13 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 		out.println("float: left; }");
 
 		out.println(".show {");
-		out.println("display: none; }"); 
+		out.println("display: none; }");
 		out.println(".hide:target + .show {");
-		out.println("display: inline; }"); 
+		out.println("display: inline; }");
 		out.println(".hide:target {");
-		out.println("display: none; }"); 
+		out.println("display: none; }");
 		out.println(".hide:target ~ .list {");
-		out.println("display:inline; }"); 
+		out.println("display:inline; }");
 
 
 /*style the (+) and (-) */
@@ -938,7 +939,7 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 		out.println("</style>");
 		//out.println("<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js\"></script>");
 		//out.println("<script src=\"jquery.min.js\"></script>");
-		
+
 		/*out.println("<script>");
 		out.println("$(document).ready(function(){");
 		for (int i=1;i<3;i++)
@@ -959,8 +960,8 @@ public class CustomReporterTestFailureDetails extends CustomReporterListener {
 		out.println("<tr bgcolor='SkyBlue'><td align='right' colspan='4'><center><b><i>Report customized by KiwiQA </i><b><center></center></b></b></center></td></tr>");
 		String OS = System.getProperty("os.name").toLowerCase();
 		if(OS.indexOf("linux") >= 0) {
-			
-			String path = "http://104.248.6.102:8080/job/"+td.getProperties("emailreport.properties","jobpath")+"/ws/Resources/RR.js";	
+
+			String path = "http://104.248.6.102:8080/job/"+td.getProperties("emailreport.properties","jobpath")+"/ws/Resources/RR.js";
 			out.println("<script src="+path+"></script>");
 		}
 		/*out.println("var coll = document.getElementsByClassName(\"collapsible\");");

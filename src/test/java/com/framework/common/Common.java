@@ -209,7 +209,7 @@ public class Common {
      * @param msg Message/Log to be reported.
      */
     public static void log(String msg) {
-
+        System.out.println(msg);
         Reporter.log(msg);
     }
 
