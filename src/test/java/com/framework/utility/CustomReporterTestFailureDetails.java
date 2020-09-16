@@ -36,9 +36,6 @@ import org.testng.log4testng.Logger;
 import org.testng.xml.XmlSuite;
 
 
-import com.init.TestData;
-
-
 public class CustomReporterTestFailureDetails extends CustomReporterListener {
 
 	private static final Logger L = Logger

@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a56f5b89-aba1-40c3-9b54-f6ff77772d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600257124121.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200916052346.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TBLOCKS_WEB_POC.eml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TBLOCKS_WEB_POC.userlibraries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916172337189.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916172346669testCaseScenario_01.png" afterDir="false" />
+    <list default="true" id="a56f5b89-aba1-40c3-9b54-f6ff77772d56" name="Default Changelist" comment="September 16th 2020">
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication_1600258577978.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200916054917.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916174905395.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916174918182testCaseScenario_01.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Zain/ZainIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zain/ZainIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/utility/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/utility/TestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TBLOCKS_WEB_POC.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TBLOCKS_WEB_POC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TBLOCKS_WEB_POC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TBLOCKS_WEB_POC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/utility/CustomReporterTestFailureDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/utility/CustomReporterTestFailureDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/utility/CustomReporterforEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/utility/CustomReporterforEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/CustomReporterEmailBuildSummary.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/CustomReporterEmailBuildSummary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/CustomReporterforEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/CustomReporterforEmail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.BrokenLinks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.BrokenLinks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.ZainIndex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.ZainIndex.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +62,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="TestNG.ZainIndex.testCaseScenario_01">
+  <component name="RunManager" selected="TestNG.E:/TBLOCKS_WEB_POC/Zain.xml">
     <configuration name="BrokenLinks.BrokenLinkTestCase (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TBLOCKS_WEB_POC" />
       <extension name="coverage">
@@ -168,8 +173,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ZainIndex.testCaseScenario_01" />
         <item itemvalue="TestNG.E:/TBLOCKS_WEB_POC/Zain.xml" />
+        <item itemvalue="TestNG.ZainIndex.testCaseScenario_01" />
         <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase" />
         <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase (3)" />
         <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase (2)" />
@@ -229,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600257175878</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="September 16th 2020">
+      <created>1600257762427</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600257762427</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,38 +263,42 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="553" y="272" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1600.860@0.0.1600.860" timestamp="1600257618771" />
-    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600257757598">
+    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600257811253">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600257757598" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1600257599901">
+    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600257811253" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1600257855182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600257599901" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600257242367">
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1600257855182" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1600258371555">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600257242367" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600257242367">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600258371555" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600259986375">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600257242367" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600257242367">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600259986375" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600259986375">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600257242367" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600257242367">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600259986375" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600259986375">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600257242367" />
-    <state x="301" y="15" key="SettingsEditor" timestamp="1600257739428">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600259986375" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600259986375">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="15" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600257739428" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600257179573">
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600259986375" />
+    <state x="301" y="15" key="SettingsEditor" timestamp="1600259968870">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600257179573" />
+    <state x="301" y="15" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600259968870" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600257767148">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600257767148" />
     <state x="616" y="211" key="chooseDestDirectoryDialog" timestamp="1600249977066">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

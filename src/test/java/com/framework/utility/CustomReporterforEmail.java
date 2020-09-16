@@ -38,7 +38,7 @@ import org.testng.xml.XmlSuite;
 
 public class CustomReporterforEmail extends CustomReporterListener {
 	
-	public com.init.TestData td = new com.init.TestData();
+	public TestData td = new TestData();
 
 	private static final Logger L = Logger
 			.getLogger(CustomReporterListener.class);
