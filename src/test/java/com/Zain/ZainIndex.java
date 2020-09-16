@@ -115,6 +115,7 @@ public class ZainIndex extends ZainProvider {
             numOfFailedSteps++;
         }
 
+
       //  zainVerification = zainIndexPage.changeColorToWhiteAndModel128();
 
 //        testVerifyLog("Verify price of selected thumbnail with color white and model 128 GB");

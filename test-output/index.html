@@ -131,42 +131,12 @@
                   </a> <!-- testCaseScenario_01(voicetest290@gmail.com, rutu@123) -->
                   <span class="method-name">testCaseScenario_01</span>
                   <span class="parameters">(voicetest290@gmail.com, rutu@123)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.getAttribute(Unknown Source)
-	at com.framework.common.Generics.getInnerText(Generics.java:362)
-	at com.Zain.ZainVerification.verifyBlackModel(ZainVerification.java:187)
-	at com.Zain.ZainIndex.testCaseScenario_01(ZainIndex.java:111)
+                  <div class="stack-trace">java.lang.AssertionError: Test Verification failed, please check test logs.
+	at com.Zain.ZainIndex.testCaseScenario_01(ZainIndex.java:150)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;elementn_widgets_FilteringSelectAdvanced_1&apos;]&quot;}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-576CM0N&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Laptop\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 69fdb9b26ded591a07380d2756a4ca19
-*** Element info: {Using=xpath, value=//input[@id=&apos;elementn_widgets_FilteringSelectAdvanced_1&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
-	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
-	... 32 more
-... Removed 28 stack frames
+... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -232,7 +202,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testCaseScenario_01')
 data.setCell(0, 2, 'com.Zain.ZainIndex')
-data.setCell(0, 3, 113664);
+data.setCell(0, 3, 87237);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
@@ -294,10 +264,19 @@ return data;
                 <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see information page of the thumbnail.</font></span>
                 <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
                 <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify select Iphone SE with black color and model number</font></span>
-                <span class="reporter-method-output"><br></br><strong>Step Failure<br>Please check attached screenshot : <br><br> : </strong><font color=#9400D3><img src='../test-output/screenshots/0916170701570testCaseScenario_01.png' width='683' height='384'/></font></span>
+                <span class="reporter-method-output"><br></br><strong>Currently selected Mobile Color :   : </strong><font color=#9400D3>White</font></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile Model  : 128 GB</font></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile price   : 2099.00</font></span>
+                <span class="reporter-method-output"><br></br><strong>Step Failure<br>Please check attached screenshot : <br><br> : </strong><font color=#9400D3><img src='../test-output/screenshots/0916172337189.png' width='683' height='384'/></font></span>
+                <span class="reporter-method-output"><br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 7 : Click on user name</span>
+                <span class="reporter-method-output"><br></br>Step 8 : Click on Logout.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify the user is logout successfully.</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br><strong>Step Failure<br>Please check attached screenshot : <br><br> : </strong><font color=#9400D3><img src='../test-output/screenshots/0916172346669testCaseScenario_01.png' width='683' height='384'/></font></span>
                 <span class="reporter-method-output"><br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong></span>
                 <span class="reporter-method-output"><br></br><strong>Failure Reason: : </strong><font color=#9400D3></font></span>
-                <span class="reporter-method-output"><br></br><img src="warning.png" alt="Warning" height="18" width="18">Validation Message : <Strong><font color=#ff0000>org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element</strong></font></span>
+                <span class="reporter-method-output"><br></br><img src="warning.png" alt="Warning" height="18" width="18">Validation Message : <Strong><font color=#ff0000>java.lang.AssertionError: Test Verification failed, please check test logs.</strong></font></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -324,26 +303,26 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.Zain.ZainIndex</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">startReport(org.testng.TestRunner@11ebb1b6)</span>
+                <span class="method-name">startReport(org.testng.TestRunner@6f6621e3)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.Zain.ZainIndex.testCaseScenario_01(java.lang.String,java.lang.String) throws java.io...)</span>
-                <span class="method-start">367 ms</span>
+                <span class="method-start">272 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testCaseScenario_01(voicetest290@gmail.com, rutu@123)</span>
-                <span class="method-start">16441 ms</span>
+                <span class="method-start">14794 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testCaseScenario_01 status=FAILURE method=ZainIndex.testCaseScenario_01(java.lang.S...)</span>
-                <span class="method-start">130219 ms</span>
+                <span class="method-start">102220 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">endReport</span>
-                <span class="method-start">132526 ms</span>
+                <span class="method-start">105124 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
