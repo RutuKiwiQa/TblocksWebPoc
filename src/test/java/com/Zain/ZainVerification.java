@@ -127,10 +127,10 @@ public class ZainVerification extends AbstractPage {
     @FindBy(xpath = "//div[@class='slick-initialized slick-slider']")
     private WebElement thumbnailPage;
 
-    @FindBy(xpath = "//input[@value='Black'][1]")
+    @FindBy(xpath = "//input[@id='elementn_widgets_FilteringSelect_1']")
     private WebElement drpBlack;
 
-    @FindBy(xpath = "//input[@value='64 GB'][1]")
+    @FindBy(xpath = "//input[@id='elementn_widgets_FilteringSelectAdvanced_0']")
     private WebElement drp64GB;
 
     @FindBy(xpath = "//section[@class='col-xs-12 col-md-4']//span//span[1]")
@@ -180,16 +180,16 @@ public class ZainVerification extends AbstractPage {
     }
 
     public boolean verifyBlackModel() throws IOException {
-        String black = ZainProvider.getCellData(1,1);
-        String model = ZainProvider.getCellData(1,2);
-        String price = ZainProvider.getCellData(1,3);
+        String black = ZainProvider.getCellData(2,1);
+        String model = ZainProvider.getCellData(2,2);
+        String price = ZainProvider.getCellData(2,3);
         _blackColor = getInnerValue(drpBlack);
         _model64GB = getInnerValue(drp64GB);
         _blackModelPrice = getText(lblPriceBlack);
 
-        System.out.println("Price Of Iphone SE Black Color :  " +  _blackColor);
-        System.out.println("Price Of Iphone SE model 64 GB : "+ _model64GB);
-        System.out.println("Price Of Iphone SE Price of Black color model 64  : "+ _blackModelPrice);
+        testInfoLog("Currently selected Mobile Color :  " ,  _blackColor);
+        testVerifyLog("Currently selected Mobile Model  : "+ _model64GB);
+        testVerifyLog("Currently selected Mobile price   : "+ _blackModelPrice);
 
         return _blackColor.equalsIgnoreCase(black) && _model64GB.contains(model) &&
                 _blackModelPrice.contains(price);
