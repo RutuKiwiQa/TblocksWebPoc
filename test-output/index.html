@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TBlocks_POC_Zain_WebApplication">
+              <span class="suite-name border-passed">TBlocks_POC_Zain_WebApplication</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TBlocks_POC_Zain_WebApplication">
+                    <span>E:\TBLOCKS_WEB_POC\Zain.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TBlocks_POC_Zain_WebApplication">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TBlocks_POC_Zain_WebApplication">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TBlocks_POC_Zain_WebApplication">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TBlocks_POC_Zain_WebApplication">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TBlocks_POC_Zain_WebApplication">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TBlocks_POC_Zain_WebApplication">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TBlocks_POC_Zain_WebApplication" class="hide-methods passed suite-TBlocks_POC_Zain_WebApplication"> (hide)</a> <!-- hide-methods passed suite-TBlocks_POC_Zain_WebApplication -->
+                      <a href="#" panel-name="suite-TBlocks_POC_Zain_WebApplication" class="show-methods passed suite-TBlocks_POC_Zain_WebApplication"> (show)</a> <!-- show-methods passed suite-TBlocks_POC_Zain_WebApplication -->
+                    </span>
+                    <div class="method-list-content passed suite-TBlocks_POC_Zain_WebApplication">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TBlocks_POC_Zain_WebApplication" title="com.Zain.ZainIndex" hash-for-method="testCaseScenario_01(voicetest290@gmail.com, rutu@123)">testCaseScenario_01(voicetest290@gmail.com, rutu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TBlocks_POC_Zain_WebApplication -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TBlocks_POC_Zain_WebApplication" class="panel TBlocks_POC_Zain_WebApplication">
+          <div class="suite-TBlocks_POC_Zain_WebApplication-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Zain.ZainIndex</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseScenario_01(voicetest290@gmail.com, rutu@123)">
+                  </a> <!-- testCaseScenario_01(voicetest290@gmail.com, rutu@123) -->
+                  <span class="method-name">testCaseScenario_01</span>
+                  <span class="parameters">(voicetest290@gmail.com, rutu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TBlocks_POC_Zain_WebApplication-class-passed -->
+        </div> <!-- panel TBlocks_POC_Zain_WebApplication -->
+        <div panel-name="test-xml-TBlocks_POC_Zain_WebApplication" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\TBLOCKS_WEB_POC\Zain.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;10&quot; name=&quot;TBlocks_POC_Zain_WebApplication&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;TAG_RSC_001 :: To verify requestor can perform invalid login.&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Zain.ZainIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCaseScenario_01&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.Zain.ZainIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TAG_RSC_001 :: To verify requestor can perform invalid login. --&gt;
+&lt;/suite&gt; &lt;!-- TBlocks_POC_Zain_WebApplication --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TBlocks_POC_Zain_WebApplication" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TBlocks_POC_Zain_WebApplication</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TAG_RSC_001 :: To verify requestor can perform invalid login. (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TBlocks_POC_Zain_WebApplication" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TBlocks_POC_Zain_WebApplication</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TBlocks_POC_Zain_WebApplication" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TBlocks_POC_Zain_WebApplication</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TBlocks_POC_Zain_WebApplication');
+function tableData_TBlocks_POC_Zain_WebApplication() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCaseScenario_01')
+data.setCell(0, 2, 'com.Zain.ZainIndex')
+data.setCell(0, 3, 77525);
+window.suiteTableData['TBlocks_POC_Zain_WebApplication']= { tableData: data, tableDiv: 'times-div-TBlocks_POC_Zain_WebApplication'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-TBlocks_POC_Zain_WebApplication">
+              </div> <!-- times-div-TBlocks_POC_Zain_WebApplication -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TBlocks_POC_Zain_WebApplication" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TBlocks_POC_Zain_WebApplication</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCaseScenario_01(voicetest290@gmail.com, rutu@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br></br><strong>Zain_TestScenario :: To perform login, verify Dashboard and Add device from E-Shop</strong></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Version is not available for the current build.</font></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>To verify that user can see the home page of the " Zain Web Application " .</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 1 : Click on My Zain Account button from the top right corner of the web application.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
+<br> 6. E-Shop Tab.
+<br> 7. I am looking for Search field.
+<br> 8. Follow us Icons
+<br> 9. Footer Text
+<br> 10. Header Hyperlinks
+</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 2 : Enter Credentials for login.</span>
+                <span class="reporter-method-output"><br></br><strong>Email Address : </strong><font color=#9400D3>voicetest290@gmail.com</font></span>
+                <span class="reporter-method-output"><br></br>Step 3 : Click on Sign in button.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
+<br> 2. Add to cart button
+<br> 3. Zain Logo
+<br> 4. Personal Tab
+<br> 5. Business Tab
+<br> 6. E-Shop Tab
+<br> 7. 5G Tab
+<br  8. Notifications dropdown
+<br> 9. I am looking for Search field.
+<br> 10. Profile Picture of user.
+<br> 11. Name 
+<br> 12. Nickname
+</font></span>
+                <span class="reporter-method-output"><br></br><strong>Logged in User Name :  : </strong><font color=#9400D3>Rutu Shah</font></span>
+                <span class="reporter-method-output"><br></br><strong>Logged in User's NickName :  : </strong><font color=#9400D3>Rutu</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 4 : Click on E-Shop Tab.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see E-Shop Screen's content.</font></span>
+                <span class="reporter-method-output"><br></br><strong>Total Available Products :  : </strong><font color=#9400D3>5</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 5 : Click on First available product.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify selected product screen.</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 6 : Observe and click on the first thumbnail.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see information page of the thumbnail.</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify select Iphone SE with black color and model number</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 7 : Click on user name</span>
+                <span class="reporter-method-output"><br></br>Step 8 : Click on Logout.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify the user is logout successfully.</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TBlocks_POC_Zain_WebApplication" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Zain.ZainIndex</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">test2</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TBlocks_POC_Zain_WebApplication" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Zain.ZainIndex</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startReport(org.testng.TestRunner@646811d6)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.Zain.ZainIndex.testCaseScenario_01(java.lang.String,java.lang.String) throws java.io...)</span>
+                <span class="method-start">526 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCaseScenario_01(voicetest290@gmail.com, rutu@123)</span>
+                <span class="method-start">17642 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCaseScenario_01 status=SUCCESS method=ZainIndex.testCaseScenario_01(java.lang.S...)</span>
+                <span class="method-start">95167 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">96295 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

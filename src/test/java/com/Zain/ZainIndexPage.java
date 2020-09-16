@@ -2,6 +2,7 @@ package com.Zain;
 
 import com.framework.common.Common;
 import com.framework.init.AbstractPage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
@@ -45,6 +46,26 @@ public class ZainIndexPage extends AbstractPage {
 
     @FindBy(xpath = "//div[@id='zain_catalogue_widgets_DevicesViewContainer_0']//div[1]//article[1]//section[4]//div[2]//div[2]//a[1]")
     private WebElement firstThumbnail;
+
+    @FindBy(xpath = "(//div[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton dijitArrowButtonContainer'])[1]")
+    private WebElement colorDropdown;
+
+    @FindBy(xpath = "//div[@id='dropdownMenu1']//a")
+    private WebElement userName;
+
+    @FindBy(xpath = "//ul[@class='dropdown-menu']//a[contains(text(),'LOGOUT')]")
+    private WebElement logout;
+
+    @FindBy(xpath = "//div[@class='dijitReset dijitMenuItem' and @item='1']//div")
+    private WebElement whiteColor;
+
+    @FindBy(xpath = "//div[@class='dijitReset dijitMenuItem' and @item='2']//div")
+    private WebElement redColor;
+
+    @FindBy(xpath = "//div[@id='widget_elementn_widgets_FilteringSelectAdvanced_1']//div[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton dijitArrowButtonContainer']")
+    private WebElement modelDropDown;
+
+
 
 
 
@@ -108,6 +129,39 @@ public class ZainIndexPage extends AbstractPage {
         testStepsLog(_logStep++,"Observe and click on the first thumbnail.");
         clickOnJS(driver,firstThumbnail);
         pause(3);
+        return new ZainVerification(driver);
+    }
+
+    public ZainVerification changeColorToWhiteAndModel128(){
+        testStepsLog(_logStep++,"Change the color of thumbnail from black to white.");
+        testStepsLog(_logStep++,"Click on dropdown.");
+        explicitWait(driver, By.xpath("(//div[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton dijitArrowButtonContainer'])[1]"),10);
+        Common.highlightElement(driver,colorDropdown);
+        jsClick(driver,colorDropdown);
+        pause(2);
+//        testStepsLog(_logStep++,"Select color white.");
+//        clickOnJS(driver,whiteColor);
+//        pause(2);
+        return new ZainVerification(driver);
+    }
+
+
+    public ZainVerification changeColorToRedAndModel256(){
+        testStepsLog(_logStep++,"Change the color of thumbnail from white to red.");
+        testStepsLog(_logStep++,"Click on dropdown.");
+        clickOnJS(driver,colorDropdown);
+        testStepsLog(_logStep++,"Select color white.");
+        clickOnJS(driver,redColor);
+        pause(2);
+        return new ZainVerification(driver);
+    }
+
+    public ZainVerification clickOnLogoutButton(){
+        testStepsLog(_logStep++, "Click on user name");
+        clickOnJS(driver,userName);
+        testStepsLog(_logStep++,"Click on Logout.");
+        clickOnJS(driver,logout);
+        pause(2);
         return new ZainVerification(driver);
     }
 

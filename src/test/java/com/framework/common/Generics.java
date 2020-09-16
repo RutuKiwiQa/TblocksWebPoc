@@ -72,6 +72,12 @@ public class Generics extends TestLogger {
         }
     }
 
+    public static WebElement explicitWait(WebDriver driver, By locator, int waitTime) {
+        WebDriverWait wait = new WebDriverWait(driver, waitTime);
+        wait.until(ExpectedConditions.elementToBeClickable(locator));
+        return wait.until(ExpectedConditions.visibilityOf(driver.findElement(locator)));
+    }
+
     /**
      * To clear and send the value to the text field
      *
@@ -117,6 +123,12 @@ public class Generics extends TestLogger {
         wait.until(ExpectedConditions.elementToBeClickable(element));
         JavascriptExecutor executor = (JavascriptExecutor) driver;
         executor.executeScript("arguments[0].click();", element);
+    }
+
+    public static void jsClick(WebDriver driver, WebElement element) {
+        ((JavascriptExecutor) driver).executeScript(
+                "return arguments[0].click();", element);
+        // this.waitForAjax("0");
     }
 
     /**

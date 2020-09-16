@@ -2,33 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56f5b89-aba1-40c3-9b54-f6ff77772d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600183695468.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600184756560.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600184951420.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600185258987.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600185412245.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600185899326.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915091057.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915091813.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915092132.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915092628.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200915092857.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zain.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915211057577testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915211813525testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915212133267testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915212537768.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915212628955testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915212856884.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915212857894testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600237578028.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600237701152.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600237797067.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600237941858.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600238156825.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600240945030.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600241399516.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600241922780.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600242544164.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600243533794.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600243823408.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600244162987.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600244369072.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600244539031.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication_1600238437953.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/BrokenLinkTestCase20200916101054.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/BrokenLinkTestCase20200916103615.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/BrokenLinkTestCase20200916103800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/BrokenLinkTestCase20200916104135.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200916010158.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200916011041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200916012153.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200916013725.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200916014244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200916114251.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200916115458.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200916115924.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200916120905.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testCaseScenario_0120200916125453.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Zain/BrokenLinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/utils/BrokenLinksProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TAG_RSC_001 __ To verify requestor can perform invalid login..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TAG_RSC_001 __ To verify requestor can perform invalid login..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.ZainIndex.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/TAG_RSC_001 __ To verify requestor can perform invalid login..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/091610105540BrokenLinkTestCase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916103615721BrokenLinkTestCase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916103802288BrokenLinkTestCase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916104136531BrokenLinkTestCase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916114252556testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916115459206testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916115924784testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916120912206testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916125453753testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916130158877testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916131041722testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916132153907testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916133726390testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916134245131testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Excel/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/Data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600174837467.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600174966430.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600183695468.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600184756560.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600184951420.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600185258987.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600185412245.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600185899326.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Zain.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Zain/ZainIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zain/ZainIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Zain/ZainIndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zain/ZainIndexPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Zain/ZainVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zain/ZainVerification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/common/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/common/Generics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/ZainProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/ZainProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +123,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../AimFoundation/AimFoundation" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="TestNG.ZainIndex.testCaseScenario_01">
-    <configuration name="ZainIndex.testCaseScenario_01" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.E:/TBLOCKS_WEB_POC/Zain.xml">
+    <configuration name="BrokenLinks.BrokenLinkTestCase (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TBLOCKS_WEB_POC" />
       <extension name="coverage">
         <pattern>
@@ -72,75 +133,112 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.Zain" />
+      <option name="MAIN_CLASS_NAME" value="com.Zain.BrokenLinks" />
+      <option name="METHOD_NAME" value="BrokenLinkTestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrokenLinks.BrokenLinkTestCase (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBLOCKS_WEB_POC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Zain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Zain" />
+      <option name="MAIN_CLASS_NAME" value="com.Zain.BrokenLinks" />
+      <option name="METHOD_NAME" value="BrokenLinkTestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrokenLinks.BrokenLinkTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBLOCKS_WEB_POC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Zain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Zain" />
+      <option name="MAIN_CLASS_NAME" value="com.Zain.BrokenLinks" />
+      <option name="METHOD_NAME" value="BrokenLinkTestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/TBLOCKS_WEB_POC/Zain.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBLOCKS_WEB_POC" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Zain.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZainIndex.testCaseScenario_01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBLOCKS_WEB_POC" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Zain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.Zain" />
       <option name="MAIN_CLASS_NAME" value="com.Zain.ZainIndex" />
       <option name="METHOD_NAME" value="testCaseScenario_01" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZainProvider.test2 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TBLOCKS_WEB_POC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.utils.ZainProvider" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZainProvider.test2 (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TBLOCKS_WEB_POC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.utils.ZainProvider" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZainProvider.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TBLOCKS_WEB_POC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.utils.ZainProvider" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase" />
+      <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase (2)" />
+      <item itemvalue="TestNG.E:/TBLOCKS_WEB_POC/Zain.xml" />
+      <item itemvalue="TestNG.ZainIndex.testCaseScenario_01" />
+      <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase (3)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E:/TBLOCKS_WEB_POC/Zain.xml" />
         <item itemvalue="TestNG.ZainIndex.testCaseScenario_01" />
-        <item itemvalue="TestNG.ZainProvider.test2 (2)" />
-        <item itemvalue="TestNG.ZainProvider.test2" />
-        <item itemvalue="TestNG.ZainProvider.test2 (1)" />
+        <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase" />
+        <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase (3)" />
+        <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600177034514</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="September 15th 2020">
+      <created>1600187494469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600187494469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -175,38 +280,46 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600182960680" />
-    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600177027075">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600247584287">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600177027075" />
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1600247584287" />
+    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600187491403">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600187491403" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1600182007136">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600182007136" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600187465925">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600248052193">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600187465925" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600187465924">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600248052193" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600248052193">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600187465924" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600187465923">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600248052193" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600248052193">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600187465923" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600187465925">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600248052193" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600248052193">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600187465925" />
-    <state x="301" y="72" key="SettingsEditor" timestamp="1600174714967">
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600248052193" />
+    <state x="301" y="72" key="SettingsEditor" timestamp="1600242921288">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600174714967" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600177037763">
+    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600242921288" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600187497926">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600177037763" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600187497926" />
+    <state x="598" y="119" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600247531169">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="598" y="119" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860@0.0.1600.860" timestamp="1600247531169" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1600169983959">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

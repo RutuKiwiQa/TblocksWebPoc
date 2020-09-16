@@ -47,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Sep 15, 2020 09:34:59 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Sep 16, 2020 01:40:23 PM</span>
 				</a>
 			</li>
 			<li>
@@ -73,6 +73,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -123,10 +124,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -138,10 +139,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='30.769%'><span class='strong'>8</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='18.182%'><span class='strong'>6</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='69.231%'>18</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='12.121%'>4</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='69.697%'>23</span> others
 				</div>
 			</div>
 		</div>
@@ -156,17 +157,17 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Zain_TestScenario :: To perform login, verify Dashboard and Add device from E-Shop</span>
-						<span class='test-time'>Sep 15, 2020 09:35:20 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 16, 2020 01:40:39 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 15, 2020 09:35:20 PM</span>
-	<span class='label end-time'>Sep 15, 2020 09:36:39 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 1m 18s+73ms</span>
+	<span class='label start-time'>Sep 16, 2020 01:40:39 PM</span>
+	<span class='label end-time'>Sep 16, 2020 01:42:45 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 2m 6s+194ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='author-list'>
@@ -185,27 +186,27 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:35:31 PM</td>
+					<td class='timestamp'>1:40:49 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Version is not available for the current build.</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:35:41 PM</td>
+					<td class='timestamp'>1:40:59 PM</td>
 					<td class='step-details'><span class='label white-text orange'>To verify that user can see the home page of the " Zain Web Application " .</span></td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:35:42 PM</td>
+					<td class='timestamp'>1:40:59 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:35:42 PM</td>
+					<td class='timestamp'>1:40:59 PM</td>
 					<td class='step-details'>Click on My Zain Account button from the top right corner of the web application.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:35:49 PM</td>
+					<td class='timestamp'>1:41:10 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
 <br> 6. E-Shop Tab.
 <br> 7. I am looking for Search field.
@@ -216,27 +217,27 @@
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:35:50 PM</td>
+					<td class='timestamp'>1:41:10 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:35:50 PM</td>
+					<td class='timestamp'>1:41:10 PM</td>
 					<td class='step-details'>Enter Credentials for login.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:35:50 PM</td>
+					<td class='timestamp'>1:41:11 PM</td>
 					<td class='step-details'>Email Address : voicetest290@gmail.com</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:35:51 PM</td>
+					<td class='timestamp'>1:41:11 PM</td>
 					<td class='step-details'>Click on Sign in button.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:36:02 PM</td>
+					<td class='timestamp'>1:41:22 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
 <br> 2. Add to cart button
 <br> 3. Zain Logo
@@ -253,87 +254,125 @@
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:36:10 PM</td>
+					<td class='timestamp'>1:41:23 PM</td>
 					<td class='step-details'>Logged in User Name :  : Rutu Shah</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:36:10 PM</td>
+					<td class='timestamp'>1:41:23 PM</td>
 					<td class='step-details'>Logged in User's NickName :  : Rutu</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:36:11 PM</td>
+					<td class='timestamp'>1:41:24 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:36:11 PM</td>
+					<td class='timestamp'>1:41:24 PM</td>
 					<td class='step-details'>Click on E-Shop Tab.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:36:17 PM</td>
+					<td class='timestamp'>1:41:27 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Verify user can see E-Shop Screen's content.</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:36:22 PM</td>
+					<td class='timestamp'>1:41:30 PM</td>
 					<td class='step-details'>Total Available Products :  : 5</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:36:22 PM</td>
+					<td class='timestamp'>1:41:30 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:36:22 PM</td>
+					<td class='timestamp'>1:41:30 PM</td>
 					<td class='step-details'>Click on First available product.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:36:28 PM</td>
+					<td class='timestamp'>1:41:35 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Verify selected product screen.</span></td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:36:30 PM</td>
+					<td class='timestamp'>1:41:35 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:36:30 PM</td>
+					<td class='timestamp'>1:41:35 PM</td>
 					<td class='step-details'>Observe and click on the first thumbnail.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:36:34 PM</td>
+					<td class='timestamp'>1:41:40 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Verify user can see information page of the thumbnail.</span></td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:36:37 PM</td>
+					<td class='timestamp'>1:41:42 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>9:36:37 PM</td>
-					<td class='step-details'><span class='label white-text orange'>Verify select Iphone SE with black color and model number</span></td>
+					<td class='timestamp'>1:41:42 PM</td>
+					<td class='step-details'>Change the color of thumbnail from black to white.</td>
 				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:36:39 PM</td>
-					<td class='step-details'><span class='label white-text green'>PASS</span></td>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:41:42 PM</td>
+					<td class='step-details'>Click on dropdown.</td>
 				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:36:39 PM</td>
-					<td class='step-details'><span class='label white-text green'>testCaseScenario_01 Test Case PASSED</span></td>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:41:43 PM</td>
+					<td class='step-details'>Select color white.</td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>1:42:44 PM</td>
+					<td class='step-details'><span class='label white-text red'>testCaseScenario_01 - Test Case Failed</span></td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>1:42:44 PM</td>
+					<td class='step-details'><span class='label white-text red'>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: //div[@class='dijitReset dijitMenuItem' and @item='1']//div' (tried for 30 second(s) with 500 milliseconds interval) - Test Case Failed</span></td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>1:42:45 PM</td>
+					<td class='step-details'>Test Case Failed Snapshot is below com.aventstack.extentreports.ExtentTest@41c204a0</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:42:45 PM</td>
+					<td class='step-details'>Step Failure<br>Please check attached screenshot : <br><br> : <img src='../test-output/screenshots/0916134245131testCaseScenario_01.png' width='683' height='384'/></td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>1:42:45 PM</td>
+					<td class='step-details'><span class='label white-text red'>FAIL</span></td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:42:45 PM</td>
+					<td class='step-details'>Failure Reason: :</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:42:45 PM</td>
+					<td class='step-details'><span class='label white-text pink'>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator &apos;By.xpath: //div[@class=&apos;dijitReset dijitMenuItem&apos; and @item=&apos;1&apos;]//div&apos; (tried for 30 second(s) with 500 milliseconds interval)</span></td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='E:\TBLOCKS_WEB_POC/Screenshots/testCaseScenario_0120200916014244.png' width='10%' src='E:\TBLOCKS_WEB_POC/Screenshots/testCaseScenario_0120200916014244.png' data-src='E:\TBLOCKS_WEB_POC/Screenshots/testCaseScenario_0120200916014244.png'></li>
+							</ul>
 					</div>
 				</li>
 			</ul>
@@ -390,13 +429,13 @@
                             <div class='author-heading'>
                                 <span class='author-name'>RutuShah</span>
                                 <span class='author-status right'>
-                                        <span class='label pass'>1</span>
+                                        <span class='label fail'>1</span>
 						        </span>
                             </div>
                             <div class='author-content hide'>
                                 <div class='author-status-counts'>
-                                    <span class='label green accent-4 white-text'>Passed: 1</span>
                                     
+                                    <span class='label red lighten-1 white-text'>Failed: 1</span>
                                     
                                 </div>
 
@@ -411,9 +450,9 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Sep 15, 2020 09:35:20 PM</td>
+                                                <td>Sep 16, 2020 01:40:39 PM</td>
                                                 <td class='linked' test-id='1'>Zain_TestScenario :: To perform login, verify Dashboard and Add device from E-Shop</td>
-                                                <td><span class='test-status pass'>pass</span></td>
+                                                <td><span class='test-status fail'>fail</span></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -446,25 +485,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>26</div>
+					<div class='panel-lead'>33</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 15, 2020 09:34:59 PM</div>
+					<div class='panel-lead'>Sep 16, 2020 01:40:23 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 15, 2020 09:36:40 PM</div>
+			 		<div class='panel-lead'>Sep 16, 2020 01:42:46 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>101,385ms</div>
+					<div class='panel-lead'>143,191ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -505,22 +544,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
-				failParent: 0,
+				passParent: 0,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				
-				passChild: 8,
-				failChild: 0,
+				passChild: 6,
+				failChild: 4,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 18,
-				exceptionsChild: 0,
+				infoChild: 23,
+				exceptionsChild: 4,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

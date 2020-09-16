@@ -1,10 +1,14 @@
 package com.Zain;
 
 import com.utils.ZainProvider;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.net.*;
+import java.util.List;
 
 public class ZainIndex extends ZainProvider {
 
@@ -111,15 +115,46 @@ public class ZainIndex extends ZainProvider {
             numOfFailedSteps++;
         }
 
+      //  zainVerification = zainIndexPage.changeColorToWhiteAndModel128();
 
+//        testVerifyLog("Verify price of selected thumbnail with color white and model 128 GB");
+//        if (zainVerification.verifyWhiteModel()){
+//            stepPassed();
+//        }else {
+//            stepFailure(driver);
+//            numOfFailedSteps++;
+//        }
+
+//        zainVerification = zainIndexPage.changeColorToRedAndModel256();
+
+//        testVerifyLog("Verify price of selected thumbnail with color red and model 256 GB");
+//        if (zainVerification.verifyRedModel()){
+//            stepPassed();
+//        }else {
+//            stepFailure(driver);
+//            numOfFailedSteps++;
+//        }
 //
-//        zainVerification = zainIndexPage.clickOnLogoutButton();
+         zainVerification = zainIndexPage.clickOnLogoutButton();
 
-        //testVerifyLog("Verify the user is logout successfully.");
+        testVerifyLog("Verify the user is logout successfully.");
+        if (zainVerification.verifyUserLogoutSuccessFully()){
+            stepPassed();
+        }else {
+            stepFailure(driver);
+            numOfFailedSteps++;
+        }
 
 
 
         if (numOfFailedSteps > 0) Assert.fail("Test Verification failed, please check test logs.");
 
     }
+
+
+
+
+
+
 }
+

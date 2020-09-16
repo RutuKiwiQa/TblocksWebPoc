@@ -135,6 +135,9 @@ public class ZainVerification extends AbstractPage {
 
     @FindBy(xpath = "//section[@class='col-xs-12 col-md-4']//span//span[1]")
     private WebElement lblPriceBlack;
+
+    @FindBy(xpath = "//a[@class='twitter-signin hvr-sweep-to-bottom']")
+    private WebElement logoutSuccess;
     //--------------------------------Methods Definition----------------------------------------------------------
 
     public boolean verifyZainHomeScreen(){
@@ -190,5 +193,9 @@ public class ZainVerification extends AbstractPage {
 
         return _blackColor.equalsIgnoreCase(black) && _model64GB.contains(model) &&
                 _blackModelPrice.contains(price);
+    }
+
+    public boolean verifyUserLogoutSuccessFully(){
+        return  isElementDisplay(logoutSuccess);
     }
 }
