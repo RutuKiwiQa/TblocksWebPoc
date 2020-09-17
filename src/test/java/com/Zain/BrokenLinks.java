@@ -82,8 +82,6 @@ public class BrokenLinks extends BrokenLinksProvider {
                 //capture response code
                 int resCode = httpConn.getResponseCode(); //return response if res code is above 400 : broken link
 
-
-
                 if (resCode >= 400) {
                     Reporter.log("<br></br><img src=\"fail.png\" alt=\"Fail\" height=\"18\" width=\"18\"><Strong><font color=#ff0000>Fail</font></strong>");
                     Common.log(url + " - " + " <br> is a broken link.");
@@ -101,7 +99,6 @@ public class BrokenLinks extends BrokenLinksProvider {
             }
             if (numOfFailedSteps > 0) Assert.fail("Test Verification failed, please check test logs.");
         }
-
 
     }
 
