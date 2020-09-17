@@ -20,7 +20,7 @@
       </class> <!-- com.Zain.ZainIndex -->
     </classes>
   </test> <!-- ZainIndex_TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.(failed) -->
-  <test thread-count="1" verbose="10" name="ZainIndex_TS_WEB_002 :: To verify broken links of the web page.(failed)">
+  <test thread-count="1" verbose="10" name="BrokenLinks_TS_WEB_002 :: To verify broken links of the web page.(failed)">
     <classes>
       <class name="com.Zain.BrokenLinks">
         <methods>
@@ -29,5 +29,5 @@
         </methods>
       </class> <!-- com.Zain.BrokenLinks -->
     </classes>
-  </test> <!-- ZainIndex_TS_WEB_002 :: To verify broken links of the web page.(failed) -->
+  </test> <!-- BrokenLinks_TS_WEB_002 :: To verify broken links of the web page.(failed) -->
 </suite> <!-- Failed suite [TBlocks_POC_Zain_WebApplication] -->
