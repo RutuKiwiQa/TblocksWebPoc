@@ -2,134 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56f5b89-aba1-40c3-9b54-f6ff77772d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Screenshots/verifyLogin_Dashboard_Price20200917120106.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/verifyLogin_Dashboard_Price20200917121306.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output Web.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0917120057495.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0917120107292verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0917121258781.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0917121307361verifyLogin_Dashboard_Price.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication_.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication_.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Zain.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/CustomReporterEmailBuildSummary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/CustomReporterforEmail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/Default Suite/TBLOCKS_WEB_POC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/Default Suite/TBLOCKS_WEB_POC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/Default Suite/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/KQIIA_Report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/TBlocks_POC_Zain_WebApplication/TAG_RSC_001 __ To verify requestor can perform invalid login..html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/TBlocks_POC_Zain_WebApplication/TAG_RSC_001 __ To verify requestor can perform invalid login..xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/TBlocks_POC_Zain_WebApplication/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/fail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/info.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/junitreports/TEST-com.Zain.BrokenLinks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/junitreports/TEST-com.Zain.ZainIndex.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/Default Suite/TBLOCKS_WEB_POC.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/Default Suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/Default Suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/Default Suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/Default Suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/Default Suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/Default Suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/Default Suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/Default Suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/Default Suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/Default Suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/TAG_RSC_001 __ To verify requestor can perform invalid login..properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/TBlocks_POC_Zain_WebApplication/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/pass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915154352171testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915160709427testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915161254355testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915173347953testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915173619273testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915173910461testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/091517530419testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915180026898testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915211057577testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915211813525testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915212133267testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915212537768.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915212628955testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915212856884.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0915212857894testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/091610105540BrokenLinkTestCase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916103615721BrokenLinkTestCase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916103802288BrokenLinkTestCase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916104136531BrokenLinkTestCase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916114252556testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916115459206testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916115924784testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916120912206testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916125453753testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916130158877testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916131041722testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916132153907testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916133726390testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916134245131testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916170701570testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916172337189.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916172346669testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916174905395.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916174918182testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916182516421.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/screenshots/0916182526280testCaseScenario_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/testng-reports1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/testng-reports2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output - Copy/warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/CustomReporterforEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/CustomReporterforEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/KQIIA_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/KQIIA_Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.BrokenLinks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.BrokenLinks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.ZainIndex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.ZainIndex.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600323225203</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="September 17th 2020">
+      <created>1600327585740</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600327585740</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -391,10 +272,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="553" y="272" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1600.860@0.0.1600.860" timestamp="1600257618771" />
-    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600323219132">
+    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600327581258">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600323219132" />
+    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600327581258" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1600257855182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -423,10 +304,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="15" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600324047023" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600323227321">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600327590406">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600323227321" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600327590406" />
     <state x="616" y="211" key="chooseDestDirectoryDialog" timestamp="1600249977066">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
