@@ -180,19 +180,19 @@ public class ZainVerification extends AbstractPage {
     }
 
     public boolean verifyBlackModel() throws IOException {
-        String black = ZainProvider.getCellData(2,1);
-        String model = ZainProvider.getCellData(2,2);
-        String price = ZainProvider.getCellData(2,3);
+        String black = ZainProvider.getCellData(1,1);
+        String model = ZainProvider.getCellData(1,2);
+        String price = ZainProvider.getCellData(1,3);
         _blackColor = getInnerValue(drpBlack);
         _model64GB = getInnerValue(drp64GB);
         _blackModelPrice = getText(lblPriceBlack);
 
-        testInfoLog("Currently selected Mobile Color :  " ,  _blackColor);
+        testInfoLog("Currently selected Mobile Color :  " ,  _blackColor.trim());
         testVerifyLog("Currently selected Mobile Model  : "+ _model64GB);
         testVerifyLog("Currently selected Mobile price   : "+ _blackModelPrice);
 
-        return _blackColor.equalsIgnoreCase(black) && _model64GB.contains(model) &&
-                _blackModelPrice.contains(price);
+        return _blackColor.trim().contains(black.trim()) && _model64GB.trim().contains(model.trim()) &&
+                _blackModelPrice.trim().contains(price.trim());
     }
 
     public boolean verifyUserLogoutSuccessFully(){
