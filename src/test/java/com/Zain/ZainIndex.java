@@ -16,12 +16,12 @@ public class ZainIndex extends ZainProvider {
     }
 
     @Test(dataProvider = "Zain")
-    public void testCaseScenario_01(String username, String password) throws IOException {
+    public void verifyLogin_Dashboard_Price(String username, String password) throws IOException {
 
         int numOfFailedSteps = 0;
         _logStep = 1;
 
-        testCaseLog("Zain_TestScenario :: To perform login, verify Dashboard and Add device from E-Shop");
+        testCaseLog("TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.");
 
         zainIndexPage.getVersion();
 

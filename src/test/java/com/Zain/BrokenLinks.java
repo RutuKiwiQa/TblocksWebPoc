@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -19,22 +20,19 @@ public class BrokenLinks extends BrokenLinksProvider {
     public BrokenLinks() throws IOException {
     }
     protected static int _logStep = 1;
+    WebDriver driver;
 
     @Test(dataProvider = "BrokenLinks")
     public void BrokenLinkTestCase(String urlFromExcel) throws IOException, InterruptedException {
-
-//    @Test
-//    public void BrokenLinkTestCase() throws InterruptedException, IOException {
 
         int numOfFailedSteps = 0;
         _logStep = 1;
         boolean flag = false;
 
-        Common.log("BrokenLinks :: To verify broken links of the web page.");
+        Common.log("TS_WEB_002 :: To verify broken links of the web page.");
 
         System.setProperty("webdriver.chrome.driver", "E:\\TBLOCKS_WEB_POC\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-
+        driver = new ChromeDriver();
 
         //maximize the page
         driver.manage().window().maximize();
@@ -47,11 +45,15 @@ public class BrokenLinks extends BrokenLinksProvider {
         //wait
         Thread.sleep(5000);
 
+        Common.log("<h3> WebLink for which broken link is been checked  : -  <a> "   + urlFromExcel + " </a> </h3>" );
+
         //capture links from a webpage
         List<WebElement> links = driver.findElements(By.tagName("a"));
 
         //number of links
-        System.out.println("Link size : " + links.size());
+        Common.log("<h4> Link Size : " +links.size() + " </h4> ");
+
+        Common.log(" <h4>List of Broken Links </h4>");
 
 
         //read each and every link
@@ -80,27 +82,28 @@ public class BrokenLinks extends BrokenLinksProvider {
                 //capture response code
                 int resCode = httpConn.getResponseCode(); //return response if res code is above 400 : broken link
 
+
+
                 if (resCode >= 400) {
-                    Common.log(url + " - " + "is a broken link.");
+                    Reporter.log("<br></br><img src=\"fail.png\" alt=\"Fail\" height=\"18\" width=\"18\"><Strong><font color=#ff0000>Fail</font></strong>");
+                    Common.log(url + " - " + " <br> is a broken link.");
+                    Common.log("<br> <br>");
                     flag = false;
                     numOfFailedSteps++;
 
                 } else {
-                    Common.log(url + " - " + "is a valid link.");
+                    Reporter.log("<br></br><img src=\"pass.png\" height=\"18\" width=\"18\"><Strong><font color=#008000>Pass</font></strong>");
+                    Common.log(url + " - " + " <br> is a valid link.");
+                    Common.log("<br> <br>");
                     flag = true;
 
                 }
-
             }
-
-
             if (numOfFailedSteps > 0) Assert.fail("Test Verification failed, please check test logs.");
         }
 
 
     }
-
-
 
     public static boolean isUrlValid(String url) throws UnknownHostException, SocketTimeoutException {
         try {
@@ -112,6 +115,12 @@ public class BrokenLinks extends BrokenLinksProvider {
         } catch (URISyntaxException e) {
             return false;
         }
+    }
+
+    @AfterTest
+    public void  tearDownTest(){
+        driver.close();
+        driver.quit();
     }
 }
 

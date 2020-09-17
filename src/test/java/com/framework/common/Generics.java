@@ -47,17 +47,7 @@ public class Generics extends TestLogger {
 
     protected static int _logStep = 1;
 
-    private static Faker faker = new Faker(new Locale("en-IND"));
-
-
-
     protected static WebDriverWait wait;
-
-    public static XSSFSheet ExcelWSheet;
-    public static XSSFWorkbook ExcelWBook;
-    public static XSSFCell Cell;
-    public static XSSFRow Row;
-
 
     /**
      * Pause for passed seconds
@@ -79,28 +69,12 @@ public class Generics extends TestLogger {
     }
 
     /**
-     * To clear and send the value to the text field
-     *
-     * @param webElement WebElement
-     * @param value      String Value
-     */
-    public static void type(WebElement webElement, String value) {
-        clear(webElement);
-        pause(1);
-        webElement.sendKeys(value);
-    }
-
-    /**
      * To clear the value from the text field
      *
      * @param webElement WebElement
      */
     public static void clear(WebElement webElement) {
         webElement.clear();
-    }
-
-    public static void sendKeys(WebElement webElement, String value) {
-        webElement.sendKeys(value);
     }
 
     /**
@@ -143,17 +117,6 @@ public class Generics extends TestLogger {
     }
 
     /**
-     * To get text from the element
-     *
-     * @param element WebElement
-     * @return Text from the WebElement
-     */
-
-    public static String getTextJS(WebDriver driver, WebElement element) {
-        return ((JavascriptExecutor) driver).executeScript("return $(arguments[0]).text();", element).toString();
-    }
-
-    /**
      * To check if element is available in page or not
      *
      * @param element WebElement
@@ -163,19 +126,6 @@ public class Generics extends TestLogger {
         return element.isDisplayed();
     }
 
-    /**
-     * To check if element is available in page or not
-     *
-     * @param element WebElement
-     * @return if web element display or not
-     */
-    public static boolean isElementPresent(WebElement element) {
-        try {
-            return element.isDisplayed();
-        } catch (NoSuchElementException nse) {
-            return false;
-        }
-    }
 
     /**
      * To find element by given xpath locator
@@ -189,57 +139,6 @@ public class Generics extends TestLogger {
     }
 
     /**
-     * To find element list by given xpath locator
-     *
-     * @param driver  Instance of WebDriver
-     * @param locator Locator String
-     * @return WebElement by passed locator
-     */
-    public static List<WebElement> findElementsByXPath(WebDriver driver, String locator) {
-        return driver.findElements(By.xpath(locator));
-    }
-
-    public static boolean isElementPresent(WebDriver driver, String locator) {
-        try {
-            return findElementByXPath(driver, locator).isDisplayed();
-        } catch (NoSuchElementException nse) {
-            return false;
-        }
-    }
-
-    /**
-     * @param driver  WebDriver
-     * @param element WebElement
-     */
-    public static void scrollToElement(WebDriver driver, WebElement element) {
-        Actions actions = new Actions(driver);
-        actions.moveToElement(element);
-        actions.perform();
-        pause(1);
-    }
-
-    public static void scrollElement(WebElement element) {
-        Coordinates cor = ((Locatable) element).getCoordinates();
-        cor.inViewPort();
-        pause(2);
-    }
-
-    public static void scrollToBottom(WebDriver driver) {
-        ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight)");
-    }
-
-    /**
-     * To highlight the selected element
-     *
-     * @param driver  WebDriver
-     * @param element WebElement
-     */
-    private static void highlightElement(WebDriver driver, WebElement element) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].style.border = '3px solid yellow'", element);
-        pause(2);
-    }
-
-    /**
      * To open the URL in browser window
      *
      * @param driver WebDriver
@@ -249,107 +148,16 @@ public class Generics extends TestLogger {
         driver.get(url);
     }
 
-    public static String getTitle(WebDriver driver) {
-        return driver.getTitle();
-    }
-
     public static void close(WebDriver driver) {
         driver.close();
-    }
-
-    /**
-     * To refresh the web page
-     *
-     * @param driver WebDriver
-     */
-    public static void refresh(WebDriver driver) {
-        driver.navigate().refresh();
-    }
-
-    /**
-     * To get string with the random characters for with the passed characters length limit
-     *
-     * @param length String length
-     * @return Random string
-     */
-    public static String getRandomCharacters(int length) {
-        return RandomStringUtils.randomAlphabetic(length);
-    }
-
-    /**
-     * To get the invalid email address
-     *
-     * @return Invalid Email Address
-     */
-    public static String getInvalidEmail() {
-        return getRandomFirstName().toLowerCase() + "." + getRandomLastName().toLowerCase() ;
-    }
-
-    public static String getRandomFirstName() {
-        return faker.name().firstName();
-    }
-
-    public static String getRandomLastName() {
-        return faker.name().lastName();
-    }
-
-
-
-
-    public static String getRandomIssueDescription(){
-        return faker.lorem().fixedString(20);
-    }
-
-    public static String getRandomNotes(){
-        return faker.lorem().fixedString(200);
-    }
-
-
-    /**
-     * To get the random number from 10000 to 99999
-     *
-     * @return Random Number
-     */
-    public static int getRandomNumberBetween(int min, int max) {
-        return faker.number().numberBetween(min, max);
-    }
-
-    public static int getRandomIndex(List list) {
-        return getRandomNumberBetween(0, lastIndexOf(list));
-    }
-
-    public static String getRandomMessage() {
-        return faker.lorem().fixedString(100);
-    }
-
-
-    public static boolean isListEmpty(List list) {
-        return list.size() == 0;
     }
 
     public static int sizeOf(List list) {
         return list.size();
     }
 
-    public static int lastIndexOf(List list) {
-        return sizeOf(list) - 1;
-    }
-
-    public static int getIntegerFromString(String str) {
-        return Integer.parseInt(str.replaceAll("[^0-9.]+", ""));
-    }
-
-    public static long getLongFromString(String str) {
-        return Long.parseLong(str.replaceAll("[^0-9.]+", ""));
-    }
-
     public static double getDoubleFromString(String str) {
         return Double.parseDouble(str.replaceAll("[^0-9.]+", ""));
-    }
-
-    public static double formatTwoDecimal(double num) {
-        DecimalFormat format = new DecimalFormat("0.00");
-        return getDoubleFromString(format.format(num));
     }
 
     /**
@@ -428,8 +236,6 @@ public class Generics extends TestLogger {
             e.printStackTrace();
         }
     }
-
-
 
     public static void deleteDownloadDirectory() {
         try {
@@ -515,89 +321,8 @@ public class Generics extends TestLogger {
     public void implicitWaitOf(WebDriver driver, int seconds) {
         driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
     }
-
-    /**
-     * To get the random password
-     *
-     * @return Random Password
-     */
-    public static String getRandomPassword() {
-        return getRandomCharacters(3).toLowerCase() +
-                getRandomCharacters(2).toUpperCase() + "@" + getRandomNumber();
     }
 
 
-    /**
-     * To get the random number from 10000 to 99999
-     *
-     * @return Random Number
-     */
-    public static int getRandomNumber() {
-        return faker.number().numberBetween(10000, 99999);
-    }
-
-    public static void scrollToTop(WebDriver driver) {
-
-        WebElement element = driver.findElement(By.tagName("header"));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].scrollIntoView();", element);
-
-    }
-
-    public static void openLinkInNewWindow(WebDriver driver, String url) {
-        ((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", url);
-        switchToWindow(driver);
-    }
-
-    public static void closeCurrentWindow(WebDriver driver) {
-        driver.close();
-        switchToWindow(driver);
-    }
-
-    public void mouseHoverTo(WebDriver driver, WebElement element) {
-        Actions action = new Actions(driver);
-        action.moveToElement(element).build().perform();
-        pause(1);
-    }
-
-    public static void switchToAlertAndAccept(WebDriver webDriver) {
-        try {
-            webDriver.switchTo().alert().accept();
-        } catch (Exception e) {
-            System.out.println("Failed to switch to the Alert");
-        }
-    }
-
-    public static void setCellData(String DataFile,String sheet, String Result,  int RowNum, int ColNum) throws Exception {
-        try
-        {
-            FileInputStream ExcelFile = new FileInputStream(DataFile);
-            ExcelWBook = new XSSFWorkbook(ExcelFile);
-            ExcelWSheet = ExcelWBook.getSheet(sheet);
-            Row  = ExcelWSheet.getRow(RowNum);
-            Cell = Row.getCell(ColNum);
-            if (Cell == null)
-            {
-                Cell = Row.createCell(ColNum);
-                Cell.setCellValue(Result);
-            }
-            else
-            {
-                Cell.setCellValue(Result);
-            }
-
-            /*Constant variables Test Data path and Test Data file name*/
-            FileOutputStream fileOut = new FileOutputStream(DataFile);
-            ExcelWBook.write(fileOut);
-            fileOut.flush();
-            fileOut.close();
-        }
-        catch(Exception e)
-        {
-            throw (e);
-        }
-    }
 
 
-}

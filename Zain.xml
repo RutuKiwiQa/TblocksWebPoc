@@ -9,17 +9,17 @@
         <listener class-name="com.framework.utility.CustomReporterListener"/>
     </listeners>
 
-    <test name="Zain_TestScenario :: To perform login, verify Dashboard and Add device from E-Shop">
+    <test name="ZainIndex_TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.">
         <classes>
             <class name="com.Zain.ZainIndex">
                 <methods>
-                    <include name="testCaseScenario_01"/>
+                    <include name="verifyLogin_Dashboard_Price"/>
                 </methods>
             </class>
         </classes>
     </test>
 
-    <test name="BrokenLinks :: To verify broken links of the web page.">
+    <test name="BrokenLinks_TS_WEB_002 :: To verify broken links of the web page.">
         <classes>
             <class name="com.Zain.BrokenLinks">
                 <methods>

@@ -30,7 +30,7 @@ public class ExtentInitializer implements Configuration {
 
         ExtentHtmlReporter htmlReporter;
         htmlReporter = new ExtentHtmlReporter(PROJECT_DIR + File.separator + "ExtentReports" +
-                File.separator + "Report_" + suiteName + "_" + System.currentTimeMillis() + ".html");
+                File.separator + "Report_" + suiteName + "_" + ".html");
 
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
@@ -49,7 +49,6 @@ public class ExtentInitializer implements Configuration {
         htmlReporter.config().setDocumentTitle("TBlocks Automation Test Report");
         htmlReporter.config().setReportName("<img src='https://www.kiwiqa.com/wp-content/uploads/2017/06/KiwiQA_option2.png' " +
                 "width='auto' height='40' style='margin-top: 5px;' align='center'/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" );
-     //   htmlReporter.config().setTheme(Theme.DARK);
     }
 
     static void flushReport() {

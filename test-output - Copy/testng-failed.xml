@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [TBlocks_POC_Zain_WebApplication]">
+  <listeners>
+    <listener class-name="com.framework.utility.CustomDetailReporter"/>
+    <listener class-name="com.framework.utility.CustomReporterEmailBuildSummary"/>
+    <listener class-name="com.framework.utility.CustomReporterforEmail"/>
+    <listener class-name="com.framework.utility.CustomReporterListener"/>
+  </listeners>
+  <test thread-count="1" verbose="10" name="Zain_TestScenario :: To perform login, verify Dashboard and Add device from E-Shop(failed)">
+    <classes>
+      <class name="com.Zain.ZainIndex">
+        <methods>
+          <include name="startReport"/>
+          <include name="testCaseScenario_01" invocation-numbers="0"/>
+          <include name="endReport"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Zain.ZainIndex -->
+    </classes>
+  </test> <!-- Zain_TestScenario :: To perform login, verify Dashboard and Add device from E-Shop(failed) -->
+  <test thread-count="1" verbose="10" name="BrokenLinks :: To verify broken links of the web page.(failed)">
+    <classes>
+      <class name="com.Zain.BrokenLinks">
+        <methods>
+          <include name="BrokenLinkTestCase" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.Zain.BrokenLinks -->
+    </classes>
+  </test> <!-- BrokenLinks :: To verify broken links of the web page.(failed) -->
+</suite> <!-- Failed suite [TBlocks_POC_Zain_WebApplication] -->
