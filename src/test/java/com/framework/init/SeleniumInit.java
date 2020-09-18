@@ -60,27 +60,6 @@ public class SeleniumInit extends Generics implements Configuration {
 
         DesiredCapabilities capability;
 
-        switch (PLATFORM.toLowerCase()){
-
-            case "windows":
-            case "Windows":
-              switch (BROWSER.toLowerCase()){
-                  case "firefox":
-                  case "mozilla firefox":
-                      capability = BrowserCaps.configureMozillaFirefox();
-                      driver = new FirefoxDriver(capability);
-                      break;
-                  case "chrome":
-                  case "google chrome":
-                  default:
-                      capability = BrowserCaps.configureGoogleChrome();
-                      driver = new ChromeDriver(capability);
-                      break;
-              } // end of  first switch
-                break;
-
-            case  "linux" : case "Linux" :
-            case "ubuntu":
                 switch (BROWSER.toLowerCase()){
                     case "firefox":
                     case "mozilla firefox":
@@ -90,30 +69,10 @@ public class SeleniumInit extends Generics implements Configuration {
                     case "chrome":
                     case "google chrome":
                     default:
-                        capability = BrowserCaps.configureGoogleChromeLinux();
+                        capability = BrowserCaps.configureGoogleChrome();
                         driver = new ChromeDriver(capability);
                         break;
-                } // end of second switch
-                break;
-
-            case "mac":
-            case "ios":
-            case "IOS":
-            case "Mac":
-                switch (BROWSER.toLowerCase()){
-                    case "safari":
-                        capability = BrowserCaps.configureSafari();
-                        driver = new SafariDriver(capability);
-                        break;
-                }
-                break;
-            default:
-                testWarningLog("Please enter approciate browser name and os name in config.properties, " +
-                        "according to the os and browser which you want to execute.");
-
-        }
-
-
+                } // end of  first switch
 
         implicitWaitOf(driver, 10);
         maximizeWindow(driver);
@@ -121,8 +80,8 @@ public class SeleniumInit extends Generics implements Configuration {
         zainIndexPage = new ZainIndexPage(driver);
         zainVerification = new ZainVerification(driver);
 
-             testUrl = URL;
-            openURL(driver, testUrl);
+        testUrl = URL;
+        openURL(driver, testUrl);
 
     }
 

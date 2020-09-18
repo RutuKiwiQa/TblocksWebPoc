@@ -6,7 +6,7 @@
       <class name="com.Zain.BrokenLinks">
         <methods>
           <include name="BrokenLinkTestCase" invocation-numbers="1"/>
-          <include name="tearDownTest"/>
+          <include name="suiteTearDown"/>
         </methods>
       </class> <!-- com.Zain.BrokenLinks -->
     </classes>

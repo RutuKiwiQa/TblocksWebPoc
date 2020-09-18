@@ -69,15 +69,6 @@ public class Generics extends TestLogger {
     }
 
     /**
-     * To clear the value from the text field
-     *
-     * @param webElement WebElement
-     */
-    public static void clear(WebElement webElement) {
-        webElement.clear();
-    }
-
-    /**
      * To click on particular WebElement
      *
      * @param driver  WebDriver
@@ -156,20 +147,6 @@ public class Generics extends TestLogger {
         return list.size();
     }
 
-    public static double getDoubleFromString(String str) {
-        return Double.parseDouble(str.replaceAll("[^0-9.]+", ""));
-    }
-
-    /**
-     * To get text from the element
-     *
-     * @param element WebElement
-     * @return Text from the WebElement
-     */
-    public static String getInnerText(WebElement element) {
-        return element.getAttribute("innerText").trim();
-    }
-
     /**
      * To get text from the element
      *
@@ -178,17 +155,6 @@ public class Generics extends TestLogger {
      */
     public static String getInnerValue(WebElement element) {
         return element.getAttribute("value").trim();
-    }
-
-
-    public static void switchToWindow(WebDriver driver) {
-        for (String winHandle : driver.getWindowHandles()) {
-            driver.switchTo().window(winHandle);
-        }
-    }
-
-    public static void switchToFrame(WebDriver driver, String id) {
-        driver.switchTo().frame(id);
     }
 
     /**
@@ -321,8 +287,7 @@ public class Generics extends TestLogger {
     public void implicitWaitOf(WebDriver driver, int seconds) {
         driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
     }
-    }
-
+}
 
 
 

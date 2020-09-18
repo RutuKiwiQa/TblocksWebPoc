@@ -1,8 +1,6 @@
 package com.utils;
 
-import com.framework.common.Generics;
 import com.framework.configurations.Configuration;
-import com.framework.init.SeleniumInit;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -53,5 +51,7 @@ public class BrokenLinksProvider implements Configuration {
         }
         return data;
     }
+
+
 
 }

@@ -2,28 +2,40 @@ package com.Zain;
 
 import com.framework.common.Common;
 import com.utils.BrokenLinksProvider;
+import com.utils.WriteIntoExcel;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.*;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class BrokenLinks extends BrokenLinksProvider {
     public BrokenLinks() throws IOException {
     }
     protected static int _logStep = 1;
+    protected static int _serialNo =1;
     WebDriver driver;
+    public static String ExcelOutput = PROJECT_DIR + File.separator + "Excel" + File.separator + "SaveToExcel.xlsx";
 
-    @Test(dataProvider = "BrokenLinks")
-    public void BrokenLinkTestCase(String urlFromExcel) throws IOException, InterruptedException {
+    @Test(dataProvider = "BrokenLinks",description = "BrokenLinks Checking" ,priority = 1)
+    public void BrokenLinkTestCase(String urlFromExcel) throws Exception {
 
         int numOfFailedSteps = 0;
         _logStep = 1;
@@ -87,12 +99,14 @@ public class BrokenLinks extends BrokenLinksProvider {
                     Common.log(url + " - " + " <br> is a broken link.");
                     Common.log("<br> <br>");
                     flag = false;
+                    WriteIntoExcel.writeIntoExcel(urlFromExcel,url,200,resCode,"Fail");
                     numOfFailedSteps++;
 
                 } else {
                     Reporter.log("<br></br><img src=\"pass.png\" height=\"18\" width=\"18\"><Strong><font color=#008000>Pass</font></strong>");
                     Common.log(url + " - " + " <br> is a valid link.");
                     Common.log("<br> <br>");
+                    WriteIntoExcel.writeIntoExcel(urlFromExcel,url,200,resCode,"Pass");
                     flag = true;
 
                 }
@@ -114,8 +128,9 @@ public class BrokenLinks extends BrokenLinksProvider {
         }
     }
 
-    @AfterTest
-    public void  tearDownTest(){
+    @AfterClass
+    public void suiteTearDown() {
+        // close the browser
         driver.close();
         driver.quit();
     }

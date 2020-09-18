@@ -16,24 +16,16 @@ import java.util.Properties;
 
 public interface Configuration {
 
-
     Properties configProp = new Properties();
 
    String configurationPath = "Resources/config.properties";
 
-
     String PROJECT_DIR = getProjectDir();
 
-
-    String PLATFORM = getProperty("platform");
     String BROWSER = getProperty("browser");
     String URL = getProperty("requestor_url");
 
     String FILE_DOWNLOAD_PATH = PROJECT_DIR + File.separator + "download";
-    String FILE_CHROME_LINUX = PROJECT_DIR + File.separator + "chromeLinux";
-
-    String WORKBOOK = PROJECT_DIR + File.separator + "Excel" + File.separator + "Data.xlsx";
-
 
     /**
      * To get the current project directory path
