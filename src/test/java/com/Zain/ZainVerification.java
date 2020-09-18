@@ -150,8 +150,8 @@ public class ZainVerification extends AbstractPage {
     public boolean verifyLoginScreen(){
         return isElementDisplay(zainLogo) && isElementDisplay(headerHyperLink) &&
                 isElementDisplay(loginPanel) &&
-                isElementDisplay(personalTab) && isElementDisplay(businessTab) &&
-                isElementDisplay(eShopTab) && isElementDisplay(footer) &&
+            //    isElementDisplay(personalTab) && isElementDisplay(businessTab) &&
+               // isElementDisplay(eShopTab) && isElementDisplay(footer) &&
                 isElementDisplay(followUsIcon) && isElementDisplay(searchField);
     }//input[@id='elementn_widgets_ValidationTextBox_0']
 

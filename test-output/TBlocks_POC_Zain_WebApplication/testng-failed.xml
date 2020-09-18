@@ -7,19 +7,6 @@
     <listener class-name="com.framework.utility.CustomReporterforEmail"/>
     <listener class-name="com.framework.utility.CustomReporterListener"/>
   </listeners>
-  <test thread-count="1" verbose="10" name="ZainIndex_TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.(failed)">
-    <classes>
-      <class name="com.Zain.ZainIndex">
-        <methods>
-          <include name="startReport"/>
-          <include name="endReport"/>
-          <include name="setUp"/>
-          <include name="verifyLogin_Dashboard_Price" invocation-numbers="0"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.Zain.ZainIndex -->
-    </classes>
-  </test> <!-- ZainIndex_TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.(failed) -->
   <test thread-count="1" verbose="10" name="BrokenLinks_TS_WEB_002 :: To verify broken links of the web page.(failed)">
     <classes>
       <class name="com.Zain.BrokenLinks">
