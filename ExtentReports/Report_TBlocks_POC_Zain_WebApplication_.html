@@ -47,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Sep 17, 2020 03:04:35 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Sep 17, 2020 04:38:16 PM</span>
 				</a>
 			</li>
 			<li>
@@ -73,6 +73,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -123,10 +124,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -138,10 +139,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='27.273%'><span class='strong'>9</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='17.5%'><span class='strong'>7</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='72.727%'>24</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='12.5%'>5</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='70%'>28</span> others
 				</div>
 			</div>
 		</div>
@@ -156,17 +157,17 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</span>
-						<span class='test-time'>Sep 17, 2020 03:04:50 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 17, 2020 04:38:44 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 17, 2020 03:04:50 PM</span>
-	<span class='label end-time'>Sep 17, 2020 03:06:10 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 1m 19s+856ms</span>
+	<span class='label start-time'>Sep 17, 2020 04:38:44 PM</span>
+	<span class='label end-time'>Sep 17, 2020 04:40:10 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 26s+733ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='author-list'>
@@ -185,27 +186,27 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:00 PM</td>
+					<td class='timestamp'>4:38:54 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Version is not available for the current build.</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:10 PM</td>
+					<td class='timestamp'>4:39:04 PM</td>
 					<td class='step-details'><span class='label white-text orange'>To verify that user can see the home page of the " Zain Web Application " .</span></td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:05:11 PM</td>
+					<td class='timestamp'>4:39:05 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:11 PM</td>
+					<td class='timestamp'>4:39:05 PM</td>
 					<td class='step-details'>Click on My Zain Account button from the top right corner of the web application.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:22 PM</td>
+					<td class='timestamp'>4:39:16 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
 <br> 6. E-Shop Tab.
 <br> 7. I am looking for Search field.
@@ -216,27 +217,27 @@
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:05:22 PM</td>
+					<td class='timestamp'>4:39:16 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:22 PM</td>
+					<td class='timestamp'>4:39:16 PM</td>
 					<td class='step-details'>Enter Credentials for login.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:23 PM</td>
+					<td class='timestamp'>4:39:17 PM</td>
 					<td class='step-details'>Email Address : voicetest290@gmail.com</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:24 PM</td>
+					<td class='timestamp'>4:39:17 PM</td>
 					<td class='step-details'>Click on Sign in button.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:35 PM</td>
+					<td class='timestamp'>4:39:29 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
 <br> 2. Add to cart button
 <br> 3. Zain Logo
@@ -253,122 +254,160 @@
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:38 PM</td>
+					<td class='timestamp'>4:39:33 PM</td>
 					<td class='step-details'>Logged in User Name :  : Rutu Shah</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:38 PM</td>
+					<td class='timestamp'>4:39:33 PM</td>
 					<td class='step-details'>Logged in User's NickName :  : Rutu</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:05:38 PM</td>
+					<td class='timestamp'>4:39:33 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:38 PM</td>
+					<td class='timestamp'>4:39:33 PM</td>
 					<td class='step-details'>Click on E-Shop Tab.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:42 PM</td>
+					<td class='timestamp'>4:39:42 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Verify user can see E-Shop Screen's content.</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:46 PM</td>
+					<td class='timestamp'>4:39:43 PM</td>
 					<td class='step-details'>Total Available Products :  : 5</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:05:46 PM</td>
+					<td class='timestamp'>4:39:43 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:46 PM</td>
+					<td class='timestamp'>4:39:43 PM</td>
 					<td class='step-details'>Click on First available product.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:51 PM</td>
+					<td class='timestamp'>4:39:49 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Verify selected product screen.</span></td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:05:53 PM</td>
+					<td class='timestamp'>4:39:52 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:53 PM</td>
+					<td class='timestamp'>4:39:52 PM</td>
 					<td class='step-details'>Observe and click on the first thumbnail.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:58 PM</td>
+					<td class='timestamp'>4:39:58 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Verify user can see information page of the thumbnail.</span></td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:05:59 PM</td>
+					<td class='timestamp'>4:40:00 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:05:59 PM</td>
+					<td class='timestamp'>4:40:00 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Verify select Iphone SE with black color and model number</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:06:01 PM</td>
+					<td class='timestamp'>4:40:01 PM</td>
 					<td class='step-details'>Currently selected Mobile Color :   : White</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:06:01 PM</td>
-					<td class='step-details'><span class='label white-text orange'>Currently selected Mobile Model  : 64 GB</span></td>
+					<td class='timestamp'>4:40:01 PM</td>
+					<td class='step-details'><span class='label white-text orange'>Currently selected Mobile Model  : 128 GB</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:06:01 PM</td>
-					<td class='step-details'><span class='label white-text orange'>Currently selected Mobile price   : 1819.00</span></td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:06:01 PM</td>
-					<td class='step-details'><span class='label white-text green'>PASS</span></td>
+					<td class='timestamp'>4:40:01 PM</td>
+					<td class='step-details'><span class='label white-text orange'>Currently selected Mobile price   : 2099.00</span></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:06:01 PM</td>
+					<td class='timestamp'>4:40:02 PM</td>
+					<td class='step-details'>Step Failure<br>Please check attached screenshot : <br><br> : <img src='../test-output/screenshots/0917164001399.png' width='683' height='384'/></td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>4:40:02 PM</td>
+					<td class='step-details'><span class='label white-text red'>FAIL</span></td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>4:40:02 PM</td>
 					<td class='step-details'>Click on user name</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:06:01 PM</td>
+					<td class='timestamp'>4:40:02 PM</td>
 					<td class='step-details'>Click on Logout.</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:06:10 PM</td>
+					<td class='timestamp'>4:40:09 PM</td>
 					<td class='step-details'><span class='label white-text orange'>Verify the user is logout successfully.</span></td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:06:10 PM</td>
+					<td class='timestamp'>4:40:09 PM</td>
 					<td class='step-details'><span class='label white-text green'>PASS</span></td>
 				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:06:10 PM</td>
-					<td class='step-details'><span class='label white-text green'>verifyLogin_Dashboard_Price Test Case PASSED</span></td>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>4:40:09 PM</td>
+					<td class='step-details'><span class='label white-text red'>verifyLogin_Dashboard_Price - Test Case Failed</span></td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>4:40:09 PM</td>
+					<td class='step-details'><span class='label white-text red'>java.lang.AssertionError: Test Verification failed, please check test logs. - Test Case Failed</span></td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>4:40:10 PM</td>
+					<td class='step-details'>Test Case Failed Snapshot is below com.aventstack.extentreports.ExtentTest@7b3315a5</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>4:40:10 PM</td>
+					<td class='step-details'>Step Failure<br>Please check attached screenshot : <br><br> : <img src='../test-output/screenshots/0917164010369verifyLogin_Dashboard_Price.png' width='683' height='384'/></td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>4:40:10 PM</td>
+					<td class='step-details'><span class='label white-text red'>FAIL</span></td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>4:40:10 PM</td>
+					<td class='step-details'>Failure Reason: :</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>4:40:10 PM</td>
+					<td class='step-details'><span class='label white-text pink'>java.lang.AssertionError: Test Verification failed, please check test logs.</span></td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='E:\TBLOCKS_WEB_POC/Screenshots/verifyLogin_Dashboard_Price20200917044009.png' width='10%' src='E:\TBLOCKS_WEB_POC/Screenshots/verifyLogin_Dashboard_Price20200917044009.png' data-src='E:\TBLOCKS_WEB_POC/Screenshots/verifyLogin_Dashboard_Price20200917044009.png'></li>
+							</ul>
 					</div>
 				</li>
 			</ul>
@@ -425,13 +464,13 @@
                             <div class='author-heading'>
                                 <span class='author-name'>RutuShah</span>
                                 <span class='author-status right'>
-                                        <span class='label pass'>1</span>
+                                        <span class='label fail'>1</span>
 						        </span>
                             </div>
                             <div class='author-content hide'>
                                 <div class='author-status-counts'>
-                                    <span class='label green accent-4 white-text'>Passed: 1</span>
                                     
+                                    <span class='label red lighten-1 white-text'>Failed: 1</span>
                                     
                                 </div>
 
@@ -446,9 +485,9 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Sep 17, 2020 03:04:50 PM</td>
+                                                <td>Sep 17, 2020 04:38:44 PM</td>
                                                 <td class='linked' test-id='1'>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</td>
-                                                <td><span class='test-status pass'>pass</span></td>
+                                                <td><span class='test-status fail'>fail</span></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -481,25 +520,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>33</div>
+					<div class='panel-lead'>40</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 17, 2020 03:04:35 PM</div>
+					<div class='panel-lead'>Sep 17, 2020 04:38:16 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 17, 2020 03:10:20 PM</div>
+			 		<div class='panel-lead'>Sep 17, 2020 04:43:55 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>345,048ms</div>
+					<div class='panel-lead'>338,613ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -540,22 +579,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
-				failParent: 0,
+				passParent: 0,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				
-				passChild: 9,
-				failChild: 0,
+				passChild: 7,
+				failChild: 5,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 24,
-				exceptionsChild: 0,
+				infoChild: 28,
+				exceptionsChild: 5,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

@@ -29,7 +29,7 @@ public class BrokenLinks extends BrokenLinksProvider {
         _logStep = 1;
         boolean flag = false;
 
-        Common.log("TS_WEB_002 :: To verify broken links of the web page.");
+        Common.log(" <h2> TS_WEB_002 :: To verify broken links of the web page. </h2>");
 
         System.setProperty("webdriver.chrome.driver", "E:\\TBLOCKS_WEB_POC\\chromedriver.exe");
         driver = new ChromeDriver();
