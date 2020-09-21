@@ -7,14 +7,12 @@ import com.Zain.ZainVerification;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.framework.common.Generics;
+import com.framework.common.Common;
 import com.framework.configurations.Configuration;
-import com.framework.logger.TestLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
@@ -34,11 +32,9 @@ import java.lang.reflect.Method;
  * Project Name: TBLOCKS_Web_Zain_POC
  */
 
-public class SeleniumInit extends Generics implements Configuration {
+public class SeleniumInit extends Common implements Configuration {
 
     public WebDriver driver;
-    public static String _methodName;
-    protected static WebDriverWait wait;
     public static String testUrl;
 
     protected ZainIndexPage zainIndexPage;
@@ -47,7 +43,7 @@ public class SeleniumInit extends Generics implements Configuration {
 
     @BeforeSuite(alwaysRun = true)
     public void startReport(ITestContext testContext) {
-        ExtentInitializer.initializeReport(testContext.getCurrentXmlTest().getSuite().getName());
+        ExtentReporter.initializeReport(testContext.getCurrentXmlTest().getSuite().getName());
     }
 
     /**
@@ -60,19 +56,19 @@ public class SeleniumInit extends Generics implements Configuration {
 
         DesiredCapabilities capability;
 
-                switch (BROWSER.toLowerCase()){
-                    case "firefox":
-                    case "mozilla firefox":
-                        capability = BrowserCaps.configureMozillaFirefox();
-                        driver = new FirefoxDriver(capability);
-                        break;
-                    case "chrome":
-                    case "google chrome":
-                    default:
-                        capability = BrowserCaps.configureGoogleChrome();
-                        driver = new ChromeDriver(capability);
-                        break;
-                } // end of  first switch
+        switch (BROWSER.toLowerCase()){
+            case "firefox":
+            case "mozilla firefox":
+                capability = BrowserCaps.configureMozillaFirefox();
+                driver = new FirefoxDriver(capability);
+                break;
+            case "chrome":
+            case "google chrome":
+            default:
+                capability = BrowserCaps.configureGoogleChrome();
+                driver = new ChromeDriver(capability);
+                break;
+        } // end of  first switch
 
         implicitWaitOf(driver, 10);
         maximizeWindow(driver);
@@ -117,7 +113,7 @@ public class SeleniumInit extends Generics implements Configuration {
                 String screenshotName = getCurrentTimeStampString() + testName;
 
                 makeScreenshot(driver, screenshotName);
-                TestLogger.failure();
+                failure();
 
                 getShortException(ex.getFailedTests());
 
@@ -149,7 +145,7 @@ public class SeleniumInit extends Generics implements Configuration {
      */
     @AfterSuite(alwaysRun = true)
     public void endReport() {
-        ExtentInitializer.flushReport();
+        ExtentReporter.flushReport();
     }
 
 }

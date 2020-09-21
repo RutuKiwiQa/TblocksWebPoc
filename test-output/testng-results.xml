@@ -638,12 +638,12 @@
       <![CDATA[<br> <br>]]>
     </line>
   </reporter-output>
-  <suite name="TBlocks_POC_Zain_WebApplication" duration-ms="304524" started-at="2020-09-18T18:41:40 IST" finished-at="2020-09-18T18:46:45 IST">
+  <suite name="TBlocks_POC_Zain_WebApplication" duration-ms="356234" started-at="2020-09-21T09:20:01 IST" finished-at="2020-09-21T09:25:57 IST">
     <groups>
     </groups>
-    <test name="ZainIndex_TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification." duration-ms="91220" started-at="2020-09-18T18:41:40 IST" finished-at="2020-09-18T18:43:11 IST">
+    <test name="ZainIndex_TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification." duration-ms="130474" started-at="2020-09-21T09:20:01 IST" finished-at="2020-09-21T09:22:11 IST">
       <class name="com.Zain.ZainIndex">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.Zain.ZainIndex@45385f75]" name="setUp" is-config="true" duration-ms="14848" started-at="2020-09-18T18:41:40 IST" finished-at="2020-09-18T18:41:55 IST">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.Zain.ZainIndex@1df8da7a]" name="setUp" is-config="true" duration-ms="20047" started-at="2020-09-21T09:20:01 IST" finished-at="2020-09-21T09:20:21 IST">
           <params>
             <param index="0">
               <value>
@@ -654,7 +654,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLogin_Dashboard_Price(java.lang.String, java.lang.String)[pri:0, instance:com.Zain.ZainIndex@45385f75]" name="verifyLogin_Dashboard_Price" duration-ms="75293" started-at="2020-09-18T18:41:55 IST" data-provider="Zain" finished-at="2020-09-18T18:43:10 IST">
+        <test-method status="PASS" signature="verifyLogin_Dashboard_Price(java.lang.String, java.lang.String)[pri:0, instance:com.Zain.ZainIndex@1df8da7a]" name="verifyLogin_Dashboard_Price" duration-ms="107833" started-at="2020-09-21T09:20:21 IST" data-provider="Zain" finished-at="2020-09-21T09:22:09 IST">
           <params>
             <param index="0">
               <value>
@@ -787,11 +787,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLogin_Dashboard_Price -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Zain.ZainIndex@45385f75]" name="tearDown" is-config="true" duration-ms="957" started-at="2020-09-18T18:43:10 IST" finished-at="2020-09-18T18:43:11 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Zain.ZainIndex@1df8da7a]" name="tearDown" is-config="true" duration-ms="2444" started-at="2020-09-21T09:22:09 IST" finished-at="2020-09-21T09:22:11 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogin_Dashboard_Price status=SUCCESS method=ZainIndex.verifyLogin_Dashboard_Price(java.lang.String, java.lang.String)[pri:0, instance:com.Zain.ZainIndex@45385f75] output=<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]]>
+                <![CDATA[[TestResult name=verifyLogin_Dashboard_Price status=SUCCESS method=ZainIndex.verifyLogin_Dashboard_Price(java.lang.String, java.lang.String)[pri:0, instance:com.Zain.ZainIndex@1df8da7a] output=<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]]>
               </value>
             </param>
           </params>
@@ -800,26 +800,26 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.Zain.ZainIndex -->
     </test> <!-- ZainIndex_TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification. -->
-    <test name="BrokenLinks_TS_WEB_002 :: To verify broken links of the web page." duration-ms="213272" started-at="2020-09-18T18:43:11 IST" finished-at="2020-09-18T18:46:45 IST">
+    <test name="BrokenLinks_TS_WEB_002 :: To verify broken links of the web page." duration-ms="225736" started-at="2020-09-21T09:22:11 IST" finished-at="2020-09-21T09:25:57 IST">
       <class name="com.Zain.ZainIndex">
-        <test-method status="PASS" signature="startReport(org.testng.ITestContext)[pri:0, instance:com.Zain.ZainIndex@45385f75]" name="startReport" is-config="true" duration-ms="139" started-at="2020-09-18T18:41:40 IST" finished-at="2020-09-18T18:41:40 IST">
+        <test-method status="PASS" signature="startReport(org.testng.ITestContext)[pri:0, instance:com.Zain.ZainIndex@1df8da7a]" name="startReport" is-config="true" duration-ms="153" started-at="2020-09-21T09:20:00 IST" finished-at="2020-09-21T09:20:01 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5fa23c]]>
+                <![CDATA[org.testng.TestRunner@2f5ac102]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.Zain.ZainIndex@45385f75]" name="endReport" is-config="true" duration-ms="490" started-at="2020-09-18T18:46:45 IST" finished-at="2020-09-18T18:46:45 IST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.Zain.ZainIndex@1df8da7a]" name="endReport" is-config="true" duration-ms="696" started-at="2020-09-21T09:25:57 IST" finished-at="2020-09-21T09:25:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.Zain.ZainIndex -->
       <class name="com.Zain.BrokenLinks">
-        <test-method status="PASS" signature="BrokenLinkTestCase(java.lang.String)[pri:1, instance:com.Zain.BrokenLinks@6cc4cdb9]" name="BrokenLinkTestCase" duration-ms="130323" started-at="2020-09-18T18:43:11 IST" description="BrokenLinks Checking" data-provider="BrokenLinks" finished-at="2020-09-18T18:45:22 IST">
+        <test-method status="PASS" signature="BrokenLinkTestCase(java.lang.String)[pri:1, instance:com.Zain.BrokenLinks@24105dc5]" name="BrokenLinkTestCase" duration-ms="132646" started-at="2020-09-21T09:22:11 IST" description="BrokenLinks Checking" data-provider="BrokenLinks" finished-at="2020-09-21T09:24:24 IST">
           <params>
             <param index="0">
               <value>
@@ -1148,7 +1148,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- BrokenLinkTestCase -->
-        <test-method status="FAIL" signature="BrokenLinkTestCase(java.lang.String)[pri:1, instance:com.Zain.BrokenLinks@6cc4cdb9]" name="BrokenLinkTestCase" duration-ms="82056" started-at="2020-09-18T18:45:22 IST" description="BrokenLinks Checking" data-provider="BrokenLinks" finished-at="2020-09-18T18:46:44 IST">
+        <test-method status="FAIL" signature="BrokenLinkTestCase(java.lang.String)[pri:1, instance:com.Zain.BrokenLinks@24105dc5]" name="BrokenLinkTestCase" duration-ms="87953" started-at="2020-09-21T09:24:24 IST" description="BrokenLinks Checking" data-provider="BrokenLinks" finished-at="2020-09-21T09:25:52 IST">
           <params>
             <param index="0">
               <value>
@@ -1158,10 +1158,10 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Test Verification failed, please check test logs.]]>
+              <![CDATA[Test Verification failed, please check test log1s.]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test Verification failed, please check test logs.
+              <![CDATA[java.lang.AssertionError: Test Verification failed, please check test log1s.
 at org.testng.Assert.fail(Assert.java:99)
 at com.Zain.BrokenLinks.BrokenLinkTestCase(BrokenLinks.java:114)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1398,7 +1398,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
             </line>
           </reporter-output>
         </test-method> <!-- BrokenLinkTestCase -->
-        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.Zain.BrokenLinks@6cc4cdb9]" name="suiteTearDown" is-config="true" duration-ms="818" started-at="2020-09-18T18:46:44 IST" finished-at="2020-09-18T18:46:45 IST">
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.Zain.BrokenLinks@24105dc5]" name="suiteTearDown" is-config="true" duration-ms="5033" started-at="2020-09-21T09:25:52 IST" finished-at="2020-09-21T09:25:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->

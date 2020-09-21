@@ -2,43 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56f5b89-aba1-40c3-9b54-f6ff77772d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Excel/SaveToExcel.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SaveToExcel.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/utils/WriteIntoExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Excel/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/Data.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication_.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaveToExcel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/SaveToExcel.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Zain/BrokenLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zain/BrokenLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/common/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/common/Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/common/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/common/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/common/Generics.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/configurations/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/configurations/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/init/BrowserCaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/BrowserCaps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/init/ExtentInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/ExtentInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/init/ExtentInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/ExtentReporter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/init/SeleniumInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/SeleniumInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/logger/TestLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/logger/TestLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/BrokenLinksProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/BrokenLinksProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/logger/TestLogger.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/CustomReporterforEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/CustomReporterforEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TBLOCKS_WEB_POC.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TBLOCKS_WEB_POC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TBLOCKS_WEB_POC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TBLOCKS_WEB_POC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/KQIIA_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/KQIIA_Report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.BrokenLinks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.BrokenLinks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.ZainIndex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.ZainIndex.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +54,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../InCashMe_WebClone/incashme_super_agent_automation-selenium" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TBLOCKS_WEB_POC - Copy" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -173,11 +158,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.WriteIntoExcel" />
       <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase" />
       <item itemvalue="TestNG.E:/TBLOCKS_WEB_POC/Zain.xml" />
-      <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase (1)" />
       <item itemvalue="TestNG.ZainIndex.verifyLogin_Dashboard_Price" />
-      <item itemvalue="Application.WriteIntoExcel" />
     </list>
     <recent_temporary>
       <list>
@@ -185,7 +169,6 @@
         <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase" />
         <item itemvalue="Application.WriteIntoExcel" />
         <item itemvalue="TestNG.ZainIndex.verifyLogin_Dashboard_Price" />
-        <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600406777240</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="September 18th 2020">
+      <created>1600436308698</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600436308698</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -328,46 +318,46 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600182960680" />
-    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600433310487">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600660166648">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1600433310487" />
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1600660166648" />
     <state x="553" y="272" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1600257618772">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="553" y="272" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1600.860@0.0.1600.860" timestamp="1600257618771" />
-    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600432917731">
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600659523168">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600432917731" />
-    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600406774548">
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600659523168" />
+    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600436303303">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600406774548" />
+    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600436303303" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1600257855182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1600257855182" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1600410009844">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1600657766787">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600410009844" />
-    <state width="1557" height="238" key="GridCell.Tab.0.bottom" timestamp="1600435510696">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600657766787" />
+    <state width="1557" height="238" key="GridCell.Tab.0.bottom" timestamp="1600660665381">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="238" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600435510696" />
-    <state width="1557" height="238" key="GridCell.Tab.0.center" timestamp="1600435510696">
+    <state width="1557" height="238" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600660665381" />
+    <state width="1557" height="238" key="GridCell.Tab.0.center" timestamp="1600660665381">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="238" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600435510696" />
-    <state width="1557" height="238" key="GridCell.Tab.0.left" timestamp="1600435510696">
+    <state width="1557" height="238" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600660665381" />
+    <state width="1557" height="238" key="GridCell.Tab.0.left" timestamp="1600660665381">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="238" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600435510696" />
-    <state width="1557" height="238" key="GridCell.Tab.0.right" timestamp="1600435510696">
+    <state width="1557" height="238" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600660665381" />
+    <state width="1557" height="238" key="GridCell.Tab.0.right" timestamp="1600660665381">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="238" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600435510696" />
+    <state width="1557" height="238" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600660665381" />
     <state x="330" y="85" key="Maven.ArtifactSearchDialog" timestamp="1600430564582">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -376,10 +366,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="15" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600432272256" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600406779875">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600436318299">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600406779875" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600436318299" />
     <state x="616" y="211" key="chooseDestDirectoryDialog" timestamp="1600249977066">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -400,16 +390,5 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1600169983959" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/Zain/BrokenLinks.java</url>
-          <line>107</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

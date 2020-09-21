@@ -16,7 +16,7 @@ import java.io.File;
  * Time:
  * Project Name: TBLOCKS_Web_Zain_POC
  */
-public class ExtentInitializer implements Configuration {
+public class ExtentReporter implements Configuration {
 
     protected static ExtentReports extent;
     protected static ExtentTest logger;

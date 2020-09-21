@@ -18,7 +18,7 @@ public interface Configuration {
 
     Properties configProp = new Properties();
 
-   String configurationPath = "Resources/config.properties";
+    String configurationPath = "Resources/config.properties";
 
     String PROJECT_DIR = getProjectDir();
 
@@ -48,7 +48,7 @@ public interface Configuration {
             input = new FileInputStream(configurationPath);
             configProp.load(input);
         } catch (Exception e) {
-            Common.log("Error occurred while reading the file.");
+            Common.log1("Error occurred while reading the file.");
         } finally {
             if (input != null) {
                 try {

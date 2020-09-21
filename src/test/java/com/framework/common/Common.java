@@ -1,22 +1,24 @@
 package com.framework.common;
 
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.framework.init.ExtentReporter;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.Augmenter;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
+import org.testng.IResultMap;
+import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.internal.Utils;
 
-import java.awt.*;
-import java.awt.datatransfer.StringSelection;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Rutu shah.
@@ -25,138 +27,11 @@ import java.util.*;
  * Project Name: TBLOCKS_Web_Zain_POC
  */
 
-public class Common {
+public class Common extends ExtentReporter {
 
-    protected static Wait<WebDriver> wait;
+    protected static int _logStep = 1;
 
-    /**
-     * Scroll Horizontal in Page
-     *
-     * @param driver  WebDriver Instance
-     * @param element WebElement
-     */
-    public static void scrollToHorizontal(WebDriver driver, WebElement element) {
-
-        Actions action = new Actions(driver);
-        WebElement draggablePartOfScrollbar = element;
-
-        int numberOfPixelsToDragTheScrollbarDown = 50;
-
-        for (int i = 10; i < 500; i = i + numberOfPixelsToDragTheScrollbarDown) {
-            try {
-                action.moveToElement(draggablePartOfScrollbar).clickAndHold()
-                        .moveByOffset(numberOfPixelsToDragTheScrollbarDown, 0).release().perform();
-                Thread.sleep(1000L);
-            } catch (Exception e1) {
-                log("Failed to scroll Horizontal");
-            }
-        }
-    }
-
-    public static void scrollToVertical(WebDriver driver, WebElement element) {
-
-        Actions action = new Actions(driver);
-        WebElement draggablePartOfScrollbar = element;
-
-        int numberOfPixelsToDragTheScrollbarDown = 50;
-        for (int i = 10; i < 500; i = i + numberOfPixelsToDragTheScrollbarDown) {
-            try {
-                action.moveToElement(draggablePartOfScrollbar).clickAndHold()
-                        .moveByOffset(0, numberOfPixelsToDragTheScrollbarDown).release().perform();
-                Thread.sleep(1000L);
-            } catch (Exception e1) {
-                log("Failed to scroll vertical");
-            }
-        }
-
-    }
-
-    public static void checkChkBox(WebElement element) {
-        boolean isCheckBoxSet;
-        isCheckBoxSet = element.isSelected();
-        if (!isCheckBoxSet) {
-            element.click();
-        }
-    }
-
-    public static void switchToAlert(WebDriver webDriver) {
-        try {
-            webDriver.switchTo().alert();
-        } catch (Exception e) {
-            log("Failed to switch to the Alert");
-        }
-    }
-
-    public static void openMailinator(WebDriver driver, String emailAddress) {
-        String url = "https://www.mailinator.com/";
-        goToUrl(driver, url);
-        WebElement eleInbox = driver.findElement(By.xpath(".//*[@id='inboxfield']"));
-        eleInbox.sendKeys(emailAddress);
-        driver.findElement(By.xpath("//button[contains(@class,'btn-dark')]")).click();
-        Generics.pause(2);
-    }
-
-    public static void openEmail(WebDriver driver) {
-        WebElement eleFrame = driver.findElement(By.xpath("//iframe[@id='msg_body']"));
-        driver.switchTo().frame(eleFrame);
-        Generics.pause(1);
-        WebElement eleInbox = driver.findElement(By.xpath("//div//div[contains(.,'Verify your email')]"));
-        eleInbox.click();
-        Generics.pause(1);
-        WebElement eleBtnVerify = driver.findElement(By.xpath("//td/a[contains(.,'Verify my email')]"));
-        eleBtnVerify.click();
-        Generics.pause(1);
-    }
-
-    public static String getCurrentUrl(WebDriver driver) {
-        return driver.getCurrentUrl();
-    }
-
-    public static String replaceString(String baseString, String targetString, String replaceString) {
-        String newString = baseString.replace(targetString, replaceString);
-        return newString;
-    }
-
-    public static void openNewTab(WebDriver driver) {
-        String selectLinkOpeninNewTab = Keys.chord(Keys.COMMAND, "t");
-        driver.findElement(By.tagName("body")).sendKeys(selectLinkOpeninNewTab);
-        Generics.pause(3);
-    }
-
-    public static void JsopnNewtab(WebDriver driver) {
-        Generics.pause(5);
-        System.out.println("===========" + System.getProperty("os.name"));
-
-        ((JavascriptExecutor) driver).executeScript("window.open();");
-        Generics.pause(3);
-
-        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-        driver.switchTo().window(tabs.get(1));
-
-        Generics.pause(3);
-
-    }
-
-    public static void SwitchtoTab(WebDriver driver, int tabNumber) {
-        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-        driver.switchTo().window(tabs.get(tabNumber));
-    }
-
-    public static void openPrivareWindow(WebDriver driver) {
-        driver.findElement(By.xpath("//body")).sendKeys(Keys.CONTROL + "t" + "n");
-        Generics.pause(3);
-    }
-
-    public static void logStatus(String Status) {
-        System.out.println(Status);
-        if (Status.equalsIgnoreCase("Pass")) {
-            log("<br><Strong><font color=#008000>Pass</font></strong></br>");
-        } else if (Status.equalsIgnoreCase("Fail")) {
-            log("<br><Strong><font color=#FF0000>Fail</font></strong></br>");
-
-        }
-
-    }
+    protected static WebDriverWait wait;
 
     /**
      * Gets current time in the following format Month, Date, Hours, Minutes,
@@ -208,7 +83,7 @@ public class Common {
      *
      * @param msg Message/Log to be reported.
      */
-    public static void log(String msg) {
+    public static void log1(String msg) {
         System.out.println(msg);
         Reporter.log(msg);
     }
@@ -240,166 +115,6 @@ public class Common {
         }
     }
 
-    public static boolean isElementNotDisplayed(WebElement element) {
-        try {
-            return !element.isDisplayed();
-        } catch (Exception e) {
-            return false;
-        }
-    }
-
-    /**
-     * Wait(max. 1 minute) till given element does not disappear from page.
-     *
-     * @param by Locator of element.
-     * @return Is element display or not
-     */
-    public static boolean waitForElementIsDisplayed(WebElement by) {
-
-        for (int second = 0; ; second++) {
-            if (second >= 60) {
-
-                break;
-            }
-            try {
-                if (isElementDisplayed(by))
-                    break;
-            } catch (Exception e) {
-            }
-            Generics.pause(1);
-        }
-        return false;
-    }
-
-    public static boolean isChecked(WebElement element) {
-        return element.isSelected();
-    }
-
-    public static boolean isElementDisplayed(WebDriver driver, WebElement element) {
-        try {
-            return element.isDisplayed();
-        } catch (Exception e) {
-            return false;
-        }
-    }
-
-    /**
-     * Set data in to clipboard
-     *
-     * @param string String to set
-     */
-    public static void setClipboardData(String string) {
-        StringSelection stringSelection = new StringSelection(string);
-        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
-    }
-
-    /**
-     * Checks whether the visibility of Element Located
-     *
-     * @param by get locator By
-     * @return is Element is visible or not
-     */
-    public static ExpectedCondition<WebElement> visibilityOfElementLocated(final By by) {
-        return new ExpectedCondition<WebElement>() {
-
-            public WebElement apply(WebDriver driver) {
-                WebElement element = driver.findElement(by);
-                return element.isDisplayed() ? element : null;
-            }
-        };
-    }
-
-    public static void waitForElement(WebDriver driver, String xpath) {
-        wait = new WebDriverWait(driver, 600);
-        try {
-            // wait.until(visibilityOfElementLocated(By.xpath(xpath)));
-        } catch (Exception e) {
-        }
-    }
-
-    /**
-     * Finds handle to second window other than given handle to current window and
-     * switches to as well.
-     *
-     * @param driver              WebDriver
-     * @param handleCurrentWindow Current WindowHandle Instance
-     * @return handleSecondWindow
-     */
-    public static String findAndSwitchToSecondWindow(WebDriver driver, String handleCurrentWindow) {
-
-        Generics.pause(1);
-        Set<String> windows = driver.getWindowHandles();
-        String handleSecondWindow = null;
-        for (String window : windows) {
-            if (!window.contains(handleCurrentWindow)) {
-                handleSecondWindow = window;
-            }
-        }
-
-        // Switch to the second window.
-        try {
-
-            Generics.pause(2000);
-
-            driver.switchTo().window(handleSecondWindow);
-
-        } catch (Throwable failure) { // If there is problem in switching
-            // window, then re-try.
-
-            Generics.pause(1000);
-
-            driver.switchTo().window(handleSecondWindow);
-
-        }
-
-        return handleSecondWindow;
-
-    }
-
-    /**
-     * Select data from drop down or combo box by Value.
-     *
-     * @param element WebElement
-     * @param value   Value
-     */
-    public static void selectFromCombo(WebElement element, String value) {
-
-        Select select = new Select(element);
-        select.selectByValue(value);
-    }
-
-    /**
-     * Select data form dropdown or combo box by visible element
-     *
-     * @param element WebElement
-     * @param value   Visible Value
-     */
-    public static void selectFromComboByVisibleElement(WebElement element, String value) {
-        Select select = new Select(element);
-        select.selectByVisibleText(value);
-    }
-
-    /**
-     * Wait up to By element present
-     *
-     * @param driver  WebDriver
-     * @param element WebElement
-     */
-    public static void waitForElement(WebDriver driver, By element) {
-
-        try {
-            wait = new WebDriverWait(driver, 750);
-            // wait.until(visibilityOfElementLocated(element));
-        } catch (Exception e) {
-        }
-    }
-
-    /**
-     * Clicks on visible or not visible element.
-     *
-     * @param driver  WebDriver
-     * @param element Web element.
-     */
 
     public static void jsClick(WebDriver driver, WebElement element) {
         ((JavascriptExecutor) driver).executeScript("return arguments[0].click();", element);
@@ -418,6 +133,14 @@ public class Common {
     }
 
 
+    public static void clickOnJS(WebDriver driver, WebElement element) {
+        wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        JavascriptExecutor executor = (JavascriptExecutor) driver;
+        executor.executeScript("arguments[0].click();", element);
+    }
+
+
     /**
      * Mouse Hover in Web element
      *
@@ -430,209 +153,6 @@ public class Common {
 
     }
 
-    public static String getText(WebDriver driver, WebElement element) {
-        String text;
-        try {
-            text = element.getText();
-        } catch (Exception e) {
-            text = "Element was not found";
-        }
-        return text;
-    }
-
-    /**
-     * Get text in of given Element using JavaScript
-     *
-     * @param driver  WebDriver
-     * @param element webElement
-     * @return Element Text
-     */
-    public static String getTextJS(WebDriver driver, WebElement element) {
-        return (String) ((JavascriptExecutor) driver).executeScript("return jQuery(arguments[0]).text();", element);
-    }
-
-    public String getValue(WebDriver driver, WebElement element) {
-        return element.getAttribute("value");
-    }
-
-    public static void waitForConditionIsElementPresent(WebDriver driver, WebElement element) {
-
-        for (int second = 0; ; second++) {
-            if (second >= 10) {
-                break;
-            }
-            try {
-                if (isElementDisplayed(element))
-                    break;
-            } catch (Throwable failure) {
-            }
-
-            Generics.pause(1000);
-        }
-
-    }
-
-
-    public static int randomNumericValueGenerate(int length) {
-        Random randomGenerator = new Random();
-        int randomInt = randomGenerator.nextInt(length);
-        return randomInt;
-    }
-
-    public static void type(WebElement webElement, String value) {
-        webElement.clear();
-        webElement.sendKeys(value);
-    }
-
-    /**
-     * Wait till all ajax calls finish.
-     *
-     * @param driver WebDriver
-     * @param num    Number of ajax calls to finish.
-     */
-    public static void waitForAjax(WebDriver driver, String num) {
-
-        String ajax;
-
-        ajax = ajaxFinised(driver, num);
-
-        for (int second = 0; ; second++) {
-            if (second >= 20) {
-                break;
-            } else if (ajax.equals("true")) {
-                break;
-            }
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-
-    }
-
-    /**
-     * Wait till ajax call finish.
-     *
-     * @param driver WebDriver
-     * @throws InterruptedException InterruptedException
-     */
-    public void waitForAjax(WebDriver driver) throws InterruptedException {
-
-        String ajax;
-        ajax = ajaxFinised(driver, "1");
-
-        for (int second = 0; ; second++) {
-            if (second >= 15) {
-                break;
-            } else if (ajax.equals("true")) {
-                break;
-            }
-            Thread.sleep(1000);
-        }
-
-    }
-
-    /**
-     * Checks that all ajax calls are completed on page.
-     *
-     * @param driver WebDriver
-     * @param num    Number of ajax calls to wait for completion.
-     * @return "true" if completed else "false".
-     */
-    public static String ajaxFinised(WebDriver driver, String num) {
-
-        Object isAjaxFinished;
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-
-        isAjaxFinished = js.executeScript("return jQuery.active == " + num);
-
-        return isAjaxFinished.toString();
-
-    }
-
-    public static String selectRandomOptionFromCombo(WebElement eleDropDown, WebDriver driver)
-            throws InterruptedException {
-        String selectedOption = "";
-        // WebElement selectCombo = driver.findElement(by);
-        Thread.sleep(2);
-        List<WebElement> getAllOption = eleDropDown.findElements(By.xpath("option"));
-        ArrayList<String> arrayOfAllOption = new ArrayList<String>();
-
-        for (WebElement ele : getAllOption) {
-
-            if (!ele.getText().startsWith("Select")) {
-                arrayOfAllOption.add(ele.getText());
-            }
-
-        }
-        int index = new Random().nextInt(arrayOfAllOption.size());
-
-        if (Integer.signum(index) == -1) {
-            index = -index;
-            // index=Math.abs(index);
-        }
-        selectedOption = arrayOfAllOption.get(index);
-        System.out.println("Selected Option Is----====>" + selectedOption);
-        return selectedOption;
-    }
-
-    /**
-     * Get Total Number Of Elements
-     *
-     * @param driver WebDriver
-     * @param by     Search Element By
-     * @return interger number of total elements
-     */
-    public static int getNumOfElements(WebDriver driver, By by) {
-        int i = 0;
-        List<WebElement> ele = driver.findElements(by);
-        i = ele.size();
-        System.out.println("Total Number Of Elements Are >>> " + i);
-        return i;
-    }
-
-    /**
-     * Refresh Current Page
-     *
-     * @param driver WebDriver
-     */
-    public static void refresh(WebDriver driver) {
-        driver.navigate().refresh();
-    }
-
-    /**
-     * Open URL in New Window
-     *
-     * @param driver WebDriver
-     * @param url    String URL
-     */
-    public static void openUrlInNewTab(WebDriver driver, String url) {
-        System.out.println("--------->" + System.getProperty("os.name"));
-        if (System.getProperty("os.name").equalsIgnoreCase("Mac OS X")) {
-            driver.findElement(By.tagName("body")).sendKeys(Keys.COMMAND + "t");
-        } else {
-            driver.findElement(By.tagName("body")).sendKeys(Keys.CONTROL + "t");
-        }
-        driver.get(url);
-    }
-
-    /**
-     * Close Current Tab In Web Browser
-     *
-     * @param driver WebDriver
-     */
-    public static void closeCurrentTab(WebDriver driver) {
-
-        if (System.getProperty("os.name").equalsIgnoreCase("Mac OS X")) {
-            driver.findElement(By.tagName("body")).sendKeys(Keys.COMMAND + "w");
-        } else {
-            driver.findElement(By.tagName("body")).sendKeys(Keys.CONTROL + "w");
-        }
-
-    }
-
     /**
      * Perform Mouse Hover on element
      *
@@ -642,36 +162,6 @@ public class Common {
     public static void mouseHover(WebDriver driver, WebElement ele) {
         Actions action = new Actions(driver);
         action.moveToElement(ele).build().perform();
-    }
-
-    /**
-     * Perform Mouse Hover using java sript executer
-     *
-     * @param driver WebDriver
-     * @param ele    WebElement
-     */
-    public static void mouseHoverUsingJS(WebDriver driver, WebElement ele) {
-        String mouseOverScript = "if(document.createEvent){var evObj = document.createEvent('MouseEvents');evObj.initEvent('mouseover',true, false); arguments[0].dispatchEvent(evObj);} else if(document.createEventObject) { arguments[0].fireEvent('onmouseover');}";
-        ((JavascriptExecutor) driver).executeScript(mouseOverScript, ele);
-    }
-
-    /**
-     * Go to URL.
-     *
-     * @param driver WebDriver
-     * @param url    String URL
-     */
-    public static void goToUrl(WebDriver driver, String url) {
-        driver.get(url);
-    }
-
-    /**
-     * Go to previous page
-     *
-     * @param driver WebDriver
-     */
-    public static void goToPreviuosPage(WebDriver driver) {
-        driver.navigate().back();
     }
 
     /**
@@ -692,26 +182,263 @@ public class Common {
         // draw a border around the found element
 
         ((JavascriptExecutor) driver).executeScript("arguments[0].style.border = '3px solid yellow'", element);
-        Generics.pause(2);
+        pause(2);
     }
 
     /**
-     * Stop page loading
+     * Pause for passed seconds
      *
-     * @param driver WebDriver Instance
+     * @param secs Time in Seconds
      */
-    public static void stopPageLoading(WebDriver driver) {
-        driver.findElement(By.tagName("body")).sendKeys(Keys.ESCAPE);
+    public static void pause(int secs) {
+        try {
+            Thread.sleep(secs * 1000);
+        } catch (InterruptedException interruptedException) {
+            System.out.println("Failure in Pause.");
+        }
     }
 
-    public static void jsClickNew(WebDriver driver, WebElement element) {
-        // ((JavascriptExecutor) driver).executeScript(
-        // "return
-        // ((document.getElementsByTagName('object')[0]).contentDocument).arguments[0].click();",
-        // element);
+    public static WebElement explicitWait(WebDriver driver, By locator, int waitTime) {
+        WebDriverWait wait = new WebDriverWait(driver, waitTime);
+        wait.until(ExpectedConditions.elementToBeClickable(locator));
+        return wait.until(ExpectedConditions.visibilityOf(driver.findElement(locator)));
+    }
 
-        // this.waitForAjax("0");
+    /**
+     * To get text from the element
+     *
+     * @param element WebElement
+     * @return Text from the WebElement
+     */
+    public static String getText(WebElement element) {
+        //wait.until(ExpectedConditions.visibilityOfAllElements(element));
+        return element.getText().trim();
+    }
+
+    /**
+     * To check if element is available in page or not
+     *
+     * @param element WebElement
+     * @return if web element display or not
+     */
+    public static boolean isElementDisplay(WebElement element) {
+        return element.isDisplayed();
     }
 
 
+    /**
+     * To find element by given xpath locator
+     *
+     * @param driver  Instance of WebDriver
+     * @param locator Locator String
+     * @return WebElement by passed locator
+     */
+    public static WebElement findElementByXPath(WebDriver driver, String locator) {
+        return driver.findElement(By.xpath(locator));
+    }
+
+    /**
+     * To open the URL in browser window
+     *
+     * @param driver WebDriver
+     * @param url    URL String
+     */
+    public static void openURL(WebDriver driver, String url) {
+        driver.get(url);
+    }
+
+    public static void close(WebDriver driver) {
+        driver.close();
+    }
+
+    public static int sizeOf(List list) {
+        return list.size();
+    }
+
+    /**
+     * To get text from the element
+     *
+     * @param element WebElement
+     * @return Text from the WebElement
+     */
+    public static String getInnerValue(WebElement element) {
+        return element.getAttribute("value").trim();
+    }
+
+    /**
+     * To get the failure exception in single line
+     *
+     * @param tests Test Result
+     */
+    public static void getShortException(IResultMap tests) {
+
+        for (ITestResult result : tests.getAllResults()) {
+
+            Throwable exception = result.getThrowable();
+            List<String> msgs = Reporter.getOutput(result);
+            boolean hasReporterOutput = msgs.size() > 0;
+            boolean hasThrowable = exception != null;
+            if (hasThrowable) {
+                boolean wantsMinimalOutput = result.getStatus() == ITestResult.SUCCESS;
+                if (hasReporterOutput) {
+                    testInfoLog((wantsMinimalOutput ? "Expected Exception" : "Failure Reason:"), "");
+                }
+
+                String str = Utils.shortStackTrace(exception, true);
+                System.out.println(str);
+                Scanner scanner = new Scanner(str);
+                String firstLine = scanner.nextLine();
+                testValidationLog(firstLine);
+            }
+        }
+    }
+
+    /**
+     * To kill IE Server Instance once execution completed
+     */
+    public static void killIEServer() {
+        try {
+            pause(5);
+            String[] cmd = new String[3];
+            cmd[0] = "cmd.exe";
+            cmd[1] = "/C";
+            cmd[2] = "taskkill /F /IM iexplore.exe";
+            Process process = Runtime.getRuntime().exec(cmd);
+            Process process1 = Runtime.getRuntime().exec("taskkill /F /IM IEDriverServer.exe");
+            System.err.println(process + "" + process1);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void deleteDownloadDirectory() {
+        try {
+            FileUtils.deleteDirectory(new File(FILE_DOWNLOAD_PATH));
+        } catch (IOException io) {
+            testValidationLog("Failed to delete the folder.");
+        }
+    }
+
+    public static String getExtentScreenShot(WebDriver driver, String screenshot_name) {
+        String destination = "";
+        try {
+            String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+            TakesScreenshot ts = (TakesScreenshot) driver;
+            File source = ts.getScreenshotAs(OutputType.FILE);
+            destination = System.getProperty("user.dir") + "/Screenshots/" + screenshot_name + dateName + ".png";
+            File finalDestination = new File(destination);
+            FileUtils.copyFile(source, finalDestination);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return destination;
+    }
+
+    public void stepFailure(WebDriver driver) {
+        makeScreenshot(driver, getCurrentTimeStampString());
+        failure();
+    }
+
+    public void stepPassed() {
+        success();
+    }
+
+    public void deleteCookies(WebDriver driver) {
+        driver.manage().deleteAllCookies();
+    }
+
+    public void quit(WebDriver driver) {
+        driver.quit();
+    }
+
+    public void maximizeWindow(WebDriver driver) {
+        driver.manage().window().maximize();
+    }
+
+    public void implicitWaitOf(WebDriver driver, int seconds) {
+        driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+    }
+
+
+    /**
+     * To log the Test Message in report
+     *
+     * @param log Log Message
+     */
+    private static void log(String log) {
+        System.out.println(log.replaceAll("<[^>]*>", ""));
+        Reporter.log("<br></br>" + log);
+    }
+
+    /**
+     * To log the Test Case Name in report
+     *
+     * @param log Log Message
+     */
+    public static void testCaseLog(String log) {
+        logger = extent.createTest(log);
+        logger.assignAuthor("Rutu Shah");
+        log("<strong>" + log + "</strong>");
+    }
+
+    /**
+     * To log the information passed during the test execution in report
+     *
+     * @param key   Key/Log Message
+     * @param value Value/Entered Details
+     */
+    public static void testInfoLog(String key, String value) {
+        logger.info(key + " : " + value);
+        log("<strong>" + key + " : </strong><font color=#9400D3>" + value + "</font>");
+    }
+
+    /**
+     * To log the test steps in the report.
+     *
+     * @param logStep Step Number
+     * @param log     Step Information
+     */
+    public static void testStepsLog(int logStep, String log) {
+        logger.info(log);
+        log("Step " + logStep + " : " + log);
+    }
+
+    /**
+     * To log the test verification steps
+     *
+     * @param log Verification Message
+     */
+    public static void testVerifyLog(String log) {
+        logger.info(MarkupHelper.createLabel(log, ExtentColor.ORANGE));
+        log("<img src=\"info.png\" alt=\"Info\" height=\"18\" width=\"18\"><font color=#000080>" + log + "</font>");
+    }
+
+    /**
+     * To log the Validation Message comes during the test
+     *
+     * @param log Validation Message
+     */
+    public static void testValidationLog(String log) {
+        logger.info(MarkupHelper.createLabel(log, ExtentColor.PINK));
+        log("<img src=\"warning.png\" alt=\"Warning\" height=\"18\" width=\"18\">Validation Message : <Strong><font color=#ff0000>" + log + "</strong></font>");
+    }
+
+
+    /**
+     * To log the test verification step is passed successfully
+     */
+
+    public static void success() {
+        logger.pass(MarkupHelper.createLabel("PASS", ExtentColor.GREEN));
+        System.out.println("<Strong><font color=#008000>Pass</font></strong>".replaceAll("<[^>]*>", ""));
+        Reporter.log("<br></br><img src=\"pass.png\" height=\"18\" width=\"18\"><Strong><font color=#008000>Pass</font></strong>");
+    }
+    /**
+     * To log test verification is failed
+     */
+    public static void failure() {
+        logger.fail(MarkupHelper.createLabel("FAIL", ExtentColor.RED));
+        System.out.println("<Strong><font color=#ff0000>Fail</font></strong>".replaceAll("<[^>]*>", ""));
+        Reporter.log("<br></br><img src=\"fail.png\" alt=\"Fail\" height=\"18\" width=\"18\"><Strong><font color=#ff0000>Fail</font></strong>");
+    }
 }
