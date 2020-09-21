@@ -31,6 +31,9 @@ public class BrokenLinks extends BrokenLinksProvider {
     }
     protected static int _log1Step = 1;
     protected static int _serialNo =1;
+
+    WriteIntoExcel writeIntoExcel = new WriteIntoExcel();
+
     WebDriver driver;
     public static String ExcelOutput = PROJECT_DIR + File.separator + "Excel" + File.separator + "SaveToExcel.xlsx";
 
@@ -99,14 +102,14 @@ public class BrokenLinks extends BrokenLinksProvider {
                     Common.log1(url + " - " + " <br> is a broken link.");
                     Common.log1("<br> <br>");
                     flag = false;
-                    WriteIntoExcel.writeIntoExcel(urlFromExcel,url,200,resCode,"Fail");
+                        WriteIntoExcel.writeIntoExcel(urlFromExcel, url, 200, resCode, "Fail");
                     numOfFailedSteps++;
 
                 } else {
                     Reporter.log("<br></br><img src=\"pass.png\" height=\"18\" width=\"18\"><Strong><font color=#008000>Pass</font></strong>");
                     Common.log1(url + " - " + " <br> is a valid link.");
                     Common.log1("<br> <br>");
-                    WriteIntoExcel.writeIntoExcel(urlFromExcel,url,200,resCode,"Pass");
+                        WriteIntoExcel.writeIntoExcel(urlFromExcel, url, 200, resCode, "Pass");
                     flag = true;
 
                 }

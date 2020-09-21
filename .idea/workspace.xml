@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56f5b89-aba1-40c3-9b54-f6ff77772d56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/utils/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/utils/TreeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaveToExcel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/SaveToExcel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excel/SaveToExcel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/SaveToExcel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaveToExcel.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Zain/BrokenLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zain/BrokenLinks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/WriteIntoExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/WriteIntoExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TBLOCKS_WEB_POC.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TBLOCKS_WEB_POC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/TBLOCKS_WEB_POC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/TBLOCKS_WEB_POC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.BrokenLinks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.BrokenLinks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +53,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="TestNG.BrokenLinks.BrokenLinkTestCase">
+  <component name="RunManager" selected="TestNG.TreeDemo.BrokenLinks">
+    <configuration name="TreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.utils.TreeDemo" />
+      <module name="TBLOCKS_WEB_POC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WriteIntoExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.utils.WriteIntoExcel" />
       <module name="TBLOCKS_WEB_POC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.utils.*" />
+          <option name="PATTERN" value="com.utils.TreeDemo" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,17 +145,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZainIndex.verifyLogin_Dashboard_Price" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeDemo.BrokenLinks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TBLOCKS_WEB_POC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Zain.*" />
+          <option name="PATTERN" value="com.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Zain" />
-      <option name="MAIN_CLASS_NAME" value="com.Zain.ZainIndex" />
-      <option name="METHOD_NAME" value="verifyLogin_Dashboard_Price" />
+      <option name="PACKAGE_NAME" value="com.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.utils.TreeDemo" />
+      <option name="METHOD_NAME" value="BrokenLinks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,14 +167,16 @@
       <item itemvalue="Application.WriteIntoExcel" />
       <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase" />
       <item itemvalue="TestNG.E:/TBLOCKS_WEB_POC/Zain.xml" />
-      <item itemvalue="TestNG.ZainIndex.verifyLogin_Dashboard_Price" />
+      <item itemvalue="Application.TreeDemo" />
+      <item itemvalue="TestNG.TreeDemo.BrokenLinks" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TreeDemo.BrokenLinks" />
+        <item itemvalue="Application.TreeDemo" />
+        <item itemvalue="Application.WriteIntoExcel" />
         <item itemvalue="TestNG.BrokenLinks.BrokenLinkTestCase" />
         <item itemvalue="TestNG.E:/TBLOCKS_WEB_POC/Zain.xml" />
-        <item itemvalue="Application.WriteIntoExcel" />
-        <item itemvalue="TestNG.ZainIndex.verifyLogin_Dashboard_Price" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600661096743</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="September 21rst 2020">
+      <created>1600666666939</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1600666666939</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -325,10 +360,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600659523168" />
-    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600661095562">
+    <state x="530" y="177" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1600688445584">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600661095562" />
+    <state x="530" y="177" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1600.860@0.0.1600.860" timestamp="1600688445584" />
+    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600696955566">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600696955566" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1600257855182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -337,34 +376,34 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600657766787" />
-    <state width="1557" height="238" key="GridCell.Tab.0.bottom" timestamp="1600666648085">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1600688445599">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="238" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600666648085" />
-    <state width="1557" height="238" key="GridCell.Tab.0.center" timestamp="1600666648085">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600688445599" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1600688445599">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="238" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600666648085" />
-    <state width="1557" height="238" key="GridCell.Tab.0.left" timestamp="1600666648085">
+    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600688445599" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1600688445598">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="238" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600666648085" />
-    <state width="1557" height="238" key="GridCell.Tab.0.right" timestamp="1600666648085">
+    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600688445598" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1600688445599">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="238" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600666648085" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600688445599" />
     <state x="330" y="85" key="Maven.ArtifactSearchDialog" timestamp="1600430564582">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="330" y="85" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1600430564582" />
-    <state x="301" y="15" key="SettingsEditor" timestamp="1600432272256">
+    <state x="301" y="15" key="SettingsEditor" timestamp="1600678042281">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="15" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600432272256" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600661098866">
+    <state x="301" y="15" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600678042281" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600666669183">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600661098866" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600666669183" />
     <state x="616" y="211" key="chooseDestDirectoryDialog" timestamp="1600249977066">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -373,17 +412,28 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="598" y="119" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860@0.0.1600.860" timestamp="1600247531169" />
-    <state x="506" y="58" key="refactoring.ChangeSignatureDialog" timestamp="1600431160885">
+    <state x="506" y="58" key="refactoring.ChangeSignatureDialog" timestamp="1600675724145">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="506" y="58" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1600431160885" />
-    <state x="456" y="195" key="run.anything.popup" timestamp="1600319479297">
+    <state x="506" y="58" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1600675724145" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1600675890846">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600319479297" />
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600675890846" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1600169983959">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1600169983959" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/utils/WriteIntoExcel.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
