@@ -3,28 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a56f5b89-aba1-40c3-9b54-f6ff77772d56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication_.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication_.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaveToExcel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/SaveToExcel.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Zain/BrokenLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zain/BrokenLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/common/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/common/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/common/Generics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/configurations/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/configurations/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/init/ExtentInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/ExtentReporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/init/SeleniumInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/SeleniumInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/logger/TestLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/CustomReporterforEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/CustomReporterforEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/KQIIA_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/KQIIA_Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.BrokenLinks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.BrokenLinks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.ZainIndex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Zain.ZainIndex.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/WriteIntoExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/WriteIntoExcel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600436308698</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="September 21rst 2020">
+      <created>1600660703865</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600660703865</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -311,7 +297,8 @@
     <MESSAGE value="September 16th 2020" />
     <MESSAGE value="September 17th 2020" />
     <MESSAGE value="September 18th 2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="September 18th 2020" />
+    <MESSAGE value="September 21rst 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="September 21rst 2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="530" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1600182960680">
@@ -330,10 +317,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600659523168" />
-    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600436303303">
+    <state x="454" y="24" key="CommitChangelistDialog2" timestamp="1600660700268">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600436303303" />
+    <state x="454" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600660700268" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1600257855182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -366,10 +353,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="15" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600432272256" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600436318299">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600660706600">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600436318299" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600660706600" />
     <state x="616" y="211" key="chooseDestDirectoryDialog" timestamp="1600249977066">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
