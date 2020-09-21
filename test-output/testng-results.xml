@@ -1,123 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="2" total="5" passed="2">
+<testng-results skipped="0" failed="1" ignored="1" total="3" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Version is not available for the current build.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>To verify that user can see the home page of the " Zain Web Application " .</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 1 : Click on My Zain Account button from the top right corner of the web application.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
-<br> 6. E-Shop Tab.
-<br> 7. I am looking for Search field.
-<br> 8. Follow us Icons
-<br> 9. Footer Text
-<br> 10. Header Hyperlinks
-</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 2 : Enter Credentials for login.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Email Address : </strong><font color=#9400D3>voicetest290@gmail.com</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 3 : Click on Sign in button.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
-<br> 2. Add to cart button
-<br> 3. Zain Logo
-<br> 4. Personal Tab
-<br> 5. Business Tab
-<br> 6. E-Shop Tab
-<br> 7. 5G Tab
-<br  8. Notifications dropdown
-<br> 9. I am looking for Search field.
-<br> 10. Profile Picture of user.
-<br> 11. Name 
-<br> 12. Nickname
-</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Logged in User Name :  : </strong><font color=#9400D3>Rutu Shah</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Logged in User's NickName :  : </strong><font color=#9400D3>Rutu</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 4 : Click on E-Shop Tab.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see E-Shop Screen's content.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Total Available Products :  : </strong><font color=#9400D3>5</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 5 : Click on First available product.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify selected product screen.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 6 : Observe and click on the first thumbnail.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see information page of the thumbnail.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify select Iphone SE with black color and model number</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Currently selected Mobile Color :   : </strong><font color=#9400D3>Black</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile Model  : 64 GB</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile price   : 1819.00</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 7 : Click on user name]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 8 : Click on Logout.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify the user is logout successfully.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
     <line>
       <![CDATA[ <h2> TS_WEB_002 :: To verify broken links of the web page. </h2>]]>
     </line>
@@ -638,188 +521,12 @@
       <![CDATA[<br> <br>]]>
     </line>
   </reporter-output>
-  <suite name="TBlocks_POC_Zain_WebApplication" duration-ms="356234" started-at="2020-09-21T09:20:01 IST" finished-at="2020-09-21T09:25:57 IST">
+  <suite name="Default Suite" duration-ms="248460" started-at="2020-09-21T11:02:25 IST" finished-at="2020-09-21T11:06:34 IST">
     <groups>
     </groups>
-    <test name="ZainIndex_TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification." duration-ms="130474" started-at="2020-09-21T09:20:01 IST" finished-at="2020-09-21T09:22:11 IST">
-      <class name="com.Zain.ZainIndex">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.Zain.ZainIndex@1df8da7a]" name="setUp" is-config="true" duration-ms="20047" started-at="2020-09-21T09:20:01 IST" finished-at="2020-09-21T09:20:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.Zain.ZainIndex.verifyLogin_Dashboard_Price(java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLogin_Dashboard_Price(java.lang.String, java.lang.String)[pri:0, instance:com.Zain.ZainIndex@1df8da7a]" name="verifyLogin_Dashboard_Price" duration-ms="107833" started-at="2020-09-21T09:20:21 IST" data-provider="Zain" finished-at="2020-09-21T09:22:09 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[voicetest290@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rutu@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Version is not available for the current build.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>To verify that user can see the home page of the " Zain Web Application " .</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step 1 : Click on My Zain Account button from the top right corner of the web application.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
-<br> 6. E-Shop Tab.
-<br> 7. I am looking for Search field.
-<br> 8. Follow us Icons
-<br> 9. Footer Text
-<br> 10. Header Hyperlinks
-</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step 2 : Enter Credentials for login.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Email Address : </strong><font color=#9400D3>voicetest290@gmail.com</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step 3 : Click on Sign in button.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
-<br> 2. Add to cart button
-<br> 3. Zain Logo
-<br> 4. Personal Tab
-<br> 5. Business Tab
-<br> 6. E-Shop Tab
-<br> 7. 5G Tab
-<br  8. Notifications dropdown
-<br> 9. I am looking for Search field.
-<br> 10. Profile Picture of user.
-<br> 11. Name 
-<br> 12. Nickname
-</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Logged in User Name :  : </strong><font color=#9400D3>Rutu Shah</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Logged in User's NickName :  : </strong><font color=#9400D3>Rutu</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step 4 : Click on E-Shop Tab.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see E-Shop Screen's content.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Total Available Products :  : </strong><font color=#9400D3>5</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step 5 : Click on First available product.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify selected product screen.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step 6 : Observe and click on the first thumbnail.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see information page of the thumbnail.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify select Iphone SE with black color and model number</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Currently selected Mobile Color :   : </strong><font color=#9400D3>Black</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile Model  : 64 GB</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile price   : 1819.00</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step 7 : Click on user name]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step 8 : Click on Logout.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify the user is logout successfully.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLogin_Dashboard_Price -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Zain.ZainIndex@1df8da7a]" name="tearDown" is-config="true" duration-ms="2444" started-at="2020-09-21T09:22:09 IST" finished-at="2020-09-21T09:22:11 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLogin_Dashboard_Price status=SUCCESS method=ZainIndex.verifyLogin_Dashboard_Price(java.lang.String, java.lang.String)[pri:0, instance:com.Zain.ZainIndex@1df8da7a] output=<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.Zain.ZainIndex -->
-    </test> <!-- ZainIndex_TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification. -->
-    <test name="BrokenLinks_TS_WEB_002 :: To verify broken links of the web page." duration-ms="225736" started-at="2020-09-21T09:22:11 IST" finished-at="2020-09-21T09:25:57 IST">
-      <class name="com.Zain.ZainIndex">
-        <test-method status="PASS" signature="startReport(org.testng.ITestContext)[pri:0, instance:com.Zain.ZainIndex@1df8da7a]" name="startReport" is-config="true" duration-ms="153" started-at="2020-09-21T09:20:00 IST" finished-at="2020-09-21T09:20:01 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2f5ac102]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.Zain.ZainIndex@1df8da7a]" name="endReport" is-config="true" duration-ms="696" started-at="2020-09-21T09:25:57 IST" finished-at="2020-09-21T09:25:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- com.Zain.ZainIndex -->
+    <test name="TBLOCKS_WEB_POC" duration-ms="248460" started-at="2020-09-21T11:02:25 IST" finished-at="2020-09-21T11:06:34 IST">
       <class name="com.Zain.BrokenLinks">
-        <test-method status="PASS" signature="BrokenLinkTestCase(java.lang.String)[pri:1, instance:com.Zain.BrokenLinks@24105dc5]" name="BrokenLinkTestCase" duration-ms="132646" started-at="2020-09-21T09:22:11 IST" description="BrokenLinks Checking" data-provider="BrokenLinks" finished-at="2020-09-21T09:24:24 IST">
+        <test-method status="PASS" signature="BrokenLinkTestCase(java.lang.String)[pri:1, instance:com.Zain.BrokenLinks@7857fe2]" name="BrokenLinkTestCase" duration-ms="158828" started-at="2020-09-21T11:02:25 IST" description="BrokenLinks Checking" data-provider="BrokenLinks" finished-at="2020-09-21T11:05:04 IST">
           <params>
             <param index="0">
               <value>
@@ -1148,7 +855,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- BrokenLinkTestCase -->
-        <test-method status="FAIL" signature="BrokenLinkTestCase(java.lang.String)[pri:1, instance:com.Zain.BrokenLinks@24105dc5]" name="BrokenLinkTestCase" duration-ms="87953" started-at="2020-09-21T09:24:24 IST" description="BrokenLinks Checking" data-provider="BrokenLinks" finished-at="2020-09-21T09:25:52 IST">
+        <test-method status="FAIL" signature="BrokenLinkTestCase(java.lang.String)[pri:1, instance:com.Zain.BrokenLinks@7857fe2]" name="BrokenLinkTestCase" duration-ms="88398" started-at="2020-09-21T11:05:04 IST" description="BrokenLinks Checking" data-provider="BrokenLinks" finished-at="2020-09-21T11:06:33 IST">
           <params>
             <param index="0">
               <value>
@@ -1398,11 +1105,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
             </line>
           </reporter-output>
         </test-method> <!-- BrokenLinkTestCase -->
-        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.Zain.BrokenLinks@24105dc5]" name="suiteTearDown" is-config="true" duration-ms="5033" started-at="2020-09-21T09:25:52 IST" finished-at="2020-09-21T09:25:57 IST">
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.Zain.BrokenLinks@7857fe2]" name="suiteTearDown" is-config="true" duration-ms="902" started-at="2020-09-21T11:06:33 IST" finished-at="2020-09-21T11:06:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->
       </class> <!-- com.Zain.BrokenLinks -->
-    </test> <!-- BrokenLinks_TS_WEB_002 :: To verify broken links of the web page. -->
-  </suite> <!-- TBlocks_POC_Zain_WebApplication -->
+    </test> <!-- TBLOCKS_WEB_POC -->
+  </suite> <!-- Default Suite -->
 </testng-results>

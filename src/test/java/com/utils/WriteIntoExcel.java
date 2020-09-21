@@ -20,8 +20,8 @@ import java.util.TreeMap;
 //-----------------------Variable Declaration------------------------------
 public class WriteIntoExcel {
     //  write data into excel file
-    public static XSSFSheet ExcelWSheet;
-    public static XSSFWorkbook ExcelWBook;
+    public static  XSSFSheet sheet ;
+    public static XSSFWorkbook workbook;
     public static XSSFCell Cell;
     public static XSSFRow Row;
 
@@ -31,10 +31,10 @@ public class WriteIntoExcel {
 
     public static void writeIntoExcel(String mainUrl, String subUrl, int expectedResult, int actualResult,String executionStatus){
         // Blank workbook
-        XSSFWorkbook workbook = new XSSFWorkbook();
+         workbook = new XSSFWorkbook();
 
         // Create a blank sheet
-        XSSFSheet sheet = workbook.createSheet("Broken Links");
+        sheet = workbook.createSheet("Broken Links");
         int num = 1;
 
         // This data needs to be written (Object[])

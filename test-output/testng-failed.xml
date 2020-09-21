@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [TBlocks_POC_Zain_WebApplication]">
-  <listeners>
-    <listener class-name="com.framework.utility.CustomDetailReporter"/>
-    <listener class-name="com.framework.utility.CustomReporterEmailBuildSummary"/>
-    <listener class-name="com.framework.utility.CustomReporterforEmail"/>
-    <listener class-name="com.framework.utility.CustomReporterListener"/>
-  </listeners>
-  <test thread-count="1" verbose="10" name="BrokenLinks_TS_WEB_002 :: To verify broken links of the web page.(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="TBLOCKS_WEB_POC(failed)">
     <classes>
       <class name="com.Zain.BrokenLinks">
         <methods>
@@ -16,5 +10,5 @@
         </methods>
       </class> <!-- com.Zain.BrokenLinks -->
     </classes>
-  </test> <!-- BrokenLinks_TS_WEB_002 :: To verify broken links of the web page.(failed) -->
-</suite> <!-- Failed suite [TBlocks_POC_Zain_WebApplication] -->
+  </test> <!-- TBLOCKS_WEB_POC(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
