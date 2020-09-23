@@ -60,7 +60,7 @@ public class ZainProvider extends SeleniumInit implements Configuration {
         return data;
     }
 
-    public static String getCellData(int rowNum, int colNum) throws IOException {
+    public static String getCellData(String sheetName, int rowNum, int colNum) throws IOException {
         XSSFWorkbook workbook = new XSSFWorkbook(excelPath);
         XSSFSheet sheet = workbook.getSheet(sheetName);
         DataFormatter formatter = new DataFormatter();

@@ -186,6 +186,26 @@ public class Common extends ExtentReporter {
     }
 
     /**
+     * unHighlight Element
+     *
+     * @param driver  WebDriver
+     * @param element WebElement
+     */
+    public static void unhighlightElement(WebDriver driver, WebElement element) {
+        /*
+         * for (int i = 0; i < 2; i++) { JavascriptExecutor js = (JavascriptExecutor)
+         * driver; js.executeScript("arguments[0].setAttribute('style', arguments[1]);",
+         * element, "color: yellow; border: 2px solid yellow;");
+         * js.executeScript("arguments[0].setAttribute('style', arguments[1]);",
+         * element, ""); }
+         */
+
+        // draw a border around the found element
+        ((JavascriptExecutor) driver).executeScript("arguments[0].style.border = '0px solid yellow'", element);
+        pause(1);
+    }
+
+    /**
      * Pause for passed seconds
      *
      * @param secs Time in Seconds

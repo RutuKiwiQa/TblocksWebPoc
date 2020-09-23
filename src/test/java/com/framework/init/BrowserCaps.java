@@ -85,7 +85,7 @@ public class BrowserCaps implements Configuration {
         prefs.put("profile.default_content_setting_values.plugins", 1);
         prefs.put("profile.content_settings.plugin_whitelist.adobe-flash-player", 1);
         prefs.put("profile.content_settings.exceptions.plugins.*,*.per_resource.adobe-flash-player", 1);
-        prefs.put("PluginsAllowedForUrls", URL);
+        prefs.put("PluginsAllowedForUrls", ZAIN_URL);
         options.setExperimentalOption("prefs", prefs);
 
         capability.setCapability(ChromeOptions.CAPABILITY, options);

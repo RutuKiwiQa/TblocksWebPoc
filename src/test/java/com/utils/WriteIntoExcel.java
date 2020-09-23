@@ -44,13 +44,13 @@ public class WriteIntoExcel implements Configuration {
 
         data.put("1" + num++, new Object[]{"Main URL", "Sub URLs", "Expected Result", "Actual Result", "Execution Status"});
 
-        ArrayList<Object> list = new ArrayList();
-        list.add(new Object[]{mainUrl, subUrl, expectedResult, actualResult, executionStatus});
+//        ArrayList<Object> list = new ArrayList();
+//        list.add(new Object[]{mainUrl, subUrl, expectedResult, actualResult, executionStatus});
 
         data.put("2  " + num++, new Object[]{mainUrl, subUrl, expectedResult, actualResult, executionStatus});
-        data.put("3  " + num++, new Object[]{mainUrl, subUrl, expectedResult, actualResult, executionStatus});
-        data.put("4  " + num++, new Object[]{mainUrl, subUrl, expectedResult, actualResult, executionStatus});
-        data.put("5  " + num++, new Object[]{mainUrl, subUrl, expectedResult, actualResult, executionStatus});
+//        data.put("3  " + num++, new Object[]{mainUrl, subUrl, expectedResult, actualResult, executionStatus});
+//        data.put("4  " + num++, new Object[]{mainUrl, subUrl, expectedResult, actualResult, executionStatus});
+//        data.put("5  " + num++, new Object[]{mainUrl, subUrl, expectedResult, actualResult, executionStatus});
 
           //  Iterate over data and write to sheet
             Set<String> keyset = data.keySet();

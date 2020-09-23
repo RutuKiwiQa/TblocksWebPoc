@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
   <test thread-count="5" name="TBLOCKS_WEB_POC(failed)">
     <classes>
-      <class name="com.Zain.BrokenLinks">
+      <class name="com.TBlocks_POC.BrokenLinks">
         <methods>
           <include name="BrokenLinkTestCase" invocation-numbers="1"/>
           <include name="tearDownTest"/>
         </methods>
-      </class> <!-- com.Zain.BrokenLinks -->
+      </class> <!-- com.TBlocks_POC.BrokenLinks -->
     </classes>
   </test> <!-- TBLOCKS_WEB_POC(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

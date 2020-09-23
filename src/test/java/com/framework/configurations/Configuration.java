@@ -23,7 +23,8 @@ public interface Configuration {
     String PROJECT_DIR = getProjectDir();
 
     String BROWSER = getProperty("browser");
-    String URL = getProperty("requestor_url");
+    String ZAIN_URL = getProperty("zain_url");
+    String JIO_PLANS_URL = getProperty("jio_plans_url");
 
     String FILE_DOWNLOAD_PATH = PROJECT_DIR + File.separator + "download";
 

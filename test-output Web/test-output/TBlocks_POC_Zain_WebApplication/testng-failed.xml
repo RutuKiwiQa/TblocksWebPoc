@@ -9,12 +9,12 @@
   </listeners>
   <test thread-count="1" verbose="10" name="BrokenLinks_TS_WEB_002 :: To verify broken links of the web page.(failed)">
     <classes>
-      <class name="com.Zain.BrokenLinks">
+      <class name="com.TBlocks_POC.BrokenLinks">
         <methods>
           <include name="BrokenLinkTestCase" invocation-numbers="1"/>
           <include name="tearDownTest"/>
         </methods>
-      </class> <!-- com.Zain.BrokenLinks -->
+      </class> <!-- com.TBlocks_POC.BrokenLinks -->
     </classes>
   </test> <!-- BrokenLinks_TS_WEB_002 :: To verify broken links of the web page.(failed) -->
 </suite> <!-- Failed suite [TBlocks_POC_Zain_WebApplication] -->
