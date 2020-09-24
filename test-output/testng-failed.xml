@@ -8,14 +8,13 @@
     <listener class-name="com.framework.utility.CustomReporterListener"/>
   </listeners>
   <test thread-count="1" verbose="10" name="TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.TBlocks_POC.TblocksIndex">
         <methods>
           <include name="jio_verify2GBPlansNegativeFlow"/>
           <include name="startReport"/>
           <include name="endReport"/>
-          <include name="beforeTest"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.TBlocks_POC.TblocksIndex -->

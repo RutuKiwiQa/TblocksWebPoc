@@ -208,7 +208,6 @@
     &lt;listener class-name=&quot;com.framework.utility.CustomReporterListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.&quot; parallel=&quot;tests&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.TBlocks_POC.TblocksIndex&quot;&gt;
         &lt;methods&gt;
@@ -218,7 +217,6 @@
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits. --&gt;
   &lt;test thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.&quot; parallel=&quot;tests&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.TBlocks_POC.TblocksIndex&quot;&gt;
         &lt;methods&gt;
@@ -269,18 +267,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'jio_verify2GBPlansPositiveFlow')
+data.setCell(0, 1, 'jio_verify2GBPlansNegativeFlow')
 data.setCell(0, 2, 'com.TBlocks_POC.TblocksIndex')
-data.setCell(0, 3, 9231);
+data.setCell(0, 3, 8835);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'jio_verify2GBPlansNegativeFlow')
+data.setCell(1, 1, 'jio_verify2GBPlansPositiveFlow')
 data.setCell(1, 2, 'com.TBlocks_POC.TblocksIndex')
-data.setCell(1, 3, 7821);
+data.setCell(1, 3, 8512);
 window.suiteTableData['TBlocks_POC_Zain_WebApplication']= { tableData: data, tableDiv: 'times-div-TBlocks_POC_Zain_WebApplication'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-TBlocks_POC_Zain_WebApplication">
               </div> <!-- times-div-TBlocks_POC_Zain_WebApplication -->
             </div> <!-- times-div -->
@@ -382,7 +380,7 @@ return data;
                 <span class="reporter-method-output"><br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>112GB & Disney+ Hotstar</font></span>
                 <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify first plan 2GB/Day details are same on screen and excel sheet.</font></span>
                 <span class="reporter-method-output"><br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br></span>
-                <span class="reporter-method-output"><br></br><a href='../test-output/screenshots/0924103841691.png' target='_new'>0924103841691.png</a></span>
+                <span class="reporter-method-output"><br></br><a href='../test-output/screenshots/0924104701346.png' target='_new'>0924104701346.png</a></span>
                 <span class="reporter-method-output"><br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong></span>
                 <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify second plan of 2GB/Day Page.</font></span>
                 <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
@@ -406,7 +404,7 @@ return data;
                 <span class="reporter-method-output"><br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>1 GB </font></span>
                 <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Third plan 2GB/Day details are same on screen and excel sheet.</font></span>
                 <span class="reporter-method-output"><br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br></span>
-                <span class="reporter-method-output"><br></br><a href='../test-output/screenshots/0924103842525.png' target='_new'>0924103842525.png</a></span>
+                <span class="reporter-method-output"><br></br><a href='../test-output/screenshots/0924104702584.png' target='_new'>0924104702584.png</a></span>
                 <span class="reporter-method-output"><br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong></span>
                 <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify forth plan of 2GB/Day Page.</font></span>
                 <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
@@ -441,10 +439,10 @@ return data;
                 <span class="reporter-method-output"><br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB </font></span>
                 <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Sixth plan 2GB/Day details are same on screen and excel sheet.</font></span>
                 <span class="reporter-method-output"><br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br></span>
-                <span class="reporter-method-output"><br></br><a href='../test-output/screenshots/0924103843394.png' target='_new'>0924103843394.png</a></span>
+                <span class="reporter-method-output"><br></br><a href='../test-output/screenshots/0924104703897.png' target='_new'>0924104703897.png</a></span>
                 <span class="reporter-method-output"><br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong></span>
                 <span class="reporter-method-output"><br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br></span>
-                <span class="reporter-method-output"><br></br><a href='../test-output/screenshots/0924103843806jio_verify2GBPlansNegativeFlow.png' target='_new'>0924103843806jio_verify2GBPlansNegativeFlow.png</a></span>
+                <span class="reporter-method-output"><br></br><a href='../test-output/screenshots/0924104704853jio_verify2GBPlansNegativeFlow.png' target='_new'>0924104704853jio_verify2GBPlansNegativeFlow.png</a></span>
                 <span class="reporter-method-output"><br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong></span>
                 <span class="reporter-method-output"><br></br><strong>Failure Reason: : </strong><font color=#9400D3></font></span>
                 <span class="reporter-method-output"><br></br><img src="warning.png" alt="Warning" height="18" width="18">Validation Message : <Strong><font color=#ff0000>java.lang.AssertionError: Test Verification failed, please check test logs.</strong></font></span>
@@ -484,38 +482,38 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.TBlocks_POC.TblocksIndex</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">startReport(org.testng.TestRunner@5b753aa0)</span>
+                <span class="method-name">startReport(org.testng.TestRunner@464f3ada)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeTest(firefox)</span>
-                <span class="method-start">216 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.TBlocks_POC.TblocksIndex.jio_verify2GBPlansPositiveFlow() throws java.io.IOException)</span>
+                <span class="method-start">293 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">jio_verify2GBPlansPositiveFlow</span>
-                <span class="method-start">38085 ms</span>
+                <span class="method-start">13075 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=jio_verify2GBPlansPositiveFlow status=SUCCESS method=TblocksIndex.jio_verify2GBPlan...)</span>
-                <span class="method-start">47325 ms</span>
+                <span class="method-start">21591 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeTest(firefox)</span>
-                <span class="method-start">50024 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.TBlocks_POC.TblocksIndex.jio_verify2GBPlansNegativeFlow() throws java.io.IOException)</span>
+                <span class="method-start">26504 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">jio_verify2GBPlansNegativeFlow</span>
-                <span class="method-start">63102 ms</span>
+                <span class="method-start">34668 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=jio_verify2GBPlansNegativeFlow status=FAILURE method=TblocksIndex.jio_verify2GBPlan...)</span>
-                <span class="method-start">70992 ms</span>
+                <span class="method-start">43514 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">endReport</span>
-                <span class="method-start">75208 ms</span>
+                <span class="method-start">46780 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

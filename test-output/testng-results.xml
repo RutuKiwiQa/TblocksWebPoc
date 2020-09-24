@@ -251,7 +251,7 @@
       <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
     </line>
     <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/0924103841691.png' target='_new'>0924103841691.png</a>]]>
+      <![CDATA[<br></br><a href='../test-output/screenshots/0924104701346.png' target='_new'>0924104701346.png</a>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -323,7 +323,7 @@
       <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
     </line>
     <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/0924103842525.png' target='_new'>0924103842525.png</a>]]>
+      <![CDATA[<br></br><a href='../test-output/screenshots/0924104702584.png' target='_new'>0924104702584.png</a>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -428,7 +428,7 @@
       <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
     </line>
     <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/0924103843394.png' target='_new'>0924103843394.png</a>]]>
+      <![CDATA[<br></br><a href='../test-output/screenshots/0924104703897.png' target='_new'>0924104703897.png</a>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -437,7 +437,7 @@
       <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
     </line>
     <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/0924103843806jio_verify2GBPlansNegativeFlow.png' target='_new'>0924103843806jio_verify2GBPlansNegativeFlow.png</a>]]>
+      <![CDATA[<br></br><a href='../test-output/screenshots/0924104704853jio_verify2GBPlansNegativeFlow.png' target='_new'>0924104704853jio_verify2GBPlansNegativeFlow.png</a>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -449,23 +449,23 @@
       <![CDATA[<br></br><img src="warning.png" alt="Warning" height="18" width="18">Validation Message : <Strong><font color=#ff0000>java.lang.AssertionError: Test Verification failed, please check test logs.</strong></font>]]>
     </line>
   </reporter-output>
-  <suite name="TBlocks_POC_Zain_WebApplication" duration-ms="74975" started-at="2020-09-24T10:37:32 IST" finished-at="2020-09-24T10:38:47 IST">
+  <suite name="TBlocks_POC_Zain_WebApplication" duration-ms="46493" started-at="2020-09-24T10:46:21 IST" finished-at="2020-09-24T10:47:07 IST">
     <groups>
     </groups>
-    <test name="TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits." duration-ms="49727" started-at="2020-09-24T10:37:32 IST" finished-at="2020-09-24T10:38:22 IST">
+    <test name="TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits." duration-ms="26223" started-at="2020-09-24T10:46:21 IST" finished-at="2020-09-24T10:46:47 IST">
       <class name="com.TBlocks_POC.TblocksIndex">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314]" name="beforeTest" is-config="true" duration-ms="37825" started-at="2020-09-24T10:37:32 IST" finished-at="2020-09-24T10:38:10 IST">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.TBlocks_POC.TblocksIndex@5d908d47]" name="setUp" is-config="true" duration-ms="12780" started-at="2020-09-24T10:46:21 IST" finished-at="2020-09-24T10:46:33 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[public void com.TBlocks_POC.TblocksIndex.jio_verify2GBPlansPositiveFlow() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="jio_verify2GBPlansPositiveFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314]" name="jio_verify2GBPlansPositiveFlow" duration-ms="9231" started-at="2020-09-24T10:38:10 IST" finished-at="2020-09-24T10:38:19 IST">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="jio_verify2GBPlansPositiveFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@5d908d47]" name="jio_verify2GBPlansPositiveFlow" duration-ms="8512" started-at="2020-09-24T10:46:33 IST" finished-at="2020-09-24T10:46:42 IST">
           <reporter-output>
             <line>
               <![CDATA[<br></br><strong>TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.</strong>]]>
@@ -676,11 +676,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- jio_verify2GBPlansPositiveFlow -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314]" name="tearDown" is-config="true" duration-ms="2593" started-at="2020-09-24T10:38:19 IST" finished-at="2020-09-24T10:38:22 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@5d908d47]" name="tearDown" is-config="true" duration-ms="4886" started-at="2020-09-24T10:46:42 IST" finished-at="2020-09-24T10:46:47 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=jio_verify2GBPlansPositiveFlow status=SUCCESS method=TblocksIndex.jio_verify2GBPlansPositiveFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314] output=<br></br><strong>TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.</strong>]]]>
+                <![CDATA[[TestResult name=jio_verify2GBPlansPositiveFlow status=SUCCESS method=TblocksIndex.jio_verify2GBPlansPositiveFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@5d908d47] output=<br></br><strong>TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.</strong>]]]>
               </value>
             </param>
           </params>
@@ -689,31 +689,31 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.TBlocks_POC.TblocksIndex -->
     </test> <!-- TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits. -->
-    <test name="TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow." duration-ms="25151" started-at="2020-09-24T10:38:22 IST" finished-at="2020-09-24T10:38:47 IST">
+    <test name="TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow." duration-ms="20247" started-at="2020-09-24T10:46:47 IST" finished-at="2020-09-24T10:47:07 IST">
       <class name="com.TBlocks_POC.TblocksIndex">
-        <test-method status="PASS" signature="startReport(org.testng.ITestContext)[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="startReport" is-config="true" duration-ms="191" started-at="2020-09-24T10:37:32 IST" finished-at="2020-09-24T10:37:32 IST">
+        <test-method status="PASS" signature="startReport(org.testng.ITestContext)[pri:0, instance:com.TBlocks_POC.TblocksIndex@50029372]" name="startReport" is-config="true" duration-ms="248" started-at="2020-09-24T10:46:20 IST" finished-at="2020-09-24T10:46:21 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5b753aa0]]>
+                <![CDATA[org.testng.TestRunner@464f3ada]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="beforeTest" is-config="true" duration-ms="13077" started-at="2020-09-24T10:38:22 IST" finished-at="2020-09-24T10:38:35 IST">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.TBlocks_POC.TblocksIndex@50029372]" name="setUp" is-config="true" duration-ms="8164" started-at="2020-09-24T10:46:47 IST" finished-at="2020-09-24T10:46:55 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[public void com.TBlocks_POC.TblocksIndex.jio_verify2GBPlansNegativeFlow() throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="jio_verify2GBPlansNegativeFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="jio_verify2GBPlansNegativeFlow" duration-ms="7821" started-at="2020-09-24T10:38:35 IST" finished-at="2020-09-24T10:38:43 IST">
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="jio_verify2GBPlansNegativeFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@50029372]" name="jio_verify2GBPlansNegativeFlow" duration-ms="8835" started-at="2020-09-24T10:46:55 IST" finished-at="2020-09-24T10:47:04 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Test Verification failed, please check test logs.]]>
@@ -792,7 +792,7 @@ at java.lang.Thread.run(Thread.java:748)
               <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
             </line>
             <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/0924103841691.png' target='_new'>0924103841691.png</a>]]>
+              <![CDATA[<br></br><a href='../test-output/screenshots/0924104701346.png' target='_new'>0924104701346.png</a>]]>
             </line>
             <line>
               <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -864,7 +864,7 @@ at java.lang.Thread.run(Thread.java:748)
               <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
             </line>
             <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/0924103842525.png' target='_new'>0924103842525.png</a>]]>
+              <![CDATA[<br></br><a href='../test-output/screenshots/0924104702584.png' target='_new'>0924104702584.png</a>]]>
             </line>
             <line>
               <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -969,7 +969,7 @@ at java.lang.Thread.run(Thread.java:748)
               <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
             </line>
             <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/0924103843394.png' target='_new'>0924103843394.png</a>]]>
+              <![CDATA[<br></br><a href='../test-output/screenshots/0924104703897.png' target='_new'>0924104703897.png</a>]]>
             </line>
             <line>
               <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -978,7 +978,7 @@ at java.lang.Thread.run(Thread.java:748)
               <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
             </line>
             <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/0924103843806jio_verify2GBPlansNegativeFlow.png' target='_new'>0924103843806jio_verify2GBPlansNegativeFlow.png</a>]]>
+              <![CDATA[<br></br><a href='../test-output/screenshots/0924104704853jio_verify2GBPlansNegativeFlow.png' target='_new'>0924104704853jio_verify2GBPlansNegativeFlow.png</a>]]>
             </line>
             <line>
               <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -991,18 +991,18 @@ at java.lang.Thread.run(Thread.java:748)
             </line>
           </reporter-output>
         </test-method> <!-- jio_verify2GBPlansNegativeFlow -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="tearDown" is-config="true" duration-ms="4182" started-at="2020-09-24T10:38:43 IST" finished-at="2020-09-24T10:38:47 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@50029372]" name="tearDown" is-config="true" duration-ms="3236" started-at="2020-09-24T10:47:04 IST" finished-at="2020-09-24T10:47:07 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=jio_verify2GBPlansNegativeFlow status=FAILURE method=TblocksIndex.jio_verify2GBPlansNegativeFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9] output=<br></br><strong>TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.</strong>]]]>
+                <![CDATA[[TestResult name=jio_verify2GBPlansNegativeFlow status=FAILURE method=TblocksIndex.jio_verify2GBPlansNegativeFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@50029372] output=<br></br><strong>TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.</strong>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="endReport" is-config="true" duration-ms="1889" started-at="2020-09-24T10:38:47 IST" finished-at="2020-09-24T10:38:49 IST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.TBlocks_POC.TblocksIndex@50029372]" name="endReport" is-config="true" duration-ms="560" started-at="2020-09-24T10:47:07 IST" finished-at="2020-09-24T10:47:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
