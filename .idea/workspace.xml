@@ -2,260 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56f5b89-aba1-40c3-9b54-f6ff77772d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/CustomReporterEmailBuildSummary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/CustomReporterforEmail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/Default Suite/TBLOCKS_WEB_POC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/Default Suite/TBLOCKS_WEB_POC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/Default Suite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/KQIIA_Report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TAG_RSC_001 __ To verify requestor can perform invalid login..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TAG_RSC_001 __ To verify requestor can perform invalid login..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_002 __ To verify broken links of the web page..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_002 __ To verify broken links of the web page..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits positive flow..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits positive flow..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_004 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits Negative flow..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/TS_WEB_004 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits Negative flow..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_002 __ To verify broken links of the web page..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_002 __ To verify broken links of the web page..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/TBlocks_POC_Zain_WebApplication/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/fail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/junitreports/TEST-com.TBlocks_POC.BrokenLinks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/junitreports/TEST-com.TBlocks_POC.TblocksIndex.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/junitreports/TEST-com.Zain.BrokenLinks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/junitreports/TEST-com.Zain.ZainIndex.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/Default Suite/TBLOCKS_WEB_POC.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/Default Suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/Default Suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/Default Suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/Default Suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/Default Suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/Default Suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/Default Suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/Default Suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/Default Suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/Default Suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/TAG_RSC_001 __ To verify requestor can perform invalid login..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/TS_WEB_002 __ To verify broken links of the web page..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits positive flow..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/TS_WEB_004 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits Negative flow..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_002 __ To verify broken links of the web page..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/TBlocks_POC_Zain_WebApplication/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/pass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915154352171testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915160709427testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915161254355testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915173347953testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915173619273testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915173910461testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/091517530419testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915180026898testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915211057577testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915211813525testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915212133267testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915212537768.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915212628955testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915212856884.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0915212857894testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/091610105540BrokenLinkTestCase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916103615721BrokenLinkTestCase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916103802288BrokenLinkTestCase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916104136531BrokenLinkTestCase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916114252556testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916115459206testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916115924784testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916120912206testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916125453753testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916130158877testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916131041722testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916132153907testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916133726390testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916134245131testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916170701570testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916172337189.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916172346669testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916174905395.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916174918182testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916182516421.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0916182526280testCaseScenario_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917110253891.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917110305369verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917120057495.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917120107292verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917121258781.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917121307361verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917145214576.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917145222810verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917145512843.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917145536103verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917145834313.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917145842406verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917164001399.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0917164010369verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0918104135288verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0918104632216.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0918104640666verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923121506156jio_verifyPlans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923130601855jio_verifyPlans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923130746777jio_verifyPlans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923130842115.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923130842893jio_verifyPlans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923131031545.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923131032488jio_verifyPlans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923132927539.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923132928367jio_verifyPlans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/092313310360.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/092313310464jio_verifyPlans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923140425473.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923140426389jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923140914806.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923140915977jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923141208607.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923141209640jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923141426730.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923141427635jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923141632771.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923141633799jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923141742313.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923141743336jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923142029410.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923142030460jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923142244151.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923142245104jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923142414473.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923142415502jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923143227685.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923143228699jio_Verify2GBPlansPricingNegativeFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923153317443zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923153556558.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923153607159zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/092315424040.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923154248382zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923154756252.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/092315475783jio_Verify2GBPlansPricingNegativeFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/092317592779.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/092317592884jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/092318270264.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923182702761.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923182703538jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923182817721.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923182818489jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923183756868.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923183758995jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923191623646zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923191847630.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/092319185197jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923192511185.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923192512577jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923192834297.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923192835264jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923193545391.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923193546371jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923193758270.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923193811614jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/092319394545.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923194010323jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923195103502.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923195129207jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923195707884.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923195832429.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923195852573jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923200205252.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923200206829jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923212818274.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923212819697.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923212821998jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923213133808.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923213135134.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/092321313756jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923213504848.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923213504943.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923213506151.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923213507474jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923213507508.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923213507986jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923214258847.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923214259334.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923214300368jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/092321430064.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0923214302854zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924103841691.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924103842525.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924103843394.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924103843806jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924104701346.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924104702584.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924104703897.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924104704853jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/092411362069zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924113754754.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924113755611.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924113756670.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924113757434jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924114446750.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924114457295zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924114918229.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924114920260zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924114927737zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924115425782.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924115431631zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924115854321.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924115904544zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924115915802.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/screenshots/0924115921865zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/testng-reports1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/testng-reports2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output - Parallel Execution/warning.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TBLOCKS_POC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TBLOCKS_POC.xml" afterDir="false" />
     </list>
@@ -651,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600929198005</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="September 24th 2020">
+      <created>1600929814582</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1600929814582</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -690,10 +443,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1600.860@0.0.1600.860" timestamp="1600688445584" />
-    <state x="379" y="24" key="CommitChangelistDialog2" timestamp="1600929192178">
+    <state x="379" y="24" key="CommitChangelistDialog2" timestamp="1600929811319">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="379" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600929192178" />
+    <state x="379" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600929811319" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1600257855182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -726,10 +479,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="15" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600875649261" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600929202303">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600929816348">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600929202303" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600929816348" />
     <state x="616" y="211" key="chooseDestDirectoryDialog" timestamp="1600249977066">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
