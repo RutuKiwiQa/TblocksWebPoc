@@ -9,6 +9,7 @@
         <listener class-name="com.framework.utility.CustomReporterListener"/>
     </listeners>
 
+
     <test name="TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser.">
         <parameter name="browser" value="chrome" />
         <classes>
