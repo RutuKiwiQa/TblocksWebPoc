@@ -42,7 +42,8 @@ public class SeleniumInit extends Common implements Configuration {
     public void startReport(ITestContext testContext) {
         ExtentReporter.initializeReport(testContext.getCurrentXmlTest().getSuite().getName());
     }
-//
+
+
 //    /**
 //     * To initialize the driver before executing the test cases
 //     *
