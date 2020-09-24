@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="TBlocks_POC_Zain_WebApplication" verbose="10" parallel="tests" thread-count="3" allow-return-values="true" preserve-order="true">
+<suite name="TBlocks_POC_Zain_WebApplication" verbose="10" parallel="tests" thread-count="1" allow-return-values="true" preserve-order="true">
 
     <listeners>
         <listener class-name="com.framework.utility.CustomDetailReporter" />
@@ -8,7 +8,7 @@
         <listener class-name="com.framework.utility.CustomReporterforEmail"/>
         <listener class-name="com.framework.utility.CustomReporterListener"/>
     </listeners>
-
+<!--
     <test name="TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.">
         <parameter name="browser" value="chrome" />
         <classes>
@@ -29,7 +29,7 @@
                 </methods>
             </class>
         </classes>
-    </test>
+    </test>-->
 
     <test name="TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.">
         <parameter name="browser" value="firefox" />

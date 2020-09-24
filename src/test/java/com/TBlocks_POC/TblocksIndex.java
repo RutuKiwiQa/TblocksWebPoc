@@ -156,7 +156,7 @@ public class TblocksIndex extends ZainProvider {
 
         testCaseLog("TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.");
 
-        pause(10);
+        pause(5);
 
         testVerifyLog("Verify user can see Jio plans screen.");
         if (tblocksVerification.verifyJioPlansScreen()){
@@ -230,7 +230,7 @@ public class TblocksIndex extends ZainProvider {
 
         testCaseLog("TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.");
 
-        pause(10);
+        pause(5);
 
         testVerifyLog("Verify user can see Jio plans screen.");
         if (tblocksVerification.verifyJioPlansScreen()){

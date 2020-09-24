@@ -111,7 +111,6 @@ public class SeleniumInit extends Common implements Configuration {
 
             // If browser is chrome, then do this
         }else if (browser.equalsIgnoreCase("chrome")) {
-            // Here I am setting up the path for my IEDriver
             System.setProperty("webdriver.chrome.driver", "E:\\TBLOCKS_WEB_POC\\chromedriver.exe");
             driver = new ChromeDriver();
 

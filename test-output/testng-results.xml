@@ -1,53 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="10" total="15" passed="2">
+<testng-results skipped="0" failed="1" ignored="6" total="8" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[ <h2> TS_WEB_002 :: To verify broken links of the web page. </h2>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<h3> WebLink for which broken link is been checked  : -  <a> https://www.jio.com </a> </h3>]]>
-    </line>
-    <line>
-      <![CDATA[<h4> Link Size : 34 </h4> ]]>
-    </line>
-    <line>
-      <![CDATA[ <h4>List of Broken Links </h4>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Version is not available for the current build.</font>]]>
-    </line>
-    <line>
       <![CDATA[<br></br><strong>TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jiosaavn.com/featured/weekly-top-15-hindi/8MT-LQlP35c_ -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>To verify that user can see the home page of the " Zain Web Application " .</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 1 : Click on My Zain Account button from the top right corner of the web application.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jiosaavn.com/ -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see Jio plans screen.</font>]]>
@@ -254,127 +209,10 @@
       <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/index-old.html -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/fiber.html -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
-<br> 6. E-Shop Tab.
-<br> 7. I am looking for Search field.
-<br> 8. Follow us Icons
-<br> 9. Footer Text
-<br> 10. Header Hyperlinks
-</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/shop/cart -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 2 : Enter Credentials for login.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Email Address : </strong><font color=#9400D3>voicetest290@gmail.com</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step 3 : Click on Sign in button.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/welcome# -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[http://www.jio.com/zla/rechargenow -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/JioApp/index.html?root=payBillNow -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
       <![CDATA[<br></br><strong>TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.</strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/dashboard/index.html?root=dashboard/myAccount -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
-<br> 2. Add to cart button
-<br> 3. Zain Logo
-<br> 4. Personal Tab
-<br> 5. Business Tab
-<br> 6. E-Shop Tab
-<br> 7. 5G Tab
-<br  8. Notifications dropdown
-<br> 9. I am looking for Search field.
-<br> 10. Profile Picture of user.
-<br> 11. Name 
-<br> 12. Nickname
-</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/dashboard/index.html?root=dashboard/manageAccounts -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
       <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see Jio plans screen.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/selfcare/dashboard/mobility/order-tracking/ -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
@@ -413,7 +251,7 @@
       <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
     </line>
     <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/0923214258847.png' target='_new'>0923214258847.png</a>]]>
+      <![CDATA[<br></br><a href='../test-output/screenshots/0924103841691.png' target='_new'>0924103841691.png</a>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -485,7 +323,7 @@
       <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
     </line>
     <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/0923214259334.png' target='_new'>0923214259334.png</a>]]>
+      <![CDATA[<br></br><a href='../test-output/screenshots/0924103842525.png' target='_new'>0924103842525.png</a>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -590,7 +428,7 @@
       <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
     </line>
     <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/092321430064.png' target='_new'>092321430064.png</a>]]>
+      <![CDATA[<br></br><a href='../test-output/screenshots/0924103843394.png' target='_new'>0924103843394.png</a>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -599,7 +437,7 @@
       <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
     </line>
     <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/0923214300368jio_verify2GBPlansNegativeFlow.png' target='_new'>0923214300368jio_verify2GBPlansNegativeFlow.png</a>]]>
+      <![CDATA[<br></br><a href='../test-output/screenshots/0924103843806jio_verify2GBPlansNegativeFlow.png' target='_new'>0924103843806jio_verify2GBPlansNegativeFlow.png</a>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -610,274 +448,13 @@
     <line>
       <![CDATA[<br></br><img src="warning.png" alt="Warning" height="18" width="18">Validation Message : <Strong><font color=#ff0000>java.lang.AssertionError: Test Verification failed, please check test logs.</strong></font>]]>
     </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/dashboard/index.html?root=dashboard/manageSupport -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/0923214302854zain_verifyLogin_Dashboard_Price.png' target='_new'>0923214302854zain_verifyLogin_Dashboard_Price.png</a>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Failure Reason: : </strong><font color=#9400D3></font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="warning.png" alt="Warning" height="18" width="18">Validation Message : <Strong><font color=#ff0000>org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element</strong></font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/selfcare/signout -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/ -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/index-old.html -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/fiber.html -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/welcome# -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/en-in/4g-plans -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/shop/en-in/c/jiofi -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/en-in/apps -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/en-in/jio-home-delivery-book-appointment.html -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/en-in/selfhelp -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[http://www.jio.com/zla/rechargenow -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/JioApp/index.html?root=payBillNow -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/dashboard -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/welcome# -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/dashboard/index.html?root=dashboard/myAccount -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/dashboard/index.html?root=dashboard/manageAccounts -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/selfcare/dashboard/mobility/order-tracking/ -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/dashboard/index.html?root=dashboard/manageSupport -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/selfcare/signout -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/shop/cart -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/fiber.html -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/index.html -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[ <h2> TS_WEB_002 :: To verify broken links of the web page. </h2>]]>
-    </line>
-    <line>
-      <![CDATA[<h3> WebLink for which broken link is been checked  : -  <a> https://www.jio.com/shop/en-in/c/jiofi </a> </h3>]]>
-    </line>
-    <line>
-      <![CDATA[<h4> Link Size : 99 </h4> ]]>
-    </line>
-    <line>
-      <![CDATA[ <h4>List of Broken Links </h4>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/shop/en-in/c/jiofi -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/fiber.html -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[https://www.jio.com/shop/cart -  <br> is a valid link.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <br>]]>
-    </line>
   </reporter-output>
-  <suite name="TBlocks_POC_Zain_WebApplication" duration-ms="186295" started-at="2020-09-23T21:41:54 IST" finished-at="2020-09-23T21:45:00 IST">
+  <suite name="TBlocks_POC_Zain_WebApplication" duration-ms="74975" started-at="2020-09-24T10:37:32 IST" finished-at="2020-09-24T10:38:47 IST">
     <groups>
     </groups>
-    <test name="TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits." duration-ms="37567" started-at="2020-09-23T21:41:54 IST" finished-at="2020-09-23T21:42:32 IST">
+    <test name="TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits." duration-ms="49727" started-at="2020-09-24T10:37:32 IST" finished-at="2020-09-24T10:38:22 IST">
       <class name="com.TBlocks_POC.TblocksIndex">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@41488b16]" name="beforeTest" is-config="true" duration-ms="22493" started-at="2020-09-23T21:41:54 IST" finished-at="2020-09-23T21:42:17 IST">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314]" name="beforeTest" is-config="true" duration-ms="37825" started-at="2020-09-24T10:37:32 IST" finished-at="2020-09-24T10:38:10 IST">
           <params>
             <param index="0">
               <value>
@@ -888,7 +465,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="jio_verify2GBPlansPositiveFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@41488b16]" name="jio_verify2GBPlansPositiveFlow" duration-ms="12438" started-at="2020-09-23T21:42:17 IST" finished-at="2020-09-23T21:42:29 IST">
+        <test-method status="PASS" signature="jio_verify2GBPlansPositiveFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314]" name="jio_verify2GBPlansPositiveFlow" duration-ms="9231" started-at="2020-09-24T10:38:10 IST" finished-at="2020-09-24T10:38:19 IST">
           <reporter-output>
             <line>
               <![CDATA[<br></br><strong>TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.</strong>]]>
@@ -1099,11 +676,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- jio_verify2GBPlansPositiveFlow -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@41488b16]" name="tearDown" is-config="true" duration-ms="2599" started-at="2020-09-23T21:42:29 IST" finished-at="2020-09-23T21:42:32 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314]" name="tearDown" is-config="true" duration-ms="2593" started-at="2020-09-24T10:38:19 IST" finished-at="2020-09-24T10:38:22 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=jio_verify2GBPlansPositiveFlow status=SUCCESS method=TblocksIndex.jio_verify2GBPlansPositiveFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@41488b16] output=<br></br><strong>TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.</strong>]]]>
+                <![CDATA[[TestResult name=jio_verify2GBPlansPositiveFlow status=SUCCESS method=TblocksIndex.jio_verify2GBPlansPositiveFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314] output=<br></br><strong>TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.</strong>]]]>
               </value>
             </param>
           </params>
@@ -1112,20 +689,20 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.TBlocks_POC.TblocksIndex -->
     </test> <!-- TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits. -->
-    <test name="TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow." duration-ms="29647" started-at="2020-09-23T21:42:32 IST" finished-at="2020-09-23T21:43:01 IST">
+    <test name="TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow." duration-ms="25151" started-at="2020-09-24T10:38:22 IST" finished-at="2020-09-24T10:38:47 IST">
       <class name="com.TBlocks_POC.TblocksIndex">
-        <test-method status="PASS" signature="startReport(org.testng.ITestContext)[pri:0, instance:com.TBlocks_POC.TblocksIndex@53f3bdbd]" name="startReport" is-config="true" duration-ms="223" started-at="2020-09-23T21:41:54 IST" finished-at="2020-09-23T21:41:54 IST">
+        <test-method status="PASS" signature="startReport(org.testng.ITestContext)[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="startReport" is-config="true" duration-ms="191" started-at="2020-09-24T10:37:32 IST" finished-at="2020-09-24T10:37:32 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@505b782d]]>
+                <![CDATA[org.testng.TestRunner@5b753aa0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@53f3bdbd]" name="beforeTest" is-config="true" duration-ms="16069" started-at="2020-09-23T21:42:32 IST" finished-at="2020-09-23T21:42:48 IST">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="beforeTest" is-config="true" duration-ms="13077" started-at="2020-09-24T10:38:22 IST" finished-at="2020-09-24T10:38:35 IST">
           <params>
             <param index="0">
               <value>
@@ -1136,7 +713,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="jio_verify2GBPlansNegativeFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@53f3bdbd]" name="jio_verify2GBPlansNegativeFlow" duration-ms="11925" started-at="2020-09-23T21:42:48 IST" finished-at="2020-09-23T21:43:00 IST">
+        <test-method status="FAIL" signature="jio_verify2GBPlansNegativeFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="jio_verify2GBPlansNegativeFlow" duration-ms="7821" started-at="2020-09-24T10:38:35 IST" finished-at="2020-09-24T10:38:43 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Test Verification failed, please check test logs.]]>
@@ -1215,7 +792,7 @@ at java.lang.Thread.run(Thread.java:748)
               <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
             </line>
             <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/0923214258847.png' target='_new'>0923214258847.png</a>]]>
+              <![CDATA[<br></br><a href='../test-output/screenshots/0924103841691.png' target='_new'>0924103841691.png</a>]]>
             </line>
             <line>
               <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -1287,7 +864,7 @@ at java.lang.Thread.run(Thread.java:748)
               <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
             </line>
             <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/0923214259334.png' target='_new'>0923214259334.png</a>]]>
+              <![CDATA[<br></br><a href='../test-output/screenshots/0924103842525.png' target='_new'>0924103842525.png</a>]]>
             </line>
             <line>
               <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -1392,7 +969,7 @@ at java.lang.Thread.run(Thread.java:748)
               <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
             </line>
             <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/092321430064.png' target='_new'>092321430064.png</a>]]>
+              <![CDATA[<br></br><a href='../test-output/screenshots/0924103843394.png' target='_new'>0924103843394.png</a>]]>
             </line>
             <line>
               <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -1401,7 +978,7 @@ at java.lang.Thread.run(Thread.java:748)
               <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
             </line>
             <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/0923214300368jio_verify2GBPlansNegativeFlow.png' target='_new'>0923214300368jio_verify2GBPlansNegativeFlow.png</a>]]>
+              <![CDATA[<br></br><a href='../test-output/screenshots/0924103843806jio_verify2GBPlansNegativeFlow.png' target='_new'>0924103843806jio_verify2GBPlansNegativeFlow.png</a>]]>
             </line>
             <line>
               <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
@@ -1414,635 +991,22 @@ at java.lang.Thread.run(Thread.java:748)
             </line>
           </reporter-output>
         </test-method> <!-- jio_verify2GBPlansNegativeFlow -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@53f3bdbd]" name="tearDown" is-config="true" duration-ms="1644" started-at="2020-09-23T21:43:00 IST" finished-at="2020-09-23T21:43:01 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="tearDown" is-config="true" duration-ms="4182" started-at="2020-09-24T10:38:43 IST" finished-at="2020-09-24T10:38:47 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=jio_verify2GBPlansNegativeFlow status=FAILURE method=TblocksIndex.jio_verify2GBPlansNegativeFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@53f3bdbd] output=<br></br><strong>TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.</strong>]]]>
+                <![CDATA[[TestResult name=jio_verify2GBPlansNegativeFlow status=FAILURE method=TblocksIndex.jio_verify2GBPlansNegativeFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9] output=<br></br><strong>TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.</strong>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.TBlocks_POC.TblocksIndex@53f3bdbd]" name="endReport" is-config="true" duration-ms="1407" started-at="2020-09-23T21:45:00 IST" finished-at="2020-09-23T21:45:02 IST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="endReport" is-config="true" duration-ms="1889" started-at="2020-09-24T10:38:47 IST" finished-at="2020-09-24T10:38:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.TBlocks_POC.TblocksIndex -->
     </test> <!-- TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow. -->
-    <test name="TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification." duration-ms="69293" started-at="2020-09-23T21:41:54 IST" finished-at="2020-09-23T21:43:03 IST">
-      <class name="com.TBlocks_POC.TblocksIndex">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314]" name="beforeTest" is-config="true" duration-ms="17862" started-at="2020-09-23T21:41:54 IST" finished-at="2020-09-23T21:42:12 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="zain_verifyLogin_Dashboard_Price(java.lang.String, java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314]" name="zain_verifyLogin_Dashboard_Price" duration-ms="49762" started-at="2020-09-23T21:42:12 IST" data-provider="Zain" finished-at="2020-09-23T21:43:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[voicetest290@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rutu@123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Timed out after 10 seconds. Unable to locate the element]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.getAttribute(Unknown Source)
-at com.framework.common.Common.getInnerValue(Common.java:285)
-at com.TBlocks_POC.TblocksVerification.verifyZainDashboardScreen(TblocksVerification.java:235)
-at com.TBlocks_POC.TblocksIndex.zain_verifyLogin_Dashboard_Price(TblocksIndex.java:70)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='elementn_widgets_ValidationTextBox_2']"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-576CM0N', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Laptop\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55706}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1b13a4fa56f86b75e712feffd1e1e2c9
-*** Element info: {Using=xpath, value=//input[@id='elementn_widgets_ValidationTextBox_2']}
-at sun.reflect.GeneratedConstructorAccessor70.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
-at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
-... 28 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Version is not available for the current build.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>To verify that user can see the home page of the " Zain Web Application " .</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step 1 : Click on My Zain Account button from the top right corner of the web application.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
-<br> 6. E-Shop Tab.
-<br> 7. I am looking for Search field.
-<br> 8. Follow us Icons
-<br> 9. Footer Text
-<br> 10. Header Hyperlinks
-</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step 2 : Enter Credentials for login.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Email Address : </strong><font color=#9400D3>voicetest290@gmail.com</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step 3 : Click on Sign in button.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
-<br> 2. Add to cart button
-<br> 3. Zain Logo
-<br> 4. Personal Tab
-<br> 5. Business Tab
-<br> 6. E-Shop Tab
-<br> 7. 5G Tab
-<br  8. Notifications dropdown
-<br> 9. I am looking for Search field.
-<br> 10. Profile Picture of user.
-<br> 11. Name 
-<br> 12. Nickname
-</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/0923214302854zain_verifyLogin_Dashboard_Price.png' target='_new'>0923214302854zain_verifyLogin_Dashboard_Price.png</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Failure Reason: : </strong><font color=#9400D3></font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="warning.png" alt="Warning" height="18" width="18">Validation Message : <Strong><font color=#ff0000>org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element</strong></font>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- zain_verifyLogin_Dashboard_Price -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314]" name="tearDown" is-config="true" duration-ms="1523" started-at="2020-09-23T21:43:02 IST" finished-at="2020-09-23T21:43:03 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=zain_verifyLogin_Dashboard_Price status=FAILURE method=TblocksIndex.zain_verifyLogin_Dashboard_Price(java.lang.String, java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314] output=<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.TBlocks_POC.TblocksIndex -->
-    </test> <!-- TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification. -->
-    <test name="TS_WEB_002 :: To verify broken links of the web page." duration-ms="186295" started-at="2020-09-23T21:41:54 IST" finished-at="2020-09-23T21:45:00 IST">
-      <class name="com.TBlocks_POC.BrokenLinks">
-        <test-method status="PASS" signature="BrokenLinkTestCase(java.lang.String)[pri:1, instance:com.TBlocks_POC.BrokenLinks@7f2cfe3f]" name="BrokenLinkTestCase" duration-ms="144325" started-at="2020-09-23T21:41:55 IST" description="BrokenLinks Checking" data-provider="BrokenLinks" finished-at="2020-09-23T21:44:19 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.jio.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[ <h2> TS_WEB_002 :: To verify broken links of the web page. </h2>]]>
-            </line>
-            <line>
-              <![CDATA[<h3> WebLink for which broken link is been checked  : -  <a> https://www.jio.com </a> </h3>]]>
-            </line>
-            <line>
-              <![CDATA[<h4> Link Size : 34 </h4> ]]>
-            </line>
-            <line>
-              <![CDATA[ <h4>List of Broken Links </h4>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jiosaavn.com/featured/weekly-top-15-hindi/8MT-LQlP35c_ -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jiosaavn.com/ -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/index-old.html -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/fiber.html -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/shop/cart -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/welcome# -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[http://www.jio.com/zla/rechargenow -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/JioApp/index.html?root=payBillNow -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/dashboard/index.html?root=dashboard/myAccount -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/dashboard/index.html?root=dashboard/manageAccounts -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/selfcare/dashboard/mobility/order-tracking/ -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/dashboard/index.html?root=dashboard/manageSupport -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/selfcare/signout -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/ -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/index-old.html -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/fiber.html -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/welcome# -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/en-in/4g-plans -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/shop/en-in/c/jiofi -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/en-in/apps -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/en-in/jio-home-delivery-book-appointment.html -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/en-in/selfhelp -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[http://www.jio.com/zla/rechargenow -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/JioApp/index.html?root=payBillNow -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/dashboard -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/welcome# -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/dashboard/index.html?root=dashboard/myAccount -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/dashboard/index.html?root=dashboard/manageAccounts -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/selfcare/dashboard/mobility/order-tracking/ -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/dashboard/index.html?root=dashboard/manageSupport -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/selfcare/signout -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/shop/cart -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/fiber.html -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/index.html -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BrokenLinkTestCase -->
-        <test-method status="FAIL" signature="BrokenLinkTestCase(java.lang.String)[pri:1, instance:com.TBlocks_POC.BrokenLinks@7f2cfe3f]" name="BrokenLinkTestCase" duration-ms="40751" started-at="2020-09-23T21:44:19 IST" description="BrokenLinks Checking" data-provider="BrokenLinks" finished-at="2020-09-23T21:45:00 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.jio.com/shop/en-in/c/jiofi]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.net.SocketTimeoutException">
-            <message>
-              <![CDATA[connect timed out]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.SocketTimeoutException: connect timed out
-at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
-at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
-at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
-at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
-at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
-at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
-at java.net.Socket.connect(Socket.java:606)
-at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:286)
-at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
-at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
-at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:292)
-at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:395)
-at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
-at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
-at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:167)
-at com.TBlocks_POC.BrokenLinks.BrokenLinkTestCase(BrokenLinks.java:87)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.SocketTimeoutException -->
-          <reporter-output>
-            <line>
-              <![CDATA[ <h2> TS_WEB_002 :: To verify broken links of the web page. </h2>]]>
-            </line>
-            <line>
-              <![CDATA[<h3> WebLink for which broken link is been checked  : -  <a> https://www.jio.com/shop/en-in/c/jiofi </a> </h3>]]>
-            </line>
-            <line>
-              <![CDATA[<h4> Link Size : 99 </h4> ]]>
-            </line>
-            <line>
-              <![CDATA[ <h4>List of Broken Links </h4>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/shop/en-in/c/jiofi -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/fiber.html -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[https://www.jio.com/shop/cart -  <br> is a valid link.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BrokenLinkTestCase -->
-        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.TBlocks_POC.BrokenLinks@7f2cfe3f]" name="suiteTearDown" is-config="true" duration-ms="808" started-at="2020-09-23T21:45:00 IST" finished-at="2020-09-23T21:45:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suiteTearDown -->
-      </class> <!-- com.TBlocks_POC.BrokenLinks -->
-    </test> <!-- TS_WEB_002 :: To verify broken links of the web page. -->
   </suite> <!-- TBlocks_POC_Zain_WebApplication -->
 </testng-results>
