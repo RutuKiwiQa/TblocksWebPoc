@@ -20,6 +20,7 @@
         </classes>
     </test>
 
+
     <test name="TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser.">
         <parameter name="browser" value="firefox" />
         <classes>
