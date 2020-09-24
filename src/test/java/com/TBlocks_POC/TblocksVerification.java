@@ -256,9 +256,9 @@ public class TblocksVerification extends AbstractPage {
     }
 
     public boolean verifyBlackModel() throws IOException {
-        String black = ZainProvider.getCellData("Price",1,1);
-        String model = ZainProvider.getCellData("Price",1,2);
-        String price = ZainProvider.getCellData("Price", 1,3);
+        String black = ZainProvider.getCellData("Price",2,1);
+        String model = ZainProvider.getCellData("Price",2,2);
+        String price = ZainProvider.getCellData("Price", 2,3);
         _blackColor = getInnerValue(drpBlack);
         _model64GB = getInnerValue(drp64GB);
         _blackModelPrice = getText(lblPriceBlack);

@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [TBlocks_POC_Zain_WebApplication]" parallel="tests" allow-return-values="true">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [TBlocks_POC_Zain_WebApplication]" parallel="tests" allow-return-values="true">
   <listeners>
     <listener class-name="com.framework.utility.CustomDetailReporter"/>
     <listener class-name="com.framework.utility.CustomReporterEmailBuildSummary"/>
     <listener class-name="com.framework.utility.CustomReporterforEmail"/>
     <listener class-name="com.framework.utility.CustomReporterListener"/>
   </listeners>
-  <test thread-count="1" verbose="10" name="TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.(failed)" parallel="tests">
+  <test thread-count="2" verbose="10" name="TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser.(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.TBlocks_POC.TblocksIndex">
         <methods>
-          <include name="jio_verify2GBPlansNegativeFlow"/>
+          <include name="zain_verifyLogin_Dashboard_Price" invocation-numbers="0"/>
           <include name="startReport"/>
           <include name="endReport"/>
-          <include name="setUp"/>
+          <include name="beforeTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.TBlocks_POC.TblocksIndex -->
     </classes>
-  </test> <!-- TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.(failed) -->
+  </test> <!-- TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser.(failed) -->
+  <test thread-count="2" verbose="10" name="TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser.(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.TBlocks_POC.TblocksIndex">
+        <methods>
+          <include name="zain_verifyLogin_Dashboard_Price" invocation-numbers="0"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TBlocks_POC.TblocksIndex -->
+    </classes>
+  </test> <!-- TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser.(failed) -->
 </suite> <!-- Failed suite [TBlocks_POC_Zain_WebApplication] -->

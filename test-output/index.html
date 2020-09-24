@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-TBlocks_POC_Zain_WebApplication">
-              <span class="suite-name border-failed">TBlocks_POC_Zain_WebApplication</span>
+              <span class="suite-name border-passed">TBlocks_POC_Zain_WebApplication</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-TBlocks_POC_Zain_WebApplication" class="hide-methods failed suite-TBlocks_POC_Zain_WebApplication"> (hide)</a> <!-- hide-methods failed suite-TBlocks_POC_Zain_WebApplication -->
-                      <a href="#" panel-name="suite-TBlocks_POC_Zain_WebApplication" class="show-methods failed suite-TBlocks_POC_Zain_WebApplication"> (show)</a> <!-- show-methods failed suite-TBlocks_POC_Zain_WebApplication -->
-                    </span>
-                    <div class="method-list-content failed suite-TBlocks_POC_Zain_WebApplication">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TBlocks_POC_Zain_WebApplication" title="com.TBlocks_POC.TblocksIndex" hash-for-method="jio_verify2GBPlansNegativeFlow">jio_verify2GBPlansNegativeFlow</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-TBlocks_POC_Zain_WebApplication -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,7 +104,12 @@
                     <div class="method-list-content passed suite-TBlocks_POC_Zain_WebApplication">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TBlocks_POC_Zain_WebApplication" title="com.TBlocks_POC.TblocksIndex" hash-for-method="jio_verify2GBPlansPositiveFlow">jio_verify2GBPlansPositiveFlow</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TBlocks_POC_Zain_WebApplication" title="com.TBlocks_POC.TblocksIndex" hash-for-method="zain_verifyLogin_Dashboard_Price(voicetest290@gmail.com, rutu@123)">zain_verifyLogin_Dashboard_Price(voicetest290@gmail.com, rutu@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TBlocks_POC_Zain_WebApplication" title="com.TBlocks_POC.TblocksIndex" hash-for-method="zain_verifyLogin_Dashboard_Price(voicetest290@gmail.com, rutu@123)">zain_verifyLogin_Dashboard_Price(voicetest290@gmail.com, rutu@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TBlocks_POC_Zain_WebApplication -->
@@ -133,49 +124,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TBlocks_POC_Zain_WebApplication" class="panel TBlocks_POC_Zain_WebApplication">
-          <div class="suite-TBlocks_POC_Zain_WebApplication-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.TBlocks_POC.TblocksIndex</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="jio_verify2GBPlansNegativeFlow">
-                  </a> <!-- jio_verify2GBPlansNegativeFlow -->
-                  <span class="method-name">jio_verify2GBPlansNegativeFlow</span>
-                  <div class="stack-trace">java.lang.AssertionError: Test Verification failed, please check test logs.
-	at org.testng.Assert.fail(Assert.java:99)
-	at com.TBlocks_POC.TblocksIndex.jio_verify2GBPlansNegativeFlow(TblocksIndex.java:297)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TBlocks_POC_Zain_WebApplication-class-failed -->
           <div class="suite-TBlocks_POC_Zain_WebApplication-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -184,9 +132,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="jio_verify2GBPlansPositiveFlow">
-                  </a> <!-- jio_verify2GBPlansPositiveFlow -->
-                  <span class="method-name">jio_verify2GBPlansPositiveFlow</span>
+                  <a name="zain_verifyLogin_Dashboard_Price(voicetest290@gmail.com, rutu@123)">
+                  </a> <!-- zain_verifyLogin_Dashboard_Price(voicetest290@gmail.com, rutu@123) -->
+                  <span class="method-name">zain_verifyLogin_Dashboard_Price</span>
+                  <span class="parameters">(voicetest290@gmail.com, rutu@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zain_verifyLogin_Dashboard_Price(voicetest290@gmail.com, rutu@123)">
+                  </a> <!-- zain_verifyLogin_Dashboard_Price(voicetest290@gmail.com, rutu@123) -->
+                  <span class="method-name">zain_verifyLogin_Dashboard_Price</span>
+                  <span class="parameters">(voicetest290@gmail.com, rutu@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -200,31 +157,33 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;10&quot; name=&quot;TBlocks_POC_Zain_WebApplication&quot; parallel=&quot;tests&quot; allow-return-values=&quot;true&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;10&quot; name=&quot;TBlocks_POC_Zain_WebApplication&quot; parallel=&quot;tests&quot; allow-return-values=&quot;true&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.framework.utility.CustomDetailReporter&quot;/&gt;
     &lt;listener class-name=&quot;com.framework.utility.CustomReporterEmailBuildSummary&quot;/&gt;
     &lt;listener class-name=&quot;com.framework.utility.CustomReporterforEmail&quot;/&gt;
     &lt;listener class-name=&quot;com.framework.utility.CustomReporterListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;10&quot; name=&quot;TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser.&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.TBlocks_POC.TblocksIndex&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;jio_verify2GBPlansPositiveFlow&quot;/&gt;
+          &lt;include name=&quot;zain_verifyLogin_Dashboard_Price&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.TBlocks_POC.TblocksIndex --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits. --&gt;
-  &lt;test thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.&quot; parallel=&quot;tests&quot;&gt;
+  &lt;/test&gt; &lt;!-- TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser. --&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;10&quot; name=&quot;TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser.&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.TBlocks_POC.TblocksIndex&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;jio_verify2GBPlansNegativeFlow&quot;/&gt;
+          &lt;include name=&quot;zain_verifyLogin_Dashboard_Price&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.TBlocks_POC.TblocksIndex --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow. --&gt;
+  &lt;/test&gt; &lt;!-- TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser. --&gt;
 &lt;/suite&gt; &lt;!-- TBlocks_POC_Zain_WebApplication --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -236,10 +195,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits. (1 class)</span>
+                <span class="test-name">TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser. (1 class)</span>
               </li>
               <li>
-                <span class="test-name">TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow. (1 class)</span>
+                <span class="test-name">TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser. (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -267,18 +226,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'jio_verify2GBPlansNegativeFlow')
+data.setCell(0, 1, 'zain_verifyLogin_Dashboard_Price')
 data.setCell(0, 2, 'com.TBlocks_POC.TblocksIndex')
-data.setCell(0, 3, 8835);
+data.setCell(0, 3, 79318);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'jio_verify2GBPlansPositiveFlow')
+data.setCell(1, 1, 'zain_verifyLogin_Dashboard_Price')
 data.setCell(1, 2, 'com.TBlocks_POC.TblocksIndex')
-data.setCell(1, 3, 8512);
+data.setCell(1, 3, 66795);
 window.suiteTableData['TBlocks_POC_Zain_WebApplication']= { tableData: data, tableDiv: 'times-div-TBlocks_POC_Zain_WebApplication'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-TBlocks_POC_Zain_WebApplication">
               </div> <!-- times-div-TBlocks_POC_Zain_WebApplication -->
             </div> <!-- times-div -->
@@ -290,162 +249,115 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">jio_verify2GBPlansPositiveFlow</span>
+              <span class="reporter-method-name">zain_verifyLogin_Dashboard_Price(voicetest290@gmail.com, rutu@123)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><br></br><strong>TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.</strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see Jio plans screen.</font></span>
+                <span class="reporter-method-output"><br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Version is not available for the current build.</font></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>To verify that user can see the home page of the " Zain Web Application " .</font></span>
                 <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify first plan of 2GB/Day Page.</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>First Plan Price :  : </strong><font color=#9400D3>598</font></span>
-                <span class="reporter-method-output"><br></br><strong>First Plan Validity :  : </strong><font color=#9400D3>56 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>Unlimited 112GB & Disney+ Hotstar</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>First plan price :  : </strong><font color=#9400D3>598</font></span>
-                <span class="reporter-method-output"><br></br><strong>First plan validity :  : </strong><font color=#9400D3>56 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>112GB & Disney+ Hotstar</font></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify first plan 2GB/Day details are same on screen and excel sheet.</font></span>
+                <span class="reporter-method-output"><br></br>Step 2 : Click on My Zain Account button from the top right corner of the web application.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
+<br> 6. E-Shop Tab.
+<br> 7. I am looking for Search field.
+<br> 8. Follow us Icons
+<br> 9. Footer Text
+<br> 10. Header Hyperlinks
+</font></span>
                 <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify second plan of 2GB/Day Page.</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Second Plan Price :  : </strong><font color=#9400D3>2599</font></span>
-                <span class="reporter-method-output"><br></br><strong>Second Plan Validity :  : </strong><font color=#9400D3>365 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Second Plan Benefits :  : </strong><font color=#9400D3>Unlimited 740GB & Disney+ Hotstar</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Second plan price :  : </strong><font color=#9400D3>2599</font></span>
-                <span class="reporter-method-output"><br></br><strong>Second plan validity :  : </strong><font color=#9400D3>365 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Second Plan Benefits :  : </strong><font color=#9400D3>740GB & Disney+ Hotstar</font></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Second plan 2GB/Day details are same on screen and excel sheet.</font></span>
+                <span class="reporter-method-output"><br></br>Step 5 : Enter Credentials for login.</span>
+                <span class="reporter-method-output"><br></br><strong>Email Address : </strong><font color=#9400D3>voicetest290@gmail.com</font></span>
+                <span class="reporter-method-output"><br></br>Step 6 : Click on Sign in button.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
+<br> 2. Add to cart button
+<br> 3. Zain Logo
+<br> 4. Personal Tab
+<br> 5. Business Tab
+<br> 6. E-Shop Tab
+<br> 7. 5G Tab
+<br  8. Notifications dropdown
+<br> 9. I am looking for Search field.
+<br> 10. Profile Picture of user.
+<br> 11. Name 
+<br> 12. Nickname
+</font></span>
+                <span class="reporter-method-output"><br></br><strong>Logged in User Name :  : </strong><font color=#9400D3>Rutu Shah</font></span>
+                <span class="reporter-method-output"><br></br><strong>Logged in User's NickName :  : </strong><font color=#9400D3>Rutu</font></span>
                 <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify third plan of 2GB/Day Page.</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Third Plan Price :  : </strong><font color=#9400D3>2399</font></span>
-                <span class="reporter-method-output"><br></br><strong>Third Plan Validity :  : </strong><font color=#9400D3>365 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>730 GB</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Third plan price :  : </strong><font color=#9400D3>2399</font></span>
-                <span class="reporter-method-output"><br></br><strong>Third plan validity :  : </strong><font color=#9400D3>365 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>730 GB </font></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Third plan 2GB/Day details are same on screen and excel sheet.</font></span>
+                <span class="reporter-method-output"><br></br>Step 8 : Click on E-Shop Tab.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see E-Shop Screen's content.</font></span>
+                <span class="reporter-method-output"><br></br><strong>Total Available Products :  : </strong><font color=#9400D3>5</font></span>
                 <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify forth plan of 2GB/Day Page.</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Forth Plan Price :  : </strong><font color=#9400D3>599</font></span>
-                <span class="reporter-method-output"><br></br><strong>Forth Plan Validity :  : </strong><font color=#9400D3>84 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Forth Plan Benefits :  : </strong><font color=#9400D3>168 GB</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Forth plan price :  : </strong><font color=#9400D3>599</font></span>
-                <span class="reporter-method-output"><br></br><strong>Forth plan validity :  : </strong><font color=#9400D3>84 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Forth Plan Benefits :  : </strong><font color=#9400D3>168 GB </font></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Forth plan 2GB/Day details are same on screen and excel sheet.</font></span>
+                <span class="reporter-method-output"><br></br>Step 10 : Click on First available product.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify selected product screen.</font></span>
                 <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify fifth plan of 2GB/Day Page.</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Fifth Plan Price :  : </strong><font color=#9400D3>444</font></span>
-                <span class="reporter-method-output"><br></br><strong>Fifth Plan Validity :  : </strong><font color=#9400D3>56 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Fifth Plan Benefits :  : </strong><font color=#9400D3>112 GB</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Fifth plan price :  : </strong><font color=#9400D3>444</font></span>
-                <span class="reporter-method-output"><br></br><strong>Fifth plan validity :  : </strong><font color=#9400D3>56 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Fifth Plan Benefits :  : </strong><font color=#9400D3>112 GB </font></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Fifth plan 2GB/Day details are same on screen and excel sheet.</font></span>
+                <span class="reporter-method-output"><br></br>Step 12 : Observe and click on the first thumbnail.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see information page of the thumbnail.</font></span>
                 <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify sixth plan of 2GB/Day Page.</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Sixth Plan Price :  : </strong><font color=#9400D3>249</font></span>
-                <span class="reporter-method-output"><br></br><strong>Sixth Plan Validity :  : </strong><font color=#9400D3>28 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Sixth plan price :  : </strong><font color=#9400D3>249</font></span>
-                <span class="reporter-method-output"><br></br><strong>Sixth plan validity :  : </strong><font color=#9400D3>28 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB </font></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Sixth plan 2GB/Day details are same on screen and excel sheet.</font></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify select Iphone SE with black color and model number</font></span>
+                <span class="reporter-method-output"><br></br><strong>Currently selected Mobile Color :   : </strong><font color=#9400D3>White</font></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile Model  : 128 GB</font></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile price   : 2099.00</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 13 : Click on user name</span>
+                <span class="reporter-method-output"><br></br>Step 14 : Click on Logout.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify the user is logout successfully.</font></span>
                 <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">jio_verify2GBPlansNegativeFlow</span>
+              <span class="reporter-method-name">zain_verifyLogin_Dashboard_Price(voicetest290@gmail.com, rutu@123)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><br></br><strong>TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.</strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see Jio plans screen.</font></span>
+                <span class="reporter-method-output"><br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Version is not available for the current build.</font></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>To verify that user can see the home page of the " Zain Web Application " .</font></span>
                 <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify first plan of 2GB/Day Page.</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>First Plan Price :  : </strong><font color=#9400D3>598</font></span>
-                <span class="reporter-method-output"><br></br><strong>First Plan Validity :  : </strong><font color=#9400D3>56 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>Unlimited 112GB & Disney+ Hotstar</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>First plan price :  : </strong><font color=#9400D3>698</font></span>
-                <span class="reporter-method-output"><br></br><strong>First plan validity :  : </strong><font color=#9400D3>30 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>112GB & Disney+ Hotstar</font></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify first plan 2GB/Day details are same on screen and excel sheet.</font></span>
-                <span class="reporter-method-output"><br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br></span>
-                <span class="reporter-method-output"><br></br><a href='../test-output/screenshots/0924104701346.png' target='_new'>0924104701346.png</a></span>
-                <span class="reporter-method-output"><br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify second plan of 2GB/Day Page.</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Second Plan Price :  : </strong><font color=#9400D3>2599</font></span>
-                <span class="reporter-method-output"><br></br><strong>Second Plan Validity :  : </strong><font color=#9400D3>365 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Second Plan Benefits :  : </strong><font color=#9400D3>Unlimited 740GB & Disney+ Hotstar</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Second plan price :  : </strong><font color=#9400D3>2599</font></span>
-                <span class="reporter-method-output"><br></br><strong>Second plan validity :  : </strong><font color=#9400D3>365 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Second Plan Benefits :  : </strong><font color=#9400D3>740GB & Disney+ Hotstar</font></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Second plan 2GB/Day details are same on screen and excel sheet.</font></span>
+                <span class="reporter-method-output"><br></br>Step 1 : Click on My Zain Account button from the top right corner of the web application.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
+<br> 6. E-Shop Tab.
+<br> 7. I am looking for Search field.
+<br> 8. Follow us Icons
+<br> 9. Footer Text
+<br> 10. Header Hyperlinks
+</font></span>
                 <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify third plan of 2GB/Day Page.</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Third Plan Price :  : </strong><font color=#9400D3>2399</font></span>
-                <span class="reporter-method-output"><br></br><strong>Third Plan Validity :  : </strong><font color=#9400D3>365 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>730 GB</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Third plan price :  : </strong><font color=#9400D3>2399</font></span>
-                <span class="reporter-method-output"><br></br><strong>Third plan validity :  : </strong><font color=#9400D3>365 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>1 GB </font></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Third plan 2GB/Day details are same on screen and excel sheet.</font></span>
-                <span class="reporter-method-output"><br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br></span>
-                <span class="reporter-method-output"><br></br><a href='../test-output/screenshots/0924104702584.png' target='_new'>0924104702584.png</a></span>
-                <span class="reporter-method-output"><br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify forth plan of 2GB/Day Page.</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Forth Plan Price :  : </strong><font color=#9400D3>599</font></span>
-                <span class="reporter-method-output"><br></br><strong>Forth Plan Validity :  : </strong><font color=#9400D3>84 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Forth Plan Benefits :  : </strong><font color=#9400D3>168 GB</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Forth plan price :  : </strong><font color=#9400D3>599</font></span>
-                <span class="reporter-method-output"><br></br><strong>Forth plan validity :  : </strong><font color=#9400D3>84 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Forth Plan Benefits :  : </strong><font color=#9400D3>168 GB </font></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Forth plan 2GB/Day details are same on screen and excel sheet.</font></span>
+                <span class="reporter-method-output"><br></br>Step 3 : Enter Credentials for login.</span>
+                <span class="reporter-method-output"><br></br><strong>Email Address : </strong><font color=#9400D3>voicetest290@gmail.com</font></span>
+                <span class="reporter-method-output"><br></br>Step 4 : Click on Sign in button.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
+<br> 2. Add to cart button
+<br> 3. Zain Logo
+<br> 4. Personal Tab
+<br> 5. Business Tab
+<br> 6. E-Shop Tab
+<br> 7. 5G Tab
+<br  8. Notifications dropdown
+<br> 9. I am looking for Search field.
+<br> 10. Profile Picture of user.
+<br> 11. Name 
+<br> 12. Nickname
+</font></span>
+                <span class="reporter-method-output"><br></br><strong>Logged in User Name :  : </strong><font color=#9400D3>Rutu Shah</font></span>
+                <span class="reporter-method-output"><br></br><strong>Logged in User's NickName :  : </strong><font color=#9400D3>Rutu</font></span>
                 <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify fifth plan of 2GB/Day Page.</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Fifth Plan Price :  : </strong><font color=#9400D3>444</font></span>
-                <span class="reporter-method-output"><br></br><strong>Fifth Plan Validity :  : </strong><font color=#9400D3>56 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Fifth Plan Benefits :  : </strong><font color=#9400D3>112 GB</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Fifth plan price :  : </strong><font color=#9400D3>444</font></span>
-                <span class="reporter-method-output"><br></br><strong>Fifth plan validity :  : </strong><font color=#9400D3>56 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Fifth Plan Benefits :  : </strong><font color=#9400D3>112 GB </font></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Fifth plan 2GB/Day details are same on screen and excel sheet.</font></span>
+                <span class="reporter-method-output"><br></br>Step 7 : Click on E-Shop Tab.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see E-Shop Screen's content.</font></span>
+                <span class="reporter-method-output"><br></br><strong>Total Available Products :  : </strong><font color=#9400D3>5</font></span>
                 <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify sixth plan of 2GB/Day Page.</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Sixth Plan Price :  : </strong><font color=#9400D3>249</font></span>
-                <span class="reporter-method-output"><br></br><strong>Sixth Plan Validity :  : </strong><font color=#9400D3>28 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB</font></span>
-                <span class="reporter-method-output"><br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong></span>
-                <span class="reporter-method-output"><br></br><strong>Sixth plan price :  : </strong><font color=#9400D3>2492</font></span>
-                <span class="reporter-method-output"><br></br><strong>Sixth plan validity :  : </strong><font color=#9400D3>28 days</font></span>
-                <span class="reporter-method-output"><br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB </font></span>
-                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Sixth plan 2GB/Day details are same on screen and excel sheet.</font></span>
-                <span class="reporter-method-output"><br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br></span>
-                <span class="reporter-method-output"><br></br><a href='../test-output/screenshots/0924104703897.png' target='_new'>0924104703897.png</a></span>
-                <span class="reporter-method-output"><br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong></span>
-                <span class="reporter-method-output"><br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br></span>
-                <span class="reporter-method-output"><br></br><a href='../test-output/screenshots/0924104704853jio_verify2GBPlansNegativeFlow.png' target='_new'>0924104704853jio_verify2GBPlansNegativeFlow.png</a></span>
-                <span class="reporter-method-output"><br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong></span>
-                <span class="reporter-method-output"><br></br><strong>Failure Reason: : </strong><font color=#9400D3></font></span>
-                <span class="reporter-method-output"><br></br><img src="warning.png" alt="Warning" height="18" width="18">Validation Message : <Strong><font color=#ff0000>java.lang.AssertionError: Test Verification failed, please check test logs.</strong></font></span>
+                <span class="reporter-method-output"><br></br>Step 9 : Click on First available product.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify selected product screen.</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 11 : Observe and click on the first thumbnail.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see information page of the thumbnail.</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify select Iphone SE with black color and model number</font></span>
+                <span class="reporter-method-output"><br></br><strong>Currently selected Mobile Color :   : </strong><font color=#9400D3>White</font></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile Model  : 128 GB</font></span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile price   : 2099.00</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
+                <span class="reporter-method-output"><br></br>Step 15 : Click on user name</span>
+                <span class="reporter-method-output"><br></br>Step 16 : Click on Logout.</span>
+                <span class="reporter-method-output"><br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify the user is logout successfully.</font></span>
+                <span class="reporter-method-output"><br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -460,11 +372,11 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">jio_verify2GBPlansPositiveFlow</span>
                 <br/>
+                <span class="ignored-method-name">jio_verify2GBPlansPositiveFlow</span>
+                <br/>
                 <span class="ignored-method-name">jio_verify2GBPlansNegativeFlow</span>
                 <br/>
-                <span class="ignored-method-name">zain_verifyLogin_Dashboard_Price</span>
-                <br/>
-                <span class="ignored-method-name">zain_verifyLogin_Dashboard_Price</span>
+                <span class="ignored-method-name">jio_verify2GBPlansNegativeFlow</span>
                 <br/>
                 <span class="ignored-method-name">test2</span>
                 <br/>
@@ -482,38 +394,36 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.TBlocks_POC.TblocksIndex</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">startReport(org.testng.TestRunner@464f3ada)</span>
+                <span class="method-name">startReport(org.testng.TestRunner@3346cbb3)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(public void com.TBlocks_POC.TblocksIndex.jio_verify2GBPlansPositiveFlow() throws java.io.IOException)</span>
-                <span class="method-start">293 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeTest(firefox)</span>
+                <span class="method-start">177 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeTest(chrome)</span>
+                <span class="method-start">177 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">jio_verify2GBPlansPositiveFlow</span>
-                <span class="method-start">13075 ms</span>
+                <span class="method-name">zain_verifyLogin_Dashboard_Price(voicetest290@gmail.com, rutu@123)</span>
+                <span class="method-start">18146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">zain_verifyLogin_Dashboard_Price(voicetest290@gmail.com, rutu@123)</span>
+                <span class="method-start">28629 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=jio_verify2GBPlansPositiveFlow status=SUCCESS method=TblocksIndex.jio_verify2GBPlan...)</span>
-                <span class="method-start">21591 ms</span>
+                <span class="method-name">tearDown([TestResult name=zain_verifyLogin_Dashboard_Price status=SUCCESS method=TblocksIndex.zain_verifyLogi...)</span>
+                <span class="method-start">95431 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(public void com.TBlocks_POC.TblocksIndex.jio_verify2GBPlansNegativeFlow() throws java.io.IOException)</span>
-                <span class="method-start">26504 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">jio_verify2GBPlansNegativeFlow</span>
-                <span class="method-start">34668 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=jio_verify2GBPlansNegativeFlow status=FAILURE method=TblocksIndex.jio_verify2GBPlan...)</span>
-                <span class="method-start">43514 ms</span>
+                <span class="method-name">tearDown([TestResult name=zain_verifyLogin_Dashboard_Price status=SUCCESS method=TblocksIndex.zain_verifyLogi...)</span>
+                <span class="method-start">97465 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">endReport</span>
-                <span class="method-start">46780 ms</span>
+                <span class="method-start">102570 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

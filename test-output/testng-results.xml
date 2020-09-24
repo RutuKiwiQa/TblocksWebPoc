@@ -1,1012 +1,576 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="6" total="8" passed="1">
+<testng-results skipped="0" failed="0" ignored="6" total="8" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[<br></br><strong>TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.</strong>]]>
+      <![CDATA[<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see Jio plans screen.</font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Version is not available for the current build.</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+      <![CDATA[<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify first plan of 2GB/Day Page.</font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>To verify that user can see the home page of the " Zain Web Application " .</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>First Plan Price :  : </strong><font color=#9400D3>598</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>First Plan Validity :  : </strong><font color=#9400D3>56 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>Unlimited 112GB & Disney+ Hotstar</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>First plan price :  : </strong><font color=#9400D3>598</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>First plan validity :  : </strong><font color=#9400D3>56 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>112GB & Disney+ Hotstar</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify first plan 2GB/Day details are same on screen and excel sheet.</font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Version is not available for the current build.</font>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify second plan of 2GB/Day Page.</font>]]>
+      <![CDATA[<br></br>Step 1 : Click on My Zain Account button from the top right corner of the web application.]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Second Plan Price :  : </strong><font color=#9400D3>2599</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Second Plan Validity :  : </strong><font color=#9400D3>365 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Second Plan Benefits :  : </strong><font color=#9400D3>Unlimited 740GB & Disney+ Hotstar</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Second plan price :  : </strong><font color=#9400D3>2599</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Second plan validity :  : </strong><font color=#9400D3>365 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Second Plan Benefits :  : </strong><font color=#9400D3>740GB & Disney+ Hotstar</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Second plan 2GB/Day details are same on screen and excel sheet.</font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>To verify that user can see the home page of the " Zain Web Application " .</font>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify third plan of 2GB/Day Page.</font>]]>
+      <![CDATA[<br></br>Step 2 : Click on My Zain Account button from the top right corner of the web application.]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Third Plan Price :  : </strong><font color=#9400D3>2399</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Third Plan Validity :  : </strong><font color=#9400D3>365 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>730 GB</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Third plan price :  : </strong><font color=#9400D3>2399</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Third plan validity :  : </strong><font color=#9400D3>365 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>730 GB </font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Third plan 2GB/Day details are same on screen and excel sheet.</font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
+<br> 6. E-Shop Tab.
+<br> 7. I am looking for Search field.
+<br> 8. Follow us Icons
+<br> 9. Footer Text
+<br> 10. Header Hyperlinks
+</font>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify forth plan of 2GB/Day Page.</font>]]>
+      <![CDATA[<br></br>Step 3 : Enter Credentials for login.]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
+      <![CDATA[<br></br><strong>Email Address : </strong><font color=#9400D3>voicetest290@gmail.com</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Forth Plan Price :  : </strong><font color=#9400D3>599</font>]]>
+      <![CDATA[<br></br>Step 4 : Click on Sign in button.]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Forth Plan Validity :  : </strong><font color=#9400D3>84 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Forth Plan Benefits :  : </strong><font color=#9400D3>168 GB</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Forth plan price :  : </strong><font color=#9400D3>599</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Forth plan validity :  : </strong><font color=#9400D3>84 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Forth Plan Benefits :  : </strong><font color=#9400D3>168 GB </font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Forth plan 2GB/Day details are same on screen and excel sheet.</font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
+<br> 6. E-Shop Tab.
+<br> 7. I am looking for Search field.
+<br> 8. Follow us Icons
+<br> 9. Footer Text
+<br> 10. Header Hyperlinks
+</font>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify fifth plan of 2GB/Day Page.</font>]]>
+      <![CDATA[<br></br>Step 5 : Enter Credentials for login.]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
+      <![CDATA[<br></br><strong>Email Address : </strong><font color=#9400D3>voicetest290@gmail.com</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Fifth Plan Price :  : </strong><font color=#9400D3>444</font>]]>
+      <![CDATA[<br></br>Step 6 : Click on Sign in button.]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Fifth Plan Validity :  : </strong><font color=#9400D3>56 days</font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
+<br> 2. Add to cart button
+<br> 3. Zain Logo
+<br> 4. Personal Tab
+<br> 5. Business Tab
+<br> 6. E-Shop Tab
+<br> 7. 5G Tab
+<br  8. Notifications dropdown
+<br> 9. I am looking for Search field.
+<br> 10. Profile Picture of user.
+<br> 11. Name 
+<br> 12. Nickname
+</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Fifth Plan Benefits :  : </strong><font color=#9400D3>112 GB</font>]]>
+      <![CDATA[<br></br><strong>Logged in User Name :  : </strong><font color=#9400D3>Rutu Shah</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Fifth plan price :  : </strong><font color=#9400D3>444</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Fifth plan validity :  : </strong><font color=#9400D3>56 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Fifth Plan Benefits :  : </strong><font color=#9400D3>112 GB </font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Fifth plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify sixth plan of 2GB/Day Page.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Sixth Plan Price :  : </strong><font color=#9400D3>249</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Sixth Plan Validity :  : </strong><font color=#9400D3>28 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Sixth plan price :  : </strong><font color=#9400D3>249</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Sixth plan validity :  : </strong><font color=#9400D3>28 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB </font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Sixth plan 2GB/Day details are same on screen and excel sheet.</font>]]>
+      <![CDATA[<br></br><strong>Logged in User's NickName :  : </strong><font color=#9400D3>Rutu</font>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.</strong>]]>
+      <![CDATA[<br></br>Step 7 : Click on E-Shop Tab.]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see Jio plans screen.</font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
+<br> 2. Add to cart button
+<br> 3. Zain Logo
+<br> 4. Personal Tab
+<br> 5. Business Tab
+<br> 6. E-Shop Tab
+<br> 7. 5G Tab
+<br  8. Notifications dropdown
+<br> 9. I am looking for Search field.
+<br> 10. Profile Picture of user.
+<br> 11. Name 
+<br> 12. Nickname
+</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+      <![CDATA[<br></br><strong>Logged in User Name :  : </strong><font color=#9400D3>Rutu Shah</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify first plan of 2GB/Day Page.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>First Plan Price :  : </strong><font color=#9400D3>598</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>First Plan Validity :  : </strong><font color=#9400D3>56 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>Unlimited 112GB & Disney+ Hotstar</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>First plan price :  : </strong><font color=#9400D3>698</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>First plan validity :  : </strong><font color=#9400D3>30 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>112GB & Disney+ Hotstar</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify first plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/0924104701346.png' target='_new'>0924104701346.png</a>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify second plan of 2GB/Day Page.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Second Plan Price :  : </strong><font color=#9400D3>2599</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Second Plan Validity :  : </strong><font color=#9400D3>365 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Second Plan Benefits :  : </strong><font color=#9400D3>Unlimited 740GB & Disney+ Hotstar</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Second plan price :  : </strong><font color=#9400D3>2599</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Second plan validity :  : </strong><font color=#9400D3>365 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Second Plan Benefits :  : </strong><font color=#9400D3>740GB & Disney+ Hotstar</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Second plan 2GB/Day details are same on screen and excel sheet.</font>]]>
+      <![CDATA[<br></br><strong>Logged in User's NickName :  : </strong><font color=#9400D3>Rutu</font>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify third plan of 2GB/Day Page.</font>]]>
+      <![CDATA[<br></br>Step 8 : Click on E-Shop Tab.]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see E-Shop Screen's content.</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Third Plan Price :  : </strong><font color=#9400D3>2399</font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see E-Shop Screen's content.</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Third Plan Validity :  : </strong><font color=#9400D3>365 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>730 GB</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Third plan price :  : </strong><font color=#9400D3>2399</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Third plan validity :  : </strong><font color=#9400D3>365 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>1 GB </font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Third plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/0924104702584.png' target='_new'>0924104702584.png</a>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify forth plan of 2GB/Day Page.</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Forth Plan Price :  : </strong><font color=#9400D3>599</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Forth Plan Validity :  : </strong><font color=#9400D3>84 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Forth Plan Benefits :  : </strong><font color=#9400D3>168 GB</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Forth plan price :  : </strong><font color=#9400D3>599</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Forth plan validity :  : </strong><font color=#9400D3>84 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Forth Plan Benefits :  : </strong><font color=#9400D3>168 GB </font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Forth plan 2GB/Day details are same on screen and excel sheet.</font>]]>
+      <![CDATA[<br></br><strong>Total Available Products :  : </strong><font color=#9400D3>5</font>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify fifth plan of 2GB/Day Page.</font>]]>
+      <![CDATA[<br></br>Step 9 : Click on First available product.]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Fifth Plan Price :  : </strong><font color=#9400D3>444</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Fifth Plan Validity :  : </strong><font color=#9400D3>56 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Fifth Plan Benefits :  : </strong><font color=#9400D3>112 GB</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Fifth plan price :  : </strong><font color=#9400D3>444</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Fifth plan validity :  : </strong><font color=#9400D3>56 days</font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><strong>Fifth Plan Benefits :  : </strong><font color=#9400D3>112 GB </font>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Fifth plan 2GB/Day details are same on screen and excel sheet.</font>]]>
+      <![CDATA[<br></br><strong>Total Available Products :  : </strong><font color=#9400D3>5</font>]]>
     </line>
     <line>
       <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify sixth plan of 2GB/Day Page.</font>]]>
+      <![CDATA[<br></br>Step 10 : Click on First available product.]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify selected product screen.</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Sixth Plan Price :  : </strong><font color=#9400D3>249</font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify selected product screen.</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Sixth Plan Validity :  : </strong><font color=#9400D3>28 days</font>]]>
+      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB</font>]]>
+      <![CDATA[<br></br>Step 11 : Observe and click on the first thumbnail.]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
+      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Sixth plan price :  : </strong><font color=#9400D3>2492</font>]]>
+      <![CDATA[<br></br>Step 12 : Observe and click on the first thumbnail.]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Sixth plan validity :  : </strong><font color=#9400D3>28 days</font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see information page of the thumbnail.</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB </font>]]>
+      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Sixth plan 2GB/Day details are same on screen and excel sheet.</font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify select Iphone SE with black color and model number</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
+      <![CDATA[<br></br><strong>Currently selected Mobile Color :   : </strong><font color=#9400D3>White</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/0924104703897.png' target='_new'>0924104703897.png</a>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile Model  : 128 GB</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile price   : 2099.00</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
+      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><a href='../test-output/screenshots/0924104704853jio_verify2GBPlansNegativeFlow.png' target='_new'>0924104704853jio_verify2GBPlansNegativeFlow.png</a>]]>
+      <![CDATA[<br></br>Step 13 : Click on user name]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
+      <![CDATA[<br></br>Step 14 : Click on Logout.]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Failure Reason: : </strong><font color=#9400D3></font>]]>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see information page of the thumbnail.</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><img src="warning.png" alt="Warning" height="18" width="18">Validation Message : <Strong><font color=#ff0000>java.lang.AssertionError: Test Verification failed, please check test logs.</strong></font>]]>
+      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify select Iphone SE with black color and model number</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><strong>Currently selected Mobile Color :   : </strong><font color=#9400D3>White</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile Model  : 128 GB</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile price   : 2099.00</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 15 : Click on user name]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 16 : Click on Logout.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify the user is logout successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify the user is logout successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
   </reporter-output>
-  <suite name="TBlocks_POC_Zain_WebApplication" duration-ms="46493" started-at="2020-09-24T10:46:21 IST" finished-at="2020-09-24T10:47:07 IST">
+  <suite name="TBlocks_POC_Zain_WebApplication" duration-ms="102399" started-at="2020-09-24T12:00:50 IST" finished-at="2020-09-24T12:02:33 IST">
     <groups>
     </groups>
-    <test name="TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits." duration-ms="26223" started-at="2020-09-24T10:46:21 IST" finished-at="2020-09-24T10:46:47 IST">
+    <test name="TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser." duration-ms="99867" started-at="2020-09-24T12:00:50 IST" finished-at="2020-09-24T12:02:30 IST">
       <class name="com.TBlocks_POC.TblocksIndex">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.TBlocks_POC.TblocksIndex@5d908d47]" name="setUp" is-config="true" duration-ms="12780" started-at="2020-09-24T10:46:21 IST" finished-at="2020-09-24T10:46:33 IST">
+        <test-method status="PASS" signature="startReport(org.testng.ITestContext)[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="startReport" is-config="true" duration-ms="153" started-at="2020-09-24T12:00:50 IST" finished-at="2020-09-24T12:00:50 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.TBlocks_POC.TblocksIndex.jio_verify2GBPlansPositiveFlow() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="jio_verify2GBPlansPositiveFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@5d908d47]" name="jio_verify2GBPlansPositiveFlow" duration-ms="8512" started-at="2020-09-24T10:46:33 IST" finished-at="2020-09-24T10:46:42 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[<br></br><strong>TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see Jio plans screen.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify first plan of 2GB/Day Page.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>First Plan Price :  : </strong><font color=#9400D3>598</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>First Plan Validity :  : </strong><font color=#9400D3>56 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>Unlimited 112GB & Disney+ Hotstar</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>First plan price :  : </strong><font color=#9400D3>598</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>First plan validity :  : </strong><font color=#9400D3>56 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>112GB & Disney+ Hotstar</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify first plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify second plan of 2GB/Day Page.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Second Plan Price :  : </strong><font color=#9400D3>2599</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Second Plan Validity :  : </strong><font color=#9400D3>365 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Second Plan Benefits :  : </strong><font color=#9400D3>Unlimited 740GB & Disney+ Hotstar</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Second plan price :  : </strong><font color=#9400D3>2599</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Second plan validity :  : </strong><font color=#9400D3>365 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Second Plan Benefits :  : </strong><font color=#9400D3>740GB & Disney+ Hotstar</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Second plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify third plan of 2GB/Day Page.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Third Plan Price :  : </strong><font color=#9400D3>2399</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Third Plan Validity :  : </strong><font color=#9400D3>365 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>730 GB</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Third plan price :  : </strong><font color=#9400D3>2399</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Third plan validity :  : </strong><font color=#9400D3>365 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>730 GB </font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Third plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify forth plan of 2GB/Day Page.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Forth Plan Price :  : </strong><font color=#9400D3>599</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Forth Plan Validity :  : </strong><font color=#9400D3>84 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Forth Plan Benefits :  : </strong><font color=#9400D3>168 GB</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Forth plan price :  : </strong><font color=#9400D3>599</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Forth plan validity :  : </strong><font color=#9400D3>84 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Forth Plan Benefits :  : </strong><font color=#9400D3>168 GB </font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Forth plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify fifth plan of 2GB/Day Page.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Fifth Plan Price :  : </strong><font color=#9400D3>444</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Fifth Plan Validity :  : </strong><font color=#9400D3>56 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Fifth Plan Benefits :  : </strong><font color=#9400D3>112 GB</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Fifth plan price :  : </strong><font color=#9400D3>444</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Fifth plan validity :  : </strong><font color=#9400D3>56 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Fifth Plan Benefits :  : </strong><font color=#9400D3>112 GB </font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Fifth plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify sixth plan of 2GB/Day Page.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Sixth Plan Price :  : </strong><font color=#9400D3>249</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Sixth Plan Validity :  : </strong><font color=#9400D3>28 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Sixth plan price :  : </strong><font color=#9400D3>249</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Sixth plan validity :  : </strong><font color=#9400D3>28 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB </font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Sixth plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- jio_verify2GBPlansPositiveFlow -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@5d908d47]" name="tearDown" is-config="true" duration-ms="4886" started-at="2020-09-24T10:46:42 IST" finished-at="2020-09-24T10:46:47 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=jio_verify2GBPlansPositiveFlow status=SUCCESS method=TblocksIndex.jio_verify2GBPlansPositiveFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@5d908d47] output=<br></br><strong>TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits.</strong>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.TBlocks_POC.TblocksIndex -->
-    </test> <!-- TS_WEB_003 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits. -->
-    <test name="TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow." duration-ms="20247" started-at="2020-09-24T10:46:47 IST" finished-at="2020-09-24T10:47:07 IST">
-      <class name="com.TBlocks_POC.TblocksIndex">
-        <test-method status="PASS" signature="startReport(org.testng.ITestContext)[pri:0, instance:com.TBlocks_POC.TblocksIndex@50029372]" name="startReport" is-config="true" duration-ms="248" started-at="2020-09-24T10:46:20 IST" finished-at="2020-09-24T10:46:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@464f3ada]]>
+                <![CDATA[org.testng.TestRunner@3346cbb3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.TBlocks_POC.TblocksIndex@50029372]" name="setUp" is-config="true" duration-ms="8164" started-at="2020-09-24T10:46:47 IST" finished-at="2020-09-24T10:46:55 IST">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="beforeTest" is-config="true" duration-ms="28363" started-at="2020-09-24T12:00:50 IST" finished-at="2020-09-24T12:01:19 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.TBlocks_POC.TblocksIndex.jio_verify2GBPlansNegativeFlow() throws java.io.IOException]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="jio_verify2GBPlansNegativeFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@50029372]" name="jio_verify2GBPlansNegativeFlow" duration-ms="8835" started-at="2020-09-24T10:46:55 IST" finished-at="2020-09-24T10:47:04 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Test Verification failed, please check test logs.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test Verification failed, please check test logs.
-at org.testng.Assert.fail(Assert.java:99)
-at com.TBlocks_POC.TblocksIndex.jio_verify2GBPlansNegativeFlow(TblocksIndex.java:297)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[<br></br><strong>TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see Jio plans screen.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify first plan of 2GB/Day Page.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>First Plan Price :  : </strong><font color=#9400D3>598</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>First Plan Validity :  : </strong><font color=#9400D3>56 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>Unlimited 112GB & Disney+ Hotstar</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>First plan price :  : </strong><font color=#9400D3>698</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>First plan validity :  : </strong><font color=#9400D3>30 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>First Plan Benefits :  : </strong><font color=#9400D3>112GB & Disney+ Hotstar</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify first plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/0924104701346.png' target='_new'>0924104701346.png</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify second plan of 2GB/Day Page.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Second Plan Price :  : </strong><font color=#9400D3>2599</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Second Plan Validity :  : </strong><font color=#9400D3>365 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Second Plan Benefits :  : </strong><font color=#9400D3>Unlimited 740GB & Disney+ Hotstar</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Second plan price :  : </strong><font color=#9400D3>2599</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Second plan validity :  : </strong><font color=#9400D3>365 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Second Plan Benefits :  : </strong><font color=#9400D3>740GB & Disney+ Hotstar</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Second plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify third plan of 2GB/Day Page.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Third Plan Price :  : </strong><font color=#9400D3>2399</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Third Plan Validity :  : </strong><font color=#9400D3>365 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>730 GB</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Third plan price :  : </strong><font color=#9400D3>2399</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Third plan validity :  : </strong><font color=#9400D3>365 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Third Plan Benefits :  : </strong><font color=#9400D3>1 GB </font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Third plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/0924104702584.png' target='_new'>0924104702584.png</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify forth plan of 2GB/Day Page.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Forth Plan Price :  : </strong><font color=#9400D3>599</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Forth Plan Validity :  : </strong><font color=#9400D3>84 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Forth Plan Benefits :  : </strong><font color=#9400D3>168 GB</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Forth plan price :  : </strong><font color=#9400D3>599</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Forth plan validity :  : </strong><font color=#9400D3>84 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Forth Plan Benefits :  : </strong><font color=#9400D3>168 GB </font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Forth plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify fifth plan of 2GB/Day Page.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Fifth Plan Price :  : </strong><font color=#9400D3>444</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Fifth Plan Validity :  : </strong><font color=#9400D3>56 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Fifth Plan Benefits :  : </strong><font color=#9400D3>112 GB</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Fifth plan price :  : </strong><font color=#9400D3>444</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Fifth plan validity :  : </strong><font color=#9400D3>56 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Fifth Plan Benefits :  : </strong><font color=#9400D3>112 GB </font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Fifth plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify pricing of 2GB/Day plans should be as below <br> Verify sixth plan of 2GB/Day Page.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details on Jio Popular Plans Page-------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Sixth Plan Price :  : </strong><font color=#9400D3>249</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Sixth Plan Validity :  : </strong><font color=#9400D3>28 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>----------------Details of Jio Popular Plans in excel sheet -------------</strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Sixth plan price :  : </strong><font color=#9400D3>2492</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Sixth plan validity :  : </strong><font color=#9400D3>28 days</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Sixth Plan Benefits :  : </strong><font color=#9400D3>56 GB </font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify Sixth plan 2GB/Day details are same on screen and excel sheet.</font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/0924104703897.png' target='_new'>0924104703897.png</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><br><Strong><font color=#FF0000>--- Failure Screen Image ---</font></strong><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><a href='../test-output/screenshots/0924104704853jio_verify2GBPlansNegativeFlow.png' target='_new'>0924104704853jio_verify2GBPlansNegativeFlow.png</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="fail.png" alt="Fail" height="18" width="18"><Strong><font color=#ff0000>Fail</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><strong>Failure Reason: : </strong><font color=#9400D3></font>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><img src="warning.png" alt="Warning" height="18" width="18">Validation Message : <Strong><font color=#ff0000>java.lang.AssertionError: Test Verification failed, please check test logs.</strong></font>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- jio_verify2GBPlansNegativeFlow -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@50029372]" name="tearDown" is-config="true" duration-ms="3236" started-at="2020-09-24T10:47:04 IST" finished-at="2020-09-24T10:47:07 IST">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="zain_verifyLogin_Dashboard_Price(java.lang.String, java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="zain_verifyLogin_Dashboard_Price" duration-ms="66795" started-at="2020-09-24T12:01:19 IST" data-provider="Zain" finished-at="2020-09-24T12:02:26 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=jio_verify2GBPlansNegativeFlow status=FAILURE method=TblocksIndex.jio_verify2GBPlansNegativeFlow()[pri:0, instance:com.TBlocks_POC.TblocksIndex@50029372] output=<br></br><strong>TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow.</strong>]]]>
+                <![CDATA[voicetest290@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rutu@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Version is not available for the current build.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>To verify that user can see the home page of the " Zain Web Application " .</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2 : Click on My Zain Account button from the top right corner of the web application.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
+<br> 6. E-Shop Tab.
+<br> 7. I am looking for Search field.
+<br> 8. Follow us Icons
+<br> 9. Footer Text
+<br> 10. Header Hyperlinks
+</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 5 : Enter Credentials for login.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><strong>Email Address : </strong><font color=#9400D3>voicetest290@gmail.com</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6 : Click on Sign in button.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
+<br> 2. Add to cart button
+<br> 3. Zain Logo
+<br> 4. Personal Tab
+<br> 5. Business Tab
+<br> 6. E-Shop Tab
+<br> 7. 5G Tab
+<br  8. Notifications dropdown
+<br> 9. I am looking for Search field.
+<br> 10. Profile Picture of user.
+<br> 11. Name 
+<br> 12. Nickname
+</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><strong>Logged in User Name :  : </strong><font color=#9400D3>Rutu Shah</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><strong>Logged in User's NickName :  : </strong><font color=#9400D3>Rutu</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 8 : Click on E-Shop Tab.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see E-Shop Screen's content.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><strong>Total Available Products :  : </strong><font color=#9400D3>5</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 10 : Click on First available product.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify selected product screen.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 12 : Observe and click on the first thumbnail.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see information page of the thumbnail.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify select Iphone SE with black color and model number</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><strong>Currently selected Mobile Color :   : </strong><font color=#9400D3>White</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile Model  : 128 GB</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile price   : 2099.00</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 13 : Click on user name]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 14 : Click on Logout.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify the user is logout successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- zain_verifyLogin_Dashboard_Price -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="tearDown" is-config="true" duration-ms="4470" started-at="2020-09-24T12:02:26 IST" finished-at="2020-09-24T12:02:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=zain_verifyLogin_Dashboard_Price status=SUCCESS method=TblocksIndex.zain_verifyLogin_Dashboard_Price(java.lang.String, java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9] output=<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.TBlocks_POC.TblocksIndex@50029372]" name="endReport" is-config="true" duration-ms="560" started-at="2020-09-24T10:47:07 IST" finished-at="2020-09-24T10:47:08 IST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.TBlocks_POC.TblocksIndex@6cc4cdb9]" name="endReport" is-config="true" duration-ms="671" started-at="2020-09-24T12:02:33 IST" finished-at="2020-09-24T12:02:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.TBlocks_POC.TblocksIndex -->
-    </test> <!-- TS_WEB_004 :: To verify 2 GB/Day Packs pricing of plans, validity and benefits Negative flow. -->
+    </test> <!-- TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser. -->
+    <test name="TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser." duration-ms="102399" started-at="2020-09-24T12:00:50 IST" finished-at="2020-09-24T12:02:33 IST">
+      <class name="com.TBlocks_POC.TblocksIndex">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314]" name="beforeTest" is-config="true" duration-ms="17763" started-at="2020-09-24T12:00:50 IST" finished-at="2020-09-24T12:01:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="zain_verifyLogin_Dashboard_Price(java.lang.String, java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314]" name="zain_verifyLogin_Dashboard_Price" duration-ms="79318" started-at="2020-09-24T12:01:08 IST" data-provider="Zain" finished-at="2020-09-24T12:02:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[voicetest290@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rutu@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Version is not available for the current build.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>To verify that user can see the home page of the " Zain Web Application " .</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 1 : Click on My Zain Account button from the top right corner of the web application.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify that user can see " Login Screen " of zain web application with following fields.<br> 1. Zain Logo <br> 2. Login Panel <br> 3. Register Panel<br> 4. Personal Tab<br> 5. Business Tab.
+<br> 6. E-Shop Tab.
+<br> 7. I am looking for Search field.
+<br> 8. Follow us Icons
+<br> 9. Footer Text
+<br> 10. Header Hyperlinks
+</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3 : Enter Credentials for login.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><strong>Email Address : </strong><font color=#9400D3>voicetest290@gmail.com</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 4 : Click on Sign in button.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user is directed to the dashboard screen after successful login and verify following details.<br> 1. Logged in user name
+<br> 2. Add to cart button
+<br> 3. Zain Logo
+<br> 4. Personal Tab
+<br> 5. Business Tab
+<br> 6. E-Shop Tab
+<br> 7. 5G Tab
+<br  8. Notifications dropdown
+<br> 9. I am looking for Search field.
+<br> 10. Profile Picture of user.
+<br> 11. Name 
+<br> 12. Nickname
+</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><strong>Logged in User Name :  : </strong><font color=#9400D3>Rutu Shah</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><strong>Logged in User's NickName :  : </strong><font color=#9400D3>Rutu</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 7 : Click on E-Shop Tab.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see E-Shop Screen's content.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><strong>Total Available Products :  : </strong><font color=#9400D3>5</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 9 : Click on First available product.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify selected product screen.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 11 : Observe and click on the first thumbnail.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify user can see information page of the thumbnail.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify select Iphone SE with black color and model number</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><strong>Currently selected Mobile Color :   : </strong><font color=#9400D3>White</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile Model  : 128 GB</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Currently selected Mobile price   : 2099.00</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 15 : Click on user name]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 16 : Click on Logout.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="info.png" alt="Info" height="18" width="18"><font color=#000080>Verify the user is logout successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><img src="pass.png" height="18" width="18"><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- zain_verifyLogin_Dashboard_Price -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314]" name="tearDown" is-config="true" duration-ms="5091" started-at="2020-09-24T12:02:28 IST" finished-at="2020-09-24T12:02:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=zain_verifyLogin_Dashboard_Price status=SUCCESS method=TblocksIndex.zain_verifyLogin_Dashboard_Price(java.lang.String, java.lang.String)[pri:0, instance:com.TBlocks_POC.TblocksIndex@1c9b0314] output=<br></br><strong>TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification.</strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TBlocks_POC.TblocksIndex -->
+    </test> <!-- TS_WEB_001 ::  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser. -->
   </suite> <!-- TBlocks_POC_Zain_WebApplication -->
 </testng-results>

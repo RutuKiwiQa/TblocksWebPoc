@@ -2,8 +2,303 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56f5b89-aba1-40c3-9b54-f6ff77772d56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Screenshots/jio_verify2GBPlansNegativeFlow20200924113757.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/zain_verifyLogin_Dashboard_Price20200924113611.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/zain_verifyLogin_Dashboard_Price20200924114456.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/zain_verifyLogin_Dashboard_Price20200924114919.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/zain_verifyLogin_Dashboard_Price20200924114927.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/zain_verifyLogin_Dashboard_Price20200924115431.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/zain_verifyLogin_Dashboard_Price20200924115903.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/zain_verifyLogin_Dashboard_Price20200924115921.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/CustomReporterEmailBuildSummary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/CustomReporterforEmail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/Default Suite/TBLOCKS_WEB_POC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/Default Suite/TBLOCKS_WEB_POC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/Default Suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/KQIIA_Report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/TAG_RSC_001 __ To verify requestor can perform invalid login..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/TAG_RSC_001 __ To verify requestor can perform invalid login..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/TS_WEB_002 __ To verify broken links of the web page..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/TS_WEB_002 __ To verify broken links of the web page..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits positive flow..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits positive flow..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/TS_WEB_004 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits Negative flow..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/TS_WEB_004 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits Negative flow..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_002 __ To verify broken links of the web page..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_002 __ To verify broken links of the web page..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/TBlocks_POC_Zain_WebApplication/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/junitreports/TEST-com.TBlocks_POC.BrokenLinks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/junitreports/TEST-com.TBlocks_POC.TblocksIndex.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/junitreports/TEST-com.Zain.BrokenLinks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/junitreports/TEST-com.Zain.ZainIndex.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/Default Suite/TBLOCKS_WEB_POC.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/Default Suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/Default Suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/Default Suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/Default Suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/Default Suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/Default Suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/Default Suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/Default Suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/BrokenLinks __ To verify broken links of the web page..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/BrokenLinks_TS_WEB_002 __ To verify broken links of the web page..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/TAG_RSC_001 __ To verify requestor can perform invalid login..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/TS_WEB_002 __ To verify broken links of the web page..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits positive flow..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/TS_WEB_004 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits Negative flow..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/ZainIndex_TS_WEB_002 __ To verify broken links of the web page..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/Zain_TestScenario __ To perform login, verify Dashboard and Add device from E-Shop.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/TBlocks_POC_Zain_WebApplication/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/pass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915154352171testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915160709427testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915161254355testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915173347953testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915173619273testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915173910461testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/091517530419testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915180026898testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915211057577testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915211813525testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915212133267testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915212537768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915212628955testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915212856884.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0915212857894testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/091610105540BrokenLinkTestCase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916103615721BrokenLinkTestCase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916103802288BrokenLinkTestCase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916104136531BrokenLinkTestCase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916114252556testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916115459206testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916115924784testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916120912206testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916125453753testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916130158877testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916131041722testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916132153907testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916133726390testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916134245131testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916170701570testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916172337189.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916172346669testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916174905395.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916174918182testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916182516421.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0916182526280testCaseScenario_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917110253891.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917110305369verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917120057495.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917120107292verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917121258781.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917121307361verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917145214576.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917145222810verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917145512843.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917145536103verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917145834313.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917145842406verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917164001399.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0917164010369verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0918104135288verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0918104632216.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0918104640666verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923121506156jio_verifyPlans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923130601855jio_verifyPlans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923130746777jio_verifyPlans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923130842115.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923130842893jio_verifyPlans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923131031545.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923131032488jio_verifyPlans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923132927539.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923132928367jio_verifyPlans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/092313310360.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/092313310464jio_verifyPlans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923140425473.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923140426389jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923140914806.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923140915977jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923141208607.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923141209640jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923141426730.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923141427635jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923141632771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923141633799jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923141742313.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923141743336jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923142029410.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923142030460jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923142244151.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923142245104jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923142414473.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923142415502jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923143227685.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923143228699jio_Verify2GBPlansPricingNegativeFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923153317443zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923153556558.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923153607159zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/092315424040.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923154248382zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923154756252.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/092315475783jio_Verify2GBPlansPricingNegativeFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/092317592779.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/092317592884jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/092318270264.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923182702761.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923182703538jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923182817721.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923182818489jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923183756868.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923183758995jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923191623646zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923191847630.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/092319185197jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923192511185.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923192512577jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923192834297.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923192835264jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923193545391.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923193546371jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923193758270.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923193811614jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/092319394545.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923194010323jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923195103502.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923195129207jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923195707884.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923195832429.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923195852573jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923200205252.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923200206829jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923212818274.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923212819697.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923212821998jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923213133808.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923213135134.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/092321313756jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923213504848.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923213504943.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923213506151.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923213507474jio_verify2GBPlansPositiveFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923213507508.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923213507986jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923214258847.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923214259334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923214300368jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/092321430064.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0923214302854zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0924103841691.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0924103842525.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0924103843394.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0924103843806jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0924104701346.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0924104702584.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0924104703897.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0924104704853jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/092411362069zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0924113754754.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0924113755611.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0924113756670.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/screenshots/0924113757434jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/testng-reports1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/testng-reports2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output - Positive NegativeTesting/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser..xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification in chrome browser..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification in firefox browser..properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/092411362069zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924113754754.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924113755611.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924113756670.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924113757434jio_verify2GBPlansNegativeFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924114446750.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924114457295zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924114918229.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924114920260zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924114927737zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924115425782.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924115431631zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924115854321.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924115904544zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924115915802.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0924115921865zain_verifyLogin_Dashboard_Price.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excel/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/Data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication_.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication_.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TBLOCKS_POC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TBLOCKS_POC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TBlocks_POC/TblocksVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TBlocks_POC/TblocksVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/init/SeleniumInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/SeleniumInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/CustomReporterEmailBuildSummary.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/CustomReporterEmailBuildSummary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/CustomReporterforEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/CustomReporterforEmail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/KQIIA_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/KQIIA_Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits..html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits..html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits..xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_003 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits..xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_004 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits Negative flow..html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_004 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits Negative flow..html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_004 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits Negative flow..xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_WEB_004 __ To verify 2 GB_Day Packs pricing of plans, validity and benefits Negative flow..xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.TBlocks_POC.TblocksIndex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.TBlocks_POC.TblocksIndex.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/TS_WEB_001 __  To perform login, verify Dashboard and Add device from E-Shop and price verification..properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,7 +678,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600926470124</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="September 24th 2020">
+      <created>1600926713330</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1600926713330</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -402,10 +704,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600182960680" />
-    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600877510271">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600927632685">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1600877510271" />
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1600927632685" />
     <state x="553" y="272" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1600257618772">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -422,10 +724,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1600.860@0.0.1600.860" timestamp="1600688445584" />
-    <state x="379" y="24" key="CommitChangelistDialog2" timestamp="1600926468578">
+    <state x="379" y="24" key="CommitChangelistDialog2" timestamp="1600926711763">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="379" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600926468578" />
+    <state x="379" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600926711763" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1600257855182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -434,22 +736,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600868037944" />
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1600924714577">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1600929158507">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600924714577" />
-    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1600924714576">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600929158507" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1600929158507">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600924714576" />
-    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1600924714576">
+    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600929158507" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1600929158507">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600924714576" />
-    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1600924714577">
+    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600929158507" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1600929158507">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600924714577" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600929158507" />
     <state x="330" y="85" key="Maven.ArtifactSearchDialog" timestamp="1600430564582">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -458,10 +760,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="15" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600875649261" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600926471692">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600926715041">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600926471692" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600926715041" />
     <state x="616" y="211" key="chooseDestDirectoryDialog" timestamp="1600249977066">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
