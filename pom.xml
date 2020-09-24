@@ -108,7 +108,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
                         <suiteXmlFile>
-                          Zain.xml
+                            TBLOCKS_POC.xml
                         </suiteXmlFile>
                     </suiteXmlFiles>
                     <reportsDirectory>test-output</reportsDirectory>
