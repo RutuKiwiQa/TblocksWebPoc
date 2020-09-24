@@ -11,6 +11,7 @@ import com.framework.common.Common;
 import com.framework.configurations.Configuration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestContext;
@@ -19,6 +20,8 @@ import org.testng.Reporter;
 import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**
@@ -115,6 +118,31 @@ public class SeleniumInit extends Common implements Configuration {
         }else if (browser.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", "E:\\TBLOCKS_WEB_POC\\chromedriver.exe");
             driver = new ChromeDriver();
+
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("chrome.switches", "--disable-extensions");
+            options.addArguments("disable-infobars");
+            options.addArguments("test-type");
+            options.addArguments("--js-flags=--expose-gc");
+            options.addArguments("--enable-precise-memory-info");
+            options.addArguments("--disable-popup-blocking");
+            options.addArguments("--disable-default-apps");
+            options.addArguments("--start-maximized");
+            options.addArguments("--ignore-ssl-errors=yes");
+            options.addArguments("--ignore-certificate-errors");
+            //options.addArguments("--allow-running-insecure-content");
+            options.addArguments("incognito");
+
+            Map<String, Object> prefs = new HashMap<>();
+            prefs.put("credentials_enable_service", false);
+            prefs.put("password_manager_enabled", false);
+            prefs.put("profile.default_content_settings.popups", 0);
+            prefs.put("download.default_directory", FILE_DOWNLOAD_PATH);
+            prefs.put("profile.default_content_setting_values.plugins", 1);
+            prefs.put("profile.content_settings.plugin_whitelist.adobe-flash-player", 1);
+            prefs.put("profile.content_settings.exceptions.plugins.*,*.per_resource.adobe-flash-player", 1);
+            prefs.put("PluginsAllowedForUrls", ZAIN_URL);
+            options.setExperimentalOption("prefs", prefs);
 
             implicitWaitOf(driver, 10);
             maximizeWindow(driver);
